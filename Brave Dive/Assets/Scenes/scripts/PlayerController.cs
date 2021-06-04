@@ -5,23 +5,32 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 400.0f;
-    private Rigidbody2D _body;
+    public Camera cam; // переменка для камеры
+    private Rigidbody2D _body; // создаём под тело
+
+    Vector2 movement;// вектор движений, содержит дельты х & y
+    Vector2 mousePos;//Название говорит само за себя
 
     //
-    void Start()
-    {
-        Application.targetFrameRate = 60;
-        _body = GetComponent<Rigidbody2D>();
 
-    }
-
+    
     // 
     void Update()
     {
-        float deltaX = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-        float deltaY = Input.GetAxis("Vertical") * speed * Time.deltaTime;
-        Vector2 movement = new Vector2(deltaX, deltaY);
-        _body.velocity = movement;
+        _body = GetComponent<Rigidbody2D>();// Делаем тельце твердым
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");//Принимает нажатия (стрелки и wasd)
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);// хаваем - камера.Перевести в координаты (позиция мышки)
 
+    }
+    
+    void FixedUpdate()
+    {
+        _body.MovePosition(_body.position + movement * speed * Time.fixedDeltaTime);//Само сдвижение (тайм фиксед, чтобы было независимо от кол-во фпс)
+
+        
+        Vector2 lookDir = mousePos - _body.position;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg + 90f;   //А здесь чисто чуток матеши
+        _body.rotation = angle;
     }
 }
