@@ -1,8 +1,8 @@
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-{
-    public float speed = 400.0f;
+{ 
+    public float speed = 400.0f;      
     public Camera cam; // переменка для камеры
     private Rigidbody2D _body; // создаём под тело
 

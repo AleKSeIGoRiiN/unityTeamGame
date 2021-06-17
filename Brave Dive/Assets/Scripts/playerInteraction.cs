@@ -5,6 +5,7 @@ public class playerInteraction : MonoBehaviour
 {
     [SerializeField]
     private float health = 1f;
+    private float damage = 1f;
 
     public void takeDamage(float damage)
     {
@@ -19,4 +20,7 @@ public class playerInteraction : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+
+
 }

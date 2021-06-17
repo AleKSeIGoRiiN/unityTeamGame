@@ -27,5 +27,7 @@ public class enemyInteraction : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+
     }
 }
