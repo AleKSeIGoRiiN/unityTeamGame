@@ -14,6 +14,7 @@ public class enemyInteraction : MonoBehaviour
         }
     }
 
+    
     public void takeDamage(float amount)
     {
         health -= amount;

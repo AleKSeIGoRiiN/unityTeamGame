@@ -15,11 +15,11 @@ C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50648
+59405
 Successfully changed project path to: C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive
 C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1848 +35,184 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001634 seconds.
+Registered in 0.001630 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.884 seconds
+- Completed reload, in  0.918 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001124 seconds.
+Registered in 0.001099 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 40.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.912 seconds
+- Completed reload, in  0.896 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1925 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.2 MB.
-System memory in use after: 89.3 MB.
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2375.
-Total: 2.342400 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.086500 ms MarkObjects: 1.931100 ms  DeleteObjects: 0.065400 ms)
+Total: 2.597200 ms (FindLiveObjects: 0.234100 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.248400 ms  DeleteObjects: 0.067800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/emeny/OnePachMan.png
-  artifactKey: Guid(9f7ba6a080455ad4c94891710d349087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/OnePachMan.png using Guid(9f7ba6a080455ad4c94891710d349087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309c20baf5ecc98f490108dfb4e598d3') in 0.133792 seconds
-  Import took 0.137751 seconds .
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(ed3df355419e55e488c3114922b8bcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(ed3df355419e55e488c3114922b8bcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee7734115a937a20920ed3b5160bfec') in 0.021341 seconds
+  Import took 0.024864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 119.163294 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor
-  artifactKey: Guid(233e98aaaa8902d47a48cf72e382cb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor using Guid(233e98aaaa8902d47a48cf72e382cb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40938ab9f74c8a0ce095f4d6a3f4bc52') in 0.007065 seconds
-  Import took 0.010159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.212089 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor
-  artifactKey: Guid(192995e48b89c6043bbd8e4108552243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor using Guid(192995e48b89c6043bbd8e4108552243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43528c746d1f89857fb1f0018a0e21c') in 0.002485 seconds
-  Import took 0.007272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.753070 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/feet
-  artifactKey: Guid(0b92108405749dd438ba349dffe81132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/feet using Guid(0b92108405749dd438ba349dffe81132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cfb2f8bec50b636aba7c7987b058ce') in 0.012892 seconds
-  Import took 0.016893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000807 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/feet
-  artifactKey: Guid(0b92108405749dd438ba349dffe81132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/feet using Guid(0b92108405749dd438ba349dffe81132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cfb2f8bec50b636aba7c7987b058ce') in 0.002155 seconds
-  Import took 0.005017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.457141 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight
-  artifactKey: Guid(17741d4bf99e87a4192ae817bbbb0b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight using Guid(17741d4bf99e87a4192ae817bbbb0b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2af7293c3606972e0538848b55c6dff') in 0.006616 seconds
-  Import took 0.010562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.156588 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle
-  artifactKey: Guid(03eabc40509e528488630a8d3977cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle using Guid(03eabc40509e528488630a8d3977cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ed10b3935cae122080e9e18f280627') in 0.006702 seconds
-  Import took 0.011754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066869 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_0.png
-  artifactKey: Guid(ffd2e5ac943b94d48976d15ff08c191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_0.png using Guid(ffd2e5ac943b94d48976d15ff08c191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3837a1b9847c5660a36a94b1666dcdb3') in 0.020203 seconds
-  Import took 0.024628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_17.png
-  artifactKey: Guid(e69a89aed9587714684f6d3f4ff25689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_17.png using Guid(e69a89aed9587714684f6d3f4ff25689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcccd4b447dbd08fc61566dfd735246') in 0.018745 seconds
-  Import took 0.021354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_18.png
-  artifactKey: Guid(32554262560430042927f6e99e494a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_18.png using Guid(32554262560430042927f6e99e494a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363d79893956ab5762b4e46ac682c78a') in 0.017775 seconds
-  Import took 0.021567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_13.png
-  artifactKey: Guid(e8c48b7164b776941aae3578ea1980a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_13.png using Guid(e8c48b7164b776941aae3578ea1980a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3eed669afde58dfafabd38c1422829') in 0.019842 seconds
-  Import took 0.022872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_4.png
-  artifactKey: Guid(6494e7772fc3ed44ca6fc9eac9e931ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_4.png using Guid(6494e7772fc3ed44ca6fc9eac9e931ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d187800a007ba8d5678926cdc147488') in 0.016290 seconds
-  Import took 0.018957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_2.png
-  artifactKey: Guid(4a840fabc9c0b8d4eb9be161fb3ca153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_2.png using Guid(4a840fabc9c0b8d4eb9be161fb3ca153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95730c26832874e2f35aacf5b31fdfa5') in 0.014681 seconds
-  Import took 0.017594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_19.png
-  artifactKey: Guid(5982b4ff267a3114ab39f868d9b9a57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_19.png using Guid(5982b4ff267a3114ab39f868d9b9a57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1941272d0df56b56f7b911411f37ee26') in 0.014970 seconds
-  Import took 0.017789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_14.png
-  artifactKey: Guid(437576d9f0012d44f869e64c916ca322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_14.png using Guid(437576d9f0012d44f869e64c916ca322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4fb01ee19b9886b73617adca68cebd') in 0.016300 seconds
-  Import took 0.019110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_16.png
-  artifactKey: Guid(4a51bc052293f8e4cba7144f720c74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_16.png using Guid(4a51bc052293f8e4cba7144f720c74f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61ae310cacc3ab26c4a92c31a5e8ef7') in 0.016674 seconds
-  Import took 0.019621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_1.png
-  artifactKey: Guid(42e197444cdb18947bed743b718dfe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_1.png using Guid(42e197444cdb18947bed743b718dfe18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8566c5d8868568ea4fb1c02c821f49') in 0.015238 seconds
-  Import took 0.018303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_9.png
-  artifactKey: Guid(e0f1494be3adf644f8007ecc12c9671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_9.png using Guid(e0f1494be3adf644f8007ecc12c9671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77291c5c4c0b43acb5fb88e47c563781') in 0.016508 seconds
-  Import took 0.019331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_10.png
-  artifactKey: Guid(070d1172080956144a8775827676c19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_10.png using Guid(070d1172080956144a8775827676c19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3b35982c2813288db8235b14862288') in 0.015138 seconds
-  Import took 0.018084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_6.png
-  artifactKey: Guid(206dbd755f2faac40a3ddda3c195bcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_6.png using Guid(206dbd755f2faac40a3ddda3c195bcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8466b6648e673d47ac87893fe8c116c9') in 0.017854 seconds
-  Import took 0.020870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_12.png
-  artifactKey: Guid(141361154adec094f8c8d1d9590a9b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_12.png using Guid(141361154adec094f8c8d1d9590a9b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9361fc9027dca22d3415f26c2982a195') in 0.016791 seconds
-  Import took 0.019880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_3.png
-  artifactKey: Guid(7efb07502c50e534486b6fb22af0f5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_3.png using Guid(7efb07502c50e534486b6fb22af0f5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6814a3505b65aa158df40d0b061e354f') in 0.014657 seconds
-  Import took 0.017407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_8.png
-  artifactKey: Guid(bce8e57def0256e469bbad78d3cff324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_8.png using Guid(bce8e57def0256e469bbad78d3cff324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9621d75316600b0d9fa1c4edd928dcf') in 0.016570 seconds
-  Import took 0.019728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_7.png
-  artifactKey: Guid(1f898c383ab85544390b4094d0cb96d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_7.png using Guid(1f898c383ab85544390b4094d0cb96d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15eb468c27b270ebf64eda61eeb5a64a') in 0.018199 seconds
-  Import took 0.021402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_15.png
-  artifactKey: Guid(dd9236ff43cbb1845ad55a12a8bd3149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_15.png using Guid(dd9236ff43cbb1845ad55a12a8bd3149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3838a83aefbe72a6c1978f094023c0b4') in 0.015851 seconds
-  Import took 0.018684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_5.png
-  artifactKey: Guid(ea63aa347901fe64ebd6127ef84b1084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_5.png using Guid(ea63aa347901fe64ebd6127ef84b1084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178f33cd5199b4c51a7332eae70400d0') in 0.017739 seconds
-  Import took 0.020580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_11.png
-  artifactKey: Guid(b0dd05849f1e17545b7acaea11aad872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/flashlight/idle/survivor-idle_flashlight_11.png using Guid(b0dd05849f1e17545b7acaea11aad872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6fe10a3708a69d20b0e07c45bc04b5') in 0.018472 seconds
-  Import took 0.021580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.343941 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_0.png
-  artifactKey: Guid(192aa614898de59478d5db1caf7a6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_0.png using Guid(192aa614898de59478d5db1caf7a6907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712af129201b4808b299a644feb2bdc5') in 0.021803 seconds
-  Import took 0.024703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_5.png
-  artifactKey: Guid(f7e4798a477465542aa5e72384d842ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_5.png using Guid(f7e4798a477465542aa5e72384d842ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd91786874ee404f2adb6042a5967e1') in 0.017961 seconds
-  Import took 0.021759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_16.png
-  artifactKey: Guid(9735401153f7c3841ace37854c299664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_16.png using Guid(9735401153f7c3841ace37854c299664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7c9dd3150413810cd65933da4992a5') in 0.016285 seconds
-  Import took 0.019161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_1.png
-  artifactKey: Guid(a639c3d75df0e8a4c81dbb4656583ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_1.png using Guid(a639c3d75df0e8a4c81dbb4656583ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962fdfeb222a1c5cb361b215c9548b55') in 0.020528 seconds
-  Import took 0.023609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_3.png
-  artifactKey: Guid(a93b38cfdea3366449c3b306fae55bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_3.png using Guid(a93b38cfdea3366449c3b306fae55bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6d8228fc14e77f917e23f7bd8801c3') in 0.014593 seconds
-  Import took 0.017421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_10.png
-  artifactKey: Guid(2541c3649cc49734e9460dec5bff18ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_10.png using Guid(2541c3649cc49734e9460dec5bff18ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c663acbb3cbfbb53fd9c270db411f2b2') in 0.021278 seconds
-  Import took 0.024341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_11.png
-  artifactKey: Guid(db04a426083ea94408b0041e8b6b3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_11.png using Guid(db04a426083ea94408b0041e8b6b3d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ed71f6f0be30650f62b2d839ff3b14') in 0.017675 seconds
-  Import took 0.021334 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_13.png
-  artifactKey: Guid(9fbf68af9f05cb44391a3761bb74823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_13.png using Guid(9fbf68af9f05cb44391a3761bb74823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977297ce73d1d0db0332c04950b21460') in 0.018081 seconds
-  Import took 0.021331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_15.png
-  artifactKey: Guid(aee288065d612f6498a0e48c794e3661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_15.png using Guid(aee288065d612f6498a0e48c794e3661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8209f2d512d8a968770cd85bf4d7b835') in 0.014933 seconds
-  Import took 0.017995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_12.png
-  artifactKey: Guid(5754165936939da4685e9e3d2fb9e53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_12.png using Guid(5754165936939da4685e9e3d2fb9e53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f36f920398db32eb67b828b31cc5a9') in 0.019039 seconds
-  Import took 0.021903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_4.png
-  artifactKey: Guid(5f312e868385078439045cc0a5f03bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_4.png using Guid(5f312e868385078439045cc0a5f03bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a368da72f403a097c9447e41ba77eaec') in 0.015648 seconds
-  Import took 0.018592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_7.png
-  artifactKey: Guid(8966613c5d36ec24fab6a6078dce63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_7.png using Guid(8966613c5d36ec24fab6a6078dce63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bdc4cb4b801cf39e443697d04b1419c') in 0.020925 seconds
-  Import took 0.023995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_14.png
-  artifactKey: Guid(888398e13a4b8cc40aeaab0a4d67094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_14.png using Guid(888398e13a4b8cc40aeaab0a4d67094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98d387eca1d93fd3474bbc6160ec152') in 0.017535 seconds
-  Import took 0.020447 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_9.png
-  artifactKey: Guid(74640601ee2bb3e47aa7ecaf4940cb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_9.png using Guid(74640601ee2bb3e47aa7ecaf4940cb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bc7e0c16de4bfa3f962f420f352510') in 0.019773 seconds
-  Import took 0.022689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_6.png
-  artifactKey: Guid(71d19695f70bf684081c2582d4523e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_6.png using Guid(71d19695f70bf684081c2582d4523e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7f8cb31ad847ac2bd206bbfa392203') in 0.018692 seconds
-  Import took 0.021708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_19.png
-  artifactKey: Guid(ae9df8c31c09b494e821d3207273ad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_19.png using Guid(ae9df8c31c09b494e821d3207273ad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69177fd89615a47349899dcc8e334bce') in 0.014965 seconds
-  Import took 0.017817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_18.png
-  artifactKey: Guid(94ce6e087e8d13a48b9b2f136ebf2a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_18.png using Guid(94ce6e087e8d13a48b9b2f136ebf2a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ff4452ca33eba7c484fb37b55dc442') in 0.019211 seconds
-  Import took 0.022460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_2.png
-  artifactKey: Guid(304547c3ee9b8f54e9df7a55426b47e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_2.png using Guid(304547c3ee9b8f54e9df7a55426b47e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259bda1f8a22b91ce6d24acdee0972a5') in 0.021684 seconds
-  Import took 0.024723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_17.png
-  artifactKey: Guid(80b38ba4045ea0e4f93d41f049b2add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_17.png using Guid(80b38ba4045ea0e4f93d41f049b2add8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdaf31f1302fcf3b7f47ee75f5de3a7') in 0.015133 seconds
-  Import took 0.018052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_8.png
-  artifactKey: Guid(ade5670d42167cf4089407ffa81e836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/idle/survivor-idle_handgun_8.png using Guid(ade5670d42167cf4089407ffa81e836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d8e0d87d0554c886a1a017102923b6') in 0.017514 seconds
-  Import took 0.020269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.862689 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_0.png
-  artifactKey: Guid(0cea6a891b70e4f4f8a9790847a30f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_0.png using Guid(0cea6a891b70e4f4f8a9790847a30f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a8a83b5aa7ceeb485a5bd594b0252c') in 0.017469 seconds
-  Import took 0.021830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_11.png
-  artifactKey: Guid(8fe1e79047c45ce429034072072a0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_11.png using Guid(8fe1e79047c45ce429034072072a0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33dc833d6560ab6866026fd612d6e44') in 0.016974 seconds
-  Import took 0.019656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_8.png
-  artifactKey: Guid(cf2af3b1ae1cb9848bebf84eeb8096b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_8.png using Guid(cf2af3b1ae1cb9848bebf84eeb8096b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e132fefd4c80e037393e4e62b668a2') in 0.021769 seconds
-  Import took 0.024541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_10.png
-  artifactKey: Guid(937c261ffd43c0f4d90d8270b7c37aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_10.png using Guid(937c261ffd43c0f4d90d8270b7c37aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb2c4ec87ffec7e0c1a48c6d2dd1088') in 0.016355 seconds
-  Import took 0.019239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_7.png
-  artifactKey: Guid(175e7579e0a2df148a8e99ab9fbf83d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_7.png using Guid(175e7579e0a2df148a8e99ab9fbf83d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75bc8eea491ba560b01958561bb8b1b') in 0.018927 seconds
-  Import took 0.021940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_17.png
-  artifactKey: Guid(f677a693b3ed7204696ee80bacaae998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_17.png using Guid(f677a693b3ed7204696ee80bacaae998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb1d2eccbf246dcb7045d7ed1d470b8') in 0.018805 seconds
-  Import took 0.021850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_9.png
-  artifactKey: Guid(d6202e6e5fc85ba4ca6d3237f6d26201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_9.png using Guid(d6202e6e5fc85ba4ca6d3237f6d26201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4c924c831dc0f1f90ca7214b8ba6e5') in 0.020244 seconds
-  Import took 0.023173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_1.png
-  artifactKey: Guid(d49a720a3af97594f9ea4c03792d6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_1.png using Guid(d49a720a3af97594f9ea4c03792d6792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52657e47356f2a88bb871aac754cfea') in 0.020808 seconds
-  Import took 0.023768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_14.png
-  artifactKey: Guid(4a5c440ac271b6641b35fe8306f3f795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_14.png using Guid(4a5c440ac271b6641b35fe8306f3f795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe2c19b115e9c0b18acbdcf70a8236e') in 0.021359 seconds
-  Import took 0.024404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_12.png
-  artifactKey: Guid(10d0639117f20db47a7b0484e5dbd6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_12.png using Guid(10d0639117f20db47a7b0484e5dbd6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97af1da23451cda3d8681abb5443f78f') in 0.017586 seconds
-  Import took 0.021056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_16.png
-  artifactKey: Guid(545eb0a14c301984a9736ab7fde6b0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_16.png using Guid(545eb0a14c301984a9736ab7fde6b0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a4f827b373f922cc0a2cd24dec7444') in 0.019636 seconds
-  Import took 0.022489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_5.png
-  artifactKey: Guid(ebf44866f20bbea4d89c7474afb0c459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_5.png using Guid(ebf44866f20bbea4d89c7474afb0c459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28274c9d2d93eecf96cee0fdeadc5846') in 0.019672 seconds
-  Import took 0.022613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_18.png
-  artifactKey: Guid(175e50d8aaf2bc64cb0701e2e9f1308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_18.png using Guid(175e50d8aaf2bc64cb0701e2e9f1308e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f37701687ea9e4caad8c71029b8703') in 0.021285 seconds
-  Import took 0.024295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_15.png
-  artifactKey: Guid(c1613c6c18a639145a3660d9461ac762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_15.png using Guid(c1613c6c18a639145a3660d9461ac762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed937051b9976f90ae6a0ca8e9ebfe3') in 0.018585 seconds
-  Import took 0.021818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_6.png
-  artifactKey: Guid(6464dc1f845241d40bc889435f619e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_6.png using Guid(6464dc1f845241d40bc889435f619e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bc1cd59cb1f8962c526650086e1459') in 0.018297 seconds
-  Import took 0.021335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_4.png
-  artifactKey: Guid(7e8832d55ca2d684492f515404a412ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_4.png using Guid(7e8832d55ca2d684492f515404a412ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6f9247755e7de607aeae3ad0b37d15') in 0.014453 seconds
-  Import took 0.017422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_13.png
-  artifactKey: Guid(2c8881bbca33f6940a9725050fc863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_13.png using Guid(2c8881bbca33f6940a9725050fc863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373fa878bc70eeacd3b3e0ce11a16a7e') in 0.015009 seconds
-  Import took 0.017931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_19.png
-  artifactKey: Guid(e296cc456abb6274e8600837eb9e5a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_19.png using Guid(e296cc456abb6274e8600837eb9e5a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bbf20490c507d36d7ef3098a759116') in 0.017388 seconds
-  Import took 0.020419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_2.png
-  artifactKey: Guid(0e17fb3340bebbc48a226c790ee7bb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_2.png using Guid(0e17fb3340bebbc48a226c790ee7bb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ca5875b80d956ee523d3504a36c45d') in 0.019931 seconds
-  Import took 0.022838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_3.png
-  artifactKey: Guid(23f21616fac2eec4fa843531194af9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/idle/survivor-idle_knife_3.png using Guid(23f21616fac2eec4fa843531194af9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3caff63388f8a94588ed654be2bf7e1') in 0.016491 seconds
-  Import took 0.019973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.425432 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_0.png
-  artifactKey: Guid(35a4e55c5ad1f2d449cb2d564ec3d311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_0.png using Guid(35a4e55c5ad1f2d449cb2d564ec3d311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154c5b51999d121f0ea717ac6ac701d8') in 0.023673 seconds
-  Import took 0.026876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_15.png
-  artifactKey: Guid(d96621027ec59904d8e4b03f5a456f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_15.png using Guid(d96621027ec59904d8e4b03f5a456f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7873745178f86795707eb2b6b2fce02') in 0.019747 seconds
-  Import took 0.022407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_1.png
-  artifactKey: Guid(b6d51641ce81dc842a09687f40231384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_1.png using Guid(b6d51641ce81dc842a09687f40231384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb44e148fed449c29ce969dde74df93') in 0.018540 seconds
-  Import took 0.021523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_7.png
-  artifactKey: Guid(82ef5a7b59c71154194bb082a4ef07dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_7.png using Guid(82ef5a7b59c71154194bb082a4ef07dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4a14ad579d47587d4f525f99005446') in 0.022558 seconds
-  Import took 0.025474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_3.png
-  artifactKey: Guid(31306f07d1b20ac4cb6b20ed0d397259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_3.png using Guid(31306f07d1b20ac4cb6b20ed0d397259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fc3765fd139461314848f1fe227304') in 0.020251 seconds
-  Import took 0.024134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_6.png
-  artifactKey: Guid(31bd5ddac1418f74faa5892a4cfecb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_6.png using Guid(31bd5ddac1418f74faa5892a4cfecb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32842709c4a02b63f7f485c130267702') in 0.018617 seconds
-  Import took 0.021568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_10.png
-  artifactKey: Guid(228c33465736ae346bdbdad21abf1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_10.png using Guid(228c33465736ae346bdbdad21abf1811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c054a23944169c559ec13f2ab3fd7e1') in 0.017249 seconds
-  Import took 0.021080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_9.png
-  artifactKey: Guid(1447017a722f6a64eb2e7c76b45a98d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_9.png using Guid(1447017a722f6a64eb2e7c76b45a98d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '205b25a383b171253a2d51b1fe4098e6') in 0.020337 seconds
-  Import took 0.023213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_19.png
-  artifactKey: Guid(1b5e4916ee5371843bd4a4daf766349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_19.png using Guid(1b5e4916ee5371843bd4a4daf766349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad1376e8e61cba47485a556317cee77') in 0.017007 seconds
-  Import took 0.020329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_2.png
-  artifactKey: Guid(08b94b74e56ccde4cab919fd1fcbc856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_2.png using Guid(08b94b74e56ccde4cab919fd1fcbc856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0e3655b3bf861dfbf7971f2772d7bb') in 0.016594 seconds
-  Import took 0.019686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_4.png
-  artifactKey: Guid(dcd0e52802af2054b9c9d512030d509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_4.png using Guid(dcd0e52802af2054b9c9d512030d509a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462427f284739b211e4f73a6c3656204') in 0.024202 seconds
-  Import took 0.027997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_18.png
-  artifactKey: Guid(df7902c66cbcb5449a9d99eac748624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_18.png using Guid(df7902c66cbcb5449a9d99eac748624f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d834a68fc4a2779b960635a22ef65b8') in 0.019036 seconds
-  Import took 0.022621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_14.png
-  artifactKey: Guid(43fa9feb8f45cd147bf7e3cf136ac7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_14.png using Guid(43fa9feb8f45cd147bf7e3cf136ac7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cd7e1a23e4ffd37b355270137f910f') in 0.018283 seconds
-  Import took 0.021464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_13.png
-  artifactKey: Guid(541a2d6217279054dbec45487ce171f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_13.png using Guid(541a2d6217279054dbec45487ce171f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c0b7e3c9df558e479b3d0a2dd1fe29') in 0.017749 seconds
-  Import took 0.020616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_12.png
-  artifactKey: Guid(9d6ec1f31be5e3e499a6d412b761f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_12.png using Guid(9d6ec1f31be5e3e499a6d412b761f0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642f42cb81b0f0f3436bae46f43bb7c3') in 0.017046 seconds
-  Import took 0.020155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_17.png
-  artifactKey: Guid(890f7204fc8a715418723ee75e7af529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_17.png using Guid(890f7204fc8a715418723ee75e7af529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9f4eb231dd2c08da48883a89fc62b7') in 0.015654 seconds
-  Import took 0.018831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_11.png
-  artifactKey: Guid(050c411fd2f80624591ed8b924578e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_11.png using Guid(050c411fd2f80624591ed8b924578e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0198ce56a4e6e7ea3e4e112d7e02eb19') in 0.016458 seconds
-  Import took 0.020088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_8.png
-  artifactKey: Guid(f4bc72888f9703c468cce4db45fadba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_8.png using Guid(f4bc72888f9703c468cce4db45fadba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c081eb544ee0fe6c08a2fe2fcf3185') in 0.018974 seconds
-  Import took 0.021969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_16.png
-  artifactKey: Guid(68d65a9e1c532494090476e92506bdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_16.png using Guid(68d65a9e1c532494090476e92506bdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afef879cafb4f64810aa1c982adba61') in 0.017995 seconds
-  Import took 0.020944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_5.png
-  artifactKey: Guid(b88778889ef20134cb63a48b3efb7e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_5.png using Guid(b88778889ef20134cb63a48b3efb7e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0845d6a042a3e0b237ff7a81fb677794') in 0.017620 seconds
-  Import took 0.020788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005762 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_5.png
-  artifactKey: Guid(b88778889ef20134cb63a48b3efb7e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/rifle/idle/survivor-idle_rifle_5.png using Guid(b88778889ef20134cb63a48b3efb7e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0845d6a042a3e0b237ff7a81fb677794') in 0.013048 seconds
-  Import took 0.016230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.831901 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_0.png
-  artifactKey: Guid(042c26356004c4d4d9c9b15d1957f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_0.png using Guid(042c26356004c4d4d9c9b15d1957f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014cd26917cf4ec1818939de0742e216') in 0.018570 seconds
-  Import took 0.021689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_2.png
-  artifactKey: Guid(ca9ebc151329bb14e9cd2611349cc08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_2.png using Guid(ca9ebc151329bb14e9cd2611349cc08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2554d494a78f1c9d0aa5c9a9f3a6ebea') in 0.023540 seconds
-  Import took 0.026273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_13.png
-  artifactKey: Guid(98a14b3882507b34d80199ca701f28e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_13.png using Guid(98a14b3882507b34d80199ca701f28e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb9a6fd3bd95afa7cc9c200a0637b00') in 0.026276 seconds
-  Import took 0.029210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_5.png
-  artifactKey: Guid(25d8bea1abeb8bf46af6014b75678dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_5.png using Guid(25d8bea1abeb8bf46af6014b75678dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5941956c429f2b3d090581105d3d7c50') in 0.015390 seconds
-  Import took 0.018421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_6.png
-  artifactKey: Guid(c4c16fb936613bb439e51756bbb15d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_6.png using Guid(c4c16fb936613bb439e51756bbb15d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0733e66237abea36b418e26fe1d719') in 0.023131 seconds
-  Import took 0.025859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_8.png
-  artifactKey: Guid(964880ff0ff42ff41b91299bac935983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_8.png using Guid(964880ff0ff42ff41b91299bac935983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bbdc0a07abbf76be0267d9c8bec8d2') in 0.018760 seconds
-  Import took 0.021866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_15.png
-  artifactKey: Guid(36b2acf24b9d4474d8a5c540f4f199f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_15.png using Guid(36b2acf24b9d4474d8a5c540f4f199f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668293682eec22eb059dac5e7d803e01') in 0.017017 seconds
-  Import took 0.020053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_11.png
-  artifactKey: Guid(2738c8b22d699d94f90f395ea88da7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_11.png using Guid(2738c8b22d699d94f90f395ea88da7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbbb711aac3e921de42d8638de185ac') in 0.021339 seconds
-  Import took 0.024399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_10.png
-  artifactKey: Guid(4cbda532f0761214a982268fca6e356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_10.png using Guid(4cbda532f0761214a982268fca6e356c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf80ad2d4c346bc2a41d29da063d028') in 0.020797 seconds
-  Import took 0.024188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_16.png
-  artifactKey: Guid(6b68987589c9bf34587faf6c43468f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_16.png using Guid(6b68987589c9bf34587faf6c43468f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aecbbb5ce3b957d966b1b33068c22f0') in 0.021635 seconds
-  Import took 0.024900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_12.png
-  artifactKey: Guid(3dd7be5d8165e1d4e966e542b2f50d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_12.png using Guid(3dd7be5d8165e1d4e966e542b2f50d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8531ba43da328734d98e28a863bdcc5b') in 0.020180 seconds
-  Import took 0.022929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_14.png
-  artifactKey: Guid(934efbbc31608e949ac414bb49915a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_14.png using Guid(934efbbc31608e949ac414bb49915a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93264692b0a0cc07408e99ec4f2d57c') in 0.018743 seconds
-  Import took 0.021910 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_18.png
-  artifactKey: Guid(43ca49c7d9e1e2247a2457792354f96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_18.png using Guid(43ca49c7d9e1e2247a2457792354f96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbcd7dd8bcd07f64e4106ff57ccf541') in 0.028887 seconds
-  Import took 0.032124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_19.png
-  artifactKey: Guid(eda5dcd91a845b545a20b98cec3e5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_19.png using Guid(eda5dcd91a845b545a20b98cec3e5b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7614e9b9702da993343edf9a012a2a2e') in 0.021632 seconds
-  Import took 0.024742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_1.png
-  artifactKey: Guid(1987660ca8759ae4aaa257ea79d3887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_1.png using Guid(1987660ca8759ae4aaa257ea79d3887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2e9732e1bb3e022c39ad803cc43b32') in 0.016676 seconds
-  Import took 0.019681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_17.png
-  artifactKey: Guid(9fa2ae54c6cd5ec4f92a922d25d92386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_17.png using Guid(9fa2ae54c6cd5ec4f92a922d25d92386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e3607d83d25f3f74a1dc325cbefc33') in 0.018577 seconds
-  Import took 0.021678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_1.png
-  artifactKey: Guid(1987660ca8759ae4aaa257ea79d3887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_1.png using Guid(1987660ca8759ae4aaa257ea79d3887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2e9732e1bb3e022c39ad803cc43b32') in 0.021127 seconds
-  Import took 0.024369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_17.png
-  artifactKey: Guid(9fa2ae54c6cd5ec4f92a922d25d92386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_17.png using Guid(9fa2ae54c6cd5ec4f92a922d25d92386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e3607d83d25f3f74a1dc325cbefc33') in 0.019673 seconds
-  Import took 0.022624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_4.png
-  artifactKey: Guid(653bce5c1aa268840805adf4572f29f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_4.png using Guid(653bce5c1aa268840805adf4572f29f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd191a59c2773fb2586640f958358d945') in 0.021711 seconds
-  Import took 0.024368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_9.png
-  artifactKey: Guid(bc6d917b7d6b260498d1bd0e63c8dfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_9.png using Guid(bc6d917b7d6b260498d1bd0e63c8dfe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e2afe8ebe919ee2e5d7f5d817ee519') in 0.018606 seconds
-  Import took 0.022253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_3.png
-  artifactKey: Guid(4cac76788d813aa4e9d1726df7e65d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_3.png using Guid(4cac76788d813aa4e9d1726df7e65d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b7396d7d63346fc749b8b9b1bc3ae7') in 0.016685 seconds
-  Import took 0.019675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_7.png
-  artifactKey: Guid(2a0b25a8165bc434da762f03cdd613c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/idle/survivor-idle_shotgun_7.png using Guid(2a0b25a8165bc434da762f03cdd613c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69078ab1fb17b0099452ff02af3a0905') in 0.017350 seconds
-  Import took 0.021292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.872638 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_0.png
-  artifactKey: Guid(b069c6f8e724bbc4b83993511b3513fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_0.png using Guid(b069c6f8e724bbc4b83993511b3513fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cf5949c9f739fda59e4a0b4f27d00d') in 0.022383 seconds
-  Import took 0.026155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_1.png
-  artifactKey: Guid(b6ad4f42552b400458163b6ed5e364a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_1.png using Guid(b6ad4f42552b400458163b6ed5e364a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a674ca650b8de99b12eb6c1fdb4fa525') in 0.020346 seconds
-  Import took 0.023464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_4.png
-  artifactKey: Guid(64c0d14df63978243b58525ebbe826ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_4.png using Guid(64c0d14df63978243b58525ebbe826ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4f781bf5772faf6a26a7be298fb8a7') in 0.017925 seconds
-  Import took 0.021006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_3.png
-  artifactKey: Guid(0fa9ee79fc3084949ab467c09be6e320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_3.png using Guid(0fa9ee79fc3084949ab467c09be6e320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7867ee1de42e3887b750e4f7cd76d0') in 0.019277 seconds
-  Import took 0.022148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_2.png
-  artifactKey: Guid(0ba500993930c5b409f6bd15df393464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_2.png using Guid(0ba500993930c5b409f6bd15df393464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3c3890f1b0e40a4cc8446f7f19fb5e') in 0.022228 seconds
-  Import took 0.025861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_9.png
-  artifactKey: Guid(70e110a3401945445a0f9e19a09e184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_9.png using Guid(70e110a3401945445a0f9e19a09e184c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b587c30203779293496dd038dad9858') in 0.021825 seconds
-  Import took 0.025111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_10.png
-  artifactKey: Guid(5fd9309a37460304faed29f86a6b6bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_10.png using Guid(5fd9309a37460304faed29f86a6b6bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859bc20fd45e0b7191695bfdf97169d9') in 0.017765 seconds
-  Import took 0.021571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_7.png
-  artifactKey: Guid(b153434d4b68ddd4f843a1cec7a21b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_7.png using Guid(b153434d4b68ddd4f843a1cec7a21b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fec89104ca4c00efbdc1f4c3304915') in 0.019658 seconds
-  Import took 0.022535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_6.png
-  artifactKey: Guid(2e360f6d4ba45404a90a859a34bbc4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_6.png using Guid(2e360f6d4ba45404a90a859a34bbc4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a09c33394c51ebc3bcfa26231c4dd1') in 0.019946 seconds
-  Import took 0.022880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_5.png
-  artifactKey: Guid(50019323b8c557342bcf1c03f6ef2375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_5.png using Guid(50019323b8c557342bcf1c03f6ef2375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a8648e6ec97e49cd90e84b2f4f2fe2') in 0.014996 seconds
-  Import took 0.018865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_14.png
-  artifactKey: Guid(16d8570e41088e0429f79b51f7036c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_14.png using Guid(16d8570e41088e0429f79b51f7036c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2afca70ae12757cb288f1531d116c3f') in 0.023380 seconds
-  Import took 0.026346 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_12.png
-  artifactKey: Guid(bc94d7b29cbf09d428f9bd41dc8848f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_12.png using Guid(bc94d7b29cbf09d428f9bd41dc8848f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db153e8899a5dad3a61c762e883c649') in 0.018174 seconds
-  Import took 0.021085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_11.png
-  artifactKey: Guid(ce8e55ed5e10ac54a89827e38fc6eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_11.png using Guid(ce8e55ed5e10ac54a89827e38fc6eb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6883bf3f4146762e0ec02cee2951f8') in 0.020687 seconds
-  Import took 0.023805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_13.png
-  artifactKey: Guid(0542f2b080e405a4983d29efc622e73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_13.png using Guid(0542f2b080e405a4983d29efc622e73b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457f7cf4e86202558ec76e44ba71cf84') in 0.014950 seconds
-  Import took 0.017720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_8.png
-  artifactKey: Guid(e7b78317fc03d9248aa60648fbc81160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/meleeattack/survivor-meleeattack_shotgun_8.png using Guid(e7b78317fc03d9248aa60648fbc81160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f61734e4e5895bf8bd763f85c942bca') in 0.017077 seconds
-  Import took 0.020551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.797294 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_0.png
-  artifactKey: Guid(e900b738da47bb64aa2fe1d912e22246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_0.png using Guid(e900b738da47bb64aa2fe1d912e22246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66a9586c7685ef30aa373eb4ce387f1') in 0.024810 seconds
-  Import took 0.028166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_8.png
-  artifactKey: Guid(b3e74f26f29825e499ca0971b47a864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_8.png using Guid(b3e74f26f29825e499ca0971b47a864b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb63b18fff3e0737766a581a1866fdf7') in 0.017865 seconds
-  Import took 0.021169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_18.png
-  artifactKey: Guid(f5ea43fdfa40422459156c7d6713d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_18.png using Guid(f5ea43fdfa40422459156c7d6713d7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf14b4fb9a4e91c4b2c94f11785f312a') in 0.015624 seconds
-  Import took 0.018554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_3.png
-  artifactKey: Guid(235006dd977988c48a9e3b5b0e26cec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_3.png using Guid(235006dd977988c48a9e3b5b0e26cec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5332ab3723c7b826c60e8d8360aa58fd') in 0.021736 seconds
-  Import took 0.025168 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_5.png
-  artifactKey: Guid(28ceb6847bf3e5f4cab8a4817f3b2334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_5.png using Guid(28ceb6847bf3e5f4cab8a4817f3b2334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582d69dfa3aace197d8ca9e4049e955b') in 0.017431 seconds
-  Import took 0.020708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_9.png
-  artifactKey: Guid(210f03f3290c9e54a90fb45f63a56195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_9.png using Guid(210f03f3290c9e54a90fb45f63a56195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd42e7e9752141e6344d94868c01997c') in 0.018646 seconds
-  Import took 0.021486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_1.png
-  artifactKey: Guid(816f11792a4eef54a8b98b2633940964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_1.png using Guid(816f11792a4eef54a8b98b2633940964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea88b4d36a9fec61b9352c88651262ce') in 0.018956 seconds
-  Import took 0.021937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_10.png
-  artifactKey: Guid(da4486675c0d40d42b9f532d13a665bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_10.png using Guid(da4486675c0d40d42b9f532d13a665bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281aa898059551d80cc26b73dd83c329') in 0.023155 seconds
-  Import took 0.026343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_14.png
-  artifactKey: Guid(68f6ca807e015e841a6d297e9c709929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_14.png using Guid(68f6ca807e015e841a6d297e9c709929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1bd40f0a7f0b9248ab5b72d98b676a') in 0.019755 seconds
-  Import took 0.022696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_13.png
-  artifactKey: Guid(80327139ca205e145abeae81e28116c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_13.png using Guid(80327139ca205e145abeae81e28116c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae96c0cb723ecc7f151744c40b00c874') in 0.017958 seconds
-  Import took 0.020933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_15.png
-  artifactKey: Guid(a7897515f91380640b6134ed90130241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_15.png using Guid(a7897515f91380640b6134ed90130241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96735616578f0e077148c178ea18f464') in 0.021691 seconds
-  Import took 0.024793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_11.png
-  artifactKey: Guid(6e32d5c3c0871d74b9f757e19f8c7472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_11.png using Guid(6e32d5c3c0871d74b9f757e19f8c7472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8b84bbed9f4248ea882e74a7674f62') in 0.018115 seconds
-  Import took 0.021862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_6.png
-  artifactKey: Guid(da70fb8ca3463f042aed7ef6ca93a429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_6.png using Guid(da70fb8ca3463f042aed7ef6ca93a429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92982d1665faa4e229d4295b622ee06d') in 0.020573 seconds
-  Import took 0.023856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_4.png
-  artifactKey: Guid(f39ca03f27081a84f8c143799a16e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_4.png using Guid(f39ca03f27081a84f8c143799a16e593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63523068f36d5f592de25e5649d1dc46') in 0.018563 seconds
-  Import took 0.021517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_2.png
-  artifactKey: Guid(c22339041a14c674a85121ca691346b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_2.png using Guid(c22339041a14c674a85121ca691346b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ba2e003f2e7e7ab78189f1f8d9398b') in 0.017833 seconds
-  Import took 0.021529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_12.png
-  artifactKey: Guid(740b221b7ebe25d43a3a9a667df393cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_12.png using Guid(740b221b7ebe25d43a3a9a667df393cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42df57e264dca0c34bc8695d3a3eb806') in 0.018430 seconds
-  Import took 0.021375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_2.png
-  artifactKey: Guid(c22339041a14c674a85121ca691346b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_2.png using Guid(c22339041a14c674a85121ca691346b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ba2e003f2e7e7ab78189f1f8d9398b') in 0.014399 seconds
-  Import took 0.017836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_16.png
-  artifactKey: Guid(36dddcfd2fd24924e996febf3d9de8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_16.png using Guid(36dddcfd2fd24924e996febf3d9de8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf397a2a768290b5b74e62b313e762f') in 0.017813 seconds
-  Import took 0.020739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_7.png
-  artifactKey: Guid(20b14c916bace4f43bbba80906ad0deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_7.png using Guid(20b14c916bace4f43bbba80906ad0deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38da15a7fcb46a04b742f00a2585e5f5') in 0.021171 seconds
-  Import took 0.024581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_17.png
-  artifactKey: Guid(6d6ce120d7482614a9364aaa5dc1323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_17.png using Guid(6d6ce120d7482614a9364aaa5dc1323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd3717a5e8100a37c4feced89030268') in 0.016421 seconds
-  Import took 0.019674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_19.png
-  artifactKey: Guid(34fabc283a1be35469d1ae4284b8d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/move/survivor-move_shotgun_19.png using Guid(34fabc283a1be35469d1ae4284b8d331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8473d377feb01cfb8e32d7fe03de776') in 0.020328 seconds
-  Import took 0.023313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.604602 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_0.png
-  artifactKey: Guid(e3a1fec286b3ce74296156b6d13f077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_0.png using Guid(e3a1fec286b3ce74296156b6d13f077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2ed8cc6b16018a97e94794481fcc15') in 0.020633 seconds
-  Import took 0.023978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_10.png
-  artifactKey: Guid(d2f488e1a92152d43bd15da7050d9d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_10.png using Guid(d2f488e1a92152d43bd15da7050d9d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a833d345532d97d8ba87e2ae001664f') in 0.013815 seconds
-  Import took 0.016684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_9.png
-  artifactKey: Guid(b4745757b12dd6442973703e6fee5422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_9.png using Guid(b4745757b12dd6442973703e6fee5422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620efc348adc9a656a5cbfd4c8ae84db') in 0.014796 seconds
-  Import took 0.017982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_6.png
-  artifactKey: Guid(7febe50ba4f9fdc4f81bd4df8561fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_6.png using Guid(7febe50ba4f9fdc4f81bd4df8561fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf4bbc1d1e725ef14bfa3f44badcb58') in 0.014159 seconds
-  Import took 0.017118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_19.png
-  artifactKey: Guid(1d64008fa5b4c5b46b7e25ff3f0c8605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_19.png using Guid(1d64008fa5b4c5b46b7e25ff3f0c8605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd964dcf22791a94f69ff5366216aa5a0') in 0.013931 seconds
-  Import took 0.016975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_16.png
-  artifactKey: Guid(e06edb5c671a38e4cb7a67f01067d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_16.png using Guid(e06edb5c671a38e4cb7a67f01067d158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843eb60d51a6a1755d95b01b6a375462') in 0.013440 seconds
-  Import took 0.016367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_5.png
-  artifactKey: Guid(da3b6815fb8beb44d937a172ac9fbd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_5.png using Guid(da3b6815fb8beb44d937a172ac9fbd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6f9abbd28d1758ccc178b59eddcac7') in 0.013712 seconds
-  Import took 0.016997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_13.png
-  artifactKey: Guid(cad7390e144ff8f4f84dcf66717cff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_13.png using Guid(cad7390e144ff8f4f84dcf66717cff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb96cbd1ab18325105af2546cae32c9f') in 0.013027 seconds
-  Import took 0.015811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_12.png
-  artifactKey: Guid(3043e38393031ea4a8721387504b88ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_12.png using Guid(3043e38393031ea4a8721387504b88ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2b1508fd29c3db90328b979555444f') in 0.013297 seconds
-  Import took 0.016364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_8.png
-  artifactKey: Guid(d3381c4f183ad374f96a368d92d476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_8.png using Guid(d3381c4f183ad374f96a368d92d476fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f99140bbf56c6041800eac8caa52ee0') in 0.013270 seconds
-  Import took 0.016119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_11.png
-  artifactKey: Guid(3075f1cf2995b5741b6d1ea81f23319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_11.png using Guid(3075f1cf2995b5741b6d1ea81f23319f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056b30da88b1bf142ba5eb36ee2cd1a9') in 0.014042 seconds
-  Import took 0.016929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_17.png
-  artifactKey: Guid(54ad76de157f480439c5f1cc8f40e445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_17.png using Guid(54ad76de157f480439c5f1cc8f40e445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022a0bb13a80ef6bc9d12dc82ee364d3') in 0.012974 seconds
-  Import took 0.015745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_15.png
-  artifactKey: Guid(ffc03d3b43ae0b748b5b6877211a3e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_15.png using Guid(ffc03d3b43ae0b748b5b6877211a3e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e857e57698ebb161b3f11f9115b1ae50') in 0.012532 seconds
-  Import took 0.015389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_18.png
-  artifactKey: Guid(d0f84d36cc103d34dbc38a7f79bf9275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_18.png using Guid(d0f84d36cc103d34dbc38a7f79bf9275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caecbb4fffee399384f9b4b5c1fae178') in 0.013961 seconds
-  Import took 0.016890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_7.png
-  artifactKey: Guid(ccc01fdb323593a4088726f93857f62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_7.png using Guid(ccc01fdb323593a4088726f93857f62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a058b0ff72663e0a8df91ca508ff464') in 0.013131 seconds
-  Import took 0.016283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_3.png
-  artifactKey: Guid(cfb8d3c86d5921847896e015d1c072cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_3.png using Guid(cfb8d3c86d5921847896e015d1c072cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9371dd3ace2051b54f05c7efe3859525') in 0.014636 seconds
-  Import took 0.017660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_1.png
-  artifactKey: Guid(30eefa7f025a93b489a73f00960481fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_1.png using Guid(30eefa7f025a93b489a73f00960481fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb92f1a698626e8219df621bf46626c') in 0.012967 seconds
-  Import took 0.015968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_2.png
-  artifactKey: Guid(4620beff86fb0104c8d5cc9727eddb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_2.png using Guid(4620beff86fb0104c8d5cc9727eddb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45f39489ec954dc3862a57cf33e4ae0') in 0.013917 seconds
-  Import took 0.016985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_4.png
-  artifactKey: Guid(364dd5376071db343b6331376a617936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_4.png using Guid(364dd5376071db343b6331376a617936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea723e0c09ad4d47c6eedbf530015e42') in 0.013233 seconds
-  Import took 0.016220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_14.png
-  artifactKey: Guid(c45db66310b0b764199566c995930d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/shotgun/reload/survivor-reload_shotgun_14.png using Guid(c45db66310b0b764199566c995930d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69c163e2090a9e5a686c8783fe89ee1') in 0.022020 seconds
-  Import took 0.025107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.957626 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_0.png
-  artifactKey: Guid(1d602078bbe998d4381cab8315d90c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_0.png using Guid(1d602078bbe998d4381cab8315d90c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63467815aa343f3bdc5df9d23262a706') in 0.024463 seconds
-  Import took 0.027561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_2.png
-  artifactKey: Guid(ba23d28999d06ea4d843158b846f3d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_2.png using Guid(ba23d28999d06ea4d843158b846f3d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10082b0ab6ad757d31591aa01c7803e1') in 0.019085 seconds
-  Import took 0.022025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_8.png
-  artifactKey: Guid(d8ddcca6b99d85045a03c734696ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_8.png using Guid(d8ddcca6b99d85045a03c734696ea406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256a54fafb0937551ebbb1a0563c9378') in 0.016077 seconds
-  Import took 0.019043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_14.png
-  artifactKey: Guid(498fe5f6ebd160e4a8faa59c704efb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_14.png using Guid(498fe5f6ebd160e4a8faa59c704efb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347815fd0230763fc82e1e103e97182a') in 0.021146 seconds
-  Import took 0.024474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_1.png
-  artifactKey: Guid(2fe9f9e97e2386740ae36875a7b1c86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_1.png using Guid(2fe9f9e97e2386740ae36875a7b1c86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93191846ad1e84533e85d6b2f5428fd8') in 0.018833 seconds
-  Import took 0.022159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_10.png
-  artifactKey: Guid(a9e091c329166a144a8a26129da53f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_10.png using Guid(a9e091c329166a144a8a26129da53f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af89223d858055a5861cf6639f6d25e') in 0.015381 seconds
-  Import took 0.018328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_1.png
-  artifactKey: Guid(2fe9f9e97e2386740ae36875a7b1c86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_1.png using Guid(2fe9f9e97e2386740ae36875a7b1c86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93191846ad1e84533e85d6b2f5428fd8') in 0.018550 seconds
-  Import took 0.021692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_11.png
-  artifactKey: Guid(69616e2f5ad59554d9c05485499b7504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_11.png using Guid(69616e2f5ad59554d9c05485499b7504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3130a95eeee6c81abd0085ed698d0ee2') in 0.019600 seconds
-  Import took 0.022624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_4.png
-  artifactKey: Guid(7f0ce9a1575b46f4b9639c19b2632ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_4.png using Guid(7f0ce9a1575b46f4b9639c19b2632ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f91c4e41bad1d6e89b49aeb03be6ca') in 0.015370 seconds
-  Import took 0.018782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_7.png
-  artifactKey: Guid(c6210aa97d40af24db5ee3bb58f142e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_7.png using Guid(c6210aa97d40af24db5ee3bb58f142e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4daddf6262f8244dd9785ec3cb8aff1') in 0.020543 seconds
-  Import took 0.023617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_9.png
-  artifactKey: Guid(1c09dd2fe79a0f246ad75fb5db0ffa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_9.png using Guid(1c09dd2fe79a0f246ad75fb5db0ffa88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ba3623e930c2a866c204bebd92a1c6') in 0.018331 seconds
-  Import took 0.021076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_12.png
-  artifactKey: Guid(bf0f162aaa8042648b5c83fa08fadd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_12.png using Guid(bf0f162aaa8042648b5c83fa08fadd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285a3ea38aab708a8919462a3e9086b5') in 0.016461 seconds
-  Import took 0.019289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_5.png
-  artifactKey: Guid(0ef2da478d39ca3429a9c1a254d40a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_5.png using Guid(0ef2da478d39ca3429a9c1a254d40a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2125b2c2b5ec98f71866e8296c3b2df') in 0.018833 seconds
-  Import took 0.021674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_3.png
-  artifactKey: Guid(d9de1dd28e533604592e8b5995658e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_3.png using Guid(d9de1dd28e533604592e8b5995658e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf91f5a74d237fc2d2e49cf1d6b9346') in 0.017434 seconds
-  Import took 0.020304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_6.png
-  artifactKey: Guid(97d6c212596a7044faf62d84d3bf4fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_6.png using Guid(97d6c212596a7044faf62d84d3bf4fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b21a3c5411b1bbda99bc97216b7b29') in 0.020023 seconds
-  Import took 0.023089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_3.png
-  artifactKey: Guid(d9de1dd28e533604592e8b5995658e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_3.png using Guid(d9de1dd28e533604592e8b5995658e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf91f5a74d237fc2d2e49cf1d6b9346') in 0.019614 seconds
-  Import took 0.023182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_6.png
-  artifactKey: Guid(97d6c212596a7044faf62d84d3bf4fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_6.png using Guid(97d6c212596a7044faf62d84d3bf4fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b21a3c5411b1bbda99bc97216b7b29') in 0.017458 seconds
-  Import took 0.020921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_13.png
-  artifactKey: Guid(5e84ab023798cec40980a96df6804946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/meleeattack/survivor-meleeattack_knife_13.png using Guid(5e84ab023798cec40980a96df6804946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67b572a9febbbc9adb297603267e0c7') in 0.020839 seconds
-  Import took 0.023761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.984292 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_0.png
-  artifactKey: Guid(fccabb4676adda64585621ca2f538e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_0.png using Guid(fccabb4676adda64585621ca2f538e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1de1bd258dcbfd697a155c8bd79ff97') in 0.019383 seconds
-  Import took 0.022748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_5.png
-  artifactKey: Guid(71b17ff313bfe2348a54923309127704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_5.png using Guid(71b17ff313bfe2348a54923309127704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad49d875457651dea5a2fd1bd8a4407c') in 0.027578 seconds
-  Import took 0.031557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_6.png
-  artifactKey: Guid(b33566b0d4536e14bb083998a5d5e547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_6.png using Guid(b33566b0d4536e14bb083998a5d5e547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01dd3145a7b686e7066857d323f5780') in 0.016781 seconds
-  Import took 0.019789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_9.png
-  artifactKey: Guid(a44dbcbf469ba1d44990c975e8f51b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_9.png using Guid(a44dbcbf469ba1d44990c975e8f51b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0c1eadb3a719ab9604d259711a96d0') in 0.016954 seconds
-  Import took 0.019934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_15.png
-  artifactKey: Guid(4ec7408337f8f00409abb115358f8a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_15.png using Guid(4ec7408337f8f00409abb115358f8a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b348e4ac580bf5f6627531bfc5e752') in 0.021424 seconds
-  Import took 0.025270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_4.png
-  artifactKey: Guid(060de535e1f7b3640834964a3acd32bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_4.png using Guid(060de535e1f7b3640834964a3acd32bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f1ce1eaa09de52bbcee021afd466f9') in 0.020018 seconds
-  Import took 0.022838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_19.png
-  artifactKey: Guid(9c551b90c2aeca64da572826319b6bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_19.png using Guid(9c551b90c2aeca64da572826319b6bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5227b791a26a66ea10b8a14876e47645') in 0.022729 seconds
-  Import took 0.026139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_2.png
-  artifactKey: Guid(52d32bc3358b7664c9ec29ea78aba7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_2.png using Guid(52d32bc3358b7664c9ec29ea78aba7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db05ff1d6ff6791d63258511e03f7c2d') in 0.024193 seconds
-  Import took 0.027372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_17.png
-  artifactKey: Guid(ae40a8d0d630812459db7b44e1292038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_17.png using Guid(ae40a8d0d630812459db7b44e1292038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845b8ba0bdd94799be71acedcab7eece') in 0.018017 seconds
-  Import took 0.020842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_7.png
-  artifactKey: Guid(204e903a66909914ca0a727fa7aff712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_7.png using Guid(204e903a66909914ca0a727fa7aff712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a234796f9f6bbb26ff0b5f6c554fc19') in 0.021855 seconds
-  Import took 0.024702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_14.png
-  artifactKey: Guid(edb52dedb68955c4886a13ee580294e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_14.png using Guid(edb52dedb68955c4886a13ee580294e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502fe1a0af0da5079057bf1f871d7ef8') in 0.016769 seconds
-  Import took 0.020137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_12.png
-  artifactKey: Guid(2f8b029dca8b01847bb477756f719918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_12.png using Guid(2f8b029dca8b01847bb477756f719918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0f83b9197c0a027fa4c4a4f6380fe9') in 0.020463 seconds
-  Import took 0.023175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_18.png
-  artifactKey: Guid(ebed69246d83cdc4cb184c0b5c558266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_18.png using Guid(ebed69246d83cdc4cb184c0b5c558266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92be5d193672f703a638f85aebeae774') in 0.017921 seconds
-  Import took 0.021130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_13.png
-  artifactKey: Guid(da0c9dba50e1e404c926192b62c8050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_13.png using Guid(da0c9dba50e1e404c926192b62c8050a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5091821e3d810d4805e08a0dfcf5be87') in 0.017510 seconds
-  Import took 0.020423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_10.png
-  artifactKey: Guid(1a42da649727a714fa4cadd1ed68c182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_10.png using Guid(1a42da649727a714fa4cadd1ed68c182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c971d9be1537b110eb688da6d18639c9') in 0.018540 seconds
-  Import took 0.022210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_1.png
-  artifactKey: Guid(cc88ec43a352c6b45a3e98bc26df5897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_1.png using Guid(cc88ec43a352c6b45a3e98bc26df5897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e69742a7fc33885f97a0a44f82d957') in 0.018607 seconds
-  Import took 0.021356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_16.png
-  artifactKey: Guid(22ae409278349e94ba2ab8848fa2a4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_16.png using Guid(22ae409278349e94ba2ab8848fa2a4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266d59b9cda53f33f35e6da687c5b511') in 0.020037 seconds
-  Import took 0.022912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_1.png
-  artifactKey: Guid(cc88ec43a352c6b45a3e98bc26df5897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_1.png using Guid(cc88ec43a352c6b45a3e98bc26df5897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e69742a7fc33885f97a0a44f82d957') in 0.019267 seconds
-  Import took 0.022184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_11.png
-  artifactKey: Guid(cde4f40c7ed6d6a42a364063ff92b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_11.png using Guid(cde4f40c7ed6d6a42a364063ff92b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7aa49437adc72b53de08a62c966266') in 0.023232 seconds
-  Import took 0.026250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_8.png
-  artifactKey: Guid(c3cdb1b87f569bc44a4e5d7cd8103b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_8.png using Guid(c3cdb1b87f569bc44a4e5d7cd8103b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61daebf448565e27016a1a3126f71b40') in 0.023589 seconds
-  Import took 0.026618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_3.png
-  artifactKey: Guid(b122abbf63e91e1458a17ed2521860b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_3.png using Guid(b122abbf63e91e1458a17ed2521860b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ca0ad1960a749d9fd57dfe92df20d7') in 0.020978 seconds
-  Import took 0.024341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001226 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_3.png
-  artifactKey: Guid(b122abbf63e91e1458a17ed2521860b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/knife/move/survivor-move_knife_3.png using Guid(b122abbf63e91e1458a17ed2521860b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ca0ad1960a749d9fd57dfe92df20d7') in 0.022162 seconds
-  Import took 0.025283 seconds .
+  Time since last request: 21.470087 seconds.
+  path: Assets/Scripts/playerInteraction.cs
+  artifactKey: Guid(07ae166831cf9294a874ec20490d7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/playerInteraction.cs using Guid(07ae166831cf9294a874ec20490d7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3918f9cda73e26f5414e5c213c213aca') in 0.012420 seconds
+  Import took 0.016743 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000929 seconds.
+Registered in 0.001056 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  0.820 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.0 MB.
-System memory in use after: 92.1 MB.
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2403.
-Total: 2.736400 ms (FindLiveObjects: 0.264600 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.362400 ms  DeleteObjects: 0.018500 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2379.
+Total: 1.793700 ms (FindLiveObjects: 0.192700 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.541400 ms  DeleteObjects: 0.014500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000928 seconds.
+Registered in 0.001140 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.764 seconds
+- Completed reload, in  0.890 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 2.181500 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.085600 ms MarkObjects: 1.824200 ms  DeleteObjects: 0.016700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.633911 seconds.
+  path: Assets/AllMenu/Sprites/Continue.png
+  artifactKey: Guid(2c83a5be85f821641a5d82cd28a89c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMenu/Sprites/Continue.png using Guid(2c83a5be85f821641a5d82cd28a89c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb79c36bf17fdba0732bbc1244a95c5') in 0.081463 seconds
+  Import took 0.084608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.695530 seconds.
+  path: Assets/AllMenu/Sprites/Extra Terra - Blockchain.mp3
+  artifactKey: Guid(fbce13b678b7e31418b5960586181f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMenu/Sprites/Extra Terra - Blockchain.mp3 using Guid(fbce13b678b7e31418b5960586181f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5905e4ce8845d7f6e4f1bd6e76665806') in 0.026687 seconds
+  Import took 0.030589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.076640 seconds.
+  path: Assets/AllMenu/Sprites/Menu.png
+  artifactKey: Guid(9533dc1d995a9a5428759b489aa3e7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMenu/Sprites/Menu.png using Guid(9533dc1d995a9a5428759b489aa3e7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38981cdec992e576d2fcd6342b759b2b') in 0.015655 seconds
+  Import took 0.018709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.459517 seconds.
+  path: Assets/AllMenu/Sprites/Pause.png
+  artifactKey: Guid(d55364ffa3185bd48a08fa8976a4bb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMenu/Sprites/Pause.png using Guid(d55364ffa3185bd48a08fa8976a4bb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a711de547a97e568c703d509758d224c') in 0.015268 seconds
+  Import took 0.018676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.400768 seconds.
+  path: Assets/AllMenu/Sprites/Resume.png
+  artifactKey: Guid(40e76b37a5967124fa4dd70ae9ed7a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMenu/Sprites/Resume.png using Guid(40e76b37a5967124fa4dd70ae9ed7a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfa5d852b3f84195ce93549c6559a1c') in 0.013506 seconds
+  Import took 0.017255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.936259 seconds.
+  path: Assets/AllMenu/Sprites/SoundOff.png
+  artifactKey: Guid(1a39ec612c425a949bb9d99645d20f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMenu/Sprites/SoundOff.png using Guid(1a39ec612c425a949bb9d99645d20f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23850892d0184c3acdcd8c63bfd71e7d') in 0.015513 seconds
+  Import took 0.019676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.926453 seconds.
+  path: Assets/AllMenu/Sprites/SoundOn.png
+  artifactKey: Guid(6722dc5758342fa48864c8e6ebc1c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMenu/Sprites/SoundOn.png using Guid(6722dc5758342fa48864c8e6ebc1c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f722e02067469019c0a6c2f55549569c') in 0.015278 seconds
+  Import took 0.018669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.971772 seconds.
+  path: Assets/AllMenu/Sprites/Volume.png
+  artifactKey: Guid(bd5526c313823664fbf9ea8bcae3e6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMenu/Sprites/Volume.png using Guid(bd5526c313823664fbf9ea8bcae3e6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45beb49ef9763d04d9df89d06f48dbb2') in 0.014347 seconds
+  Import took 0.017690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.881903 seconds.
+  path: Assets/AllMenu/Sprites/VolumeMini.png
+  artifactKey: Guid(b65e63533615a1d49a0a05d5dac8cf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllMenu/Sprites/VolumeMini.png using Guid(b65e63533615a1d49a0a05d5dac8cf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4022c9ce9b734707ef91ca991c2625') in 0.016442 seconds
+  Import took 0.019520 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.823 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.0 MB.
-System memory in use after: 92.1 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2407.
-Total: 2.424700 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.088600 ms MarkObjects: 2.064000 ms  DeleteObjects: 0.018200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1574.399627 seconds.
-  path: Assets/Scripts/Timer.cs
-  artifactKey: Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Timer.cs using Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dc44e4dc8f14606587077bac72b34f') in 0.015336 seconds
-  Import took 0.018593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003940 seconds.
-  path: Assets/Scripts/Timer.cs
-  artifactKey: Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Timer.cs using Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92dc44e4dc8f14606587077bac72b34f') in 0.002969 seconds
-  Import took 0.005915 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000927 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.0 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2411.
-Total: 2.784600 ms (FindLiveObjects: 0.331000 ms CreateObjectMapping: 0.114600 ms MarkObjects: 2.320500 ms  DeleteObjects: 0.016200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 387.794673 seconds.
-  path: Assets/Scripts/Timer.cs
-  artifactKey: Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Timer.cs using Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9242b277fcee2e6aa4a94edd2382df') in 0.004903 seconds
-  Import took 0.007727 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001244 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.924 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1916 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.1 MB.
 System memory in use after: 92.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2415.
-Total: 2.077500 ms (FindLiveObjects: 0.229000 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.785200 ms  DeleteObjects: 0.017000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000919 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2419.
-Total: 2.454300 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.133500 ms  DeleteObjects: 0.021000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000979 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2423.
-Total: 2.376100 ms (FindLiveObjects: 0.194400 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.118600 ms  DeleteObjects: 0.016600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000929 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.766 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2427.
-Total: 2.590700 ms (FindLiveObjects: 0.254800 ms CreateObjectMapping: 0.087900 ms MarkObjects: 2.227200 ms  DeleteObjects: 0.018800 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2412.
+Total: 3.067700 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.045700 ms MarkObjects: 2.688100 ms  DeleteObjects: 0.017300 ms)
 
 ========================================================================
 Received Prepare
@@ -1884,78 +220,18 @@ Registering precompiled user dll's ...
 Registered in 0.000955 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
+- Completed reload, in  0.833 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1917 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
+System memory in use after: 92.3 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2431.
-Total: 1.797200 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.534400 ms  DeleteObjects: 0.016400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2216.642655 seconds.
-  path: Assets/Scripts/Timer.cs
-  artifactKey: Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Timer.cs using Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc46a4b3770abba33b9d9292f74401b4') in 0.005008 seconds
-  Import took 0.008231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025539 seconds.
-  path: Assets/Scripts/Timer.cs
-  artifactKey: Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Timer.cs using Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc46a4b3770abba33b9d9292f74401b4') in 0.002246 seconds
-  Import took 0.005850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.248057 seconds.
-  path: Assets/Scripts/Timer.cs
-  artifactKey: Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Timer.cs using Guid(3e002d0f15f484344839fd1b84d4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74bdc1e87f61d16b57191b1a5906290') in 0.002782 seconds
-  Import took 0.006156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.230722 seconds.
-  path: Assets/Scripts/playerInteraction.cs
-  artifactKey: Guid(07ae166831cf9294a874ec20490d7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/playerInteraction.cs using Guid(07ae166831cf9294a874ec20490d7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5521928e385b3e4c7e50a0d9675f4bcd') in 0.007018 seconds
-  Import took 0.010611 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001301 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1915 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2435.
-Total: 2.339200 ms (FindLiveObjects: 0.206300 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.061300 ms  DeleteObjects: 0.016300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.845262 seconds.
-  path: Assets/Scripts/playerInteraction.cs
-  artifactKey: Guid(07ae166831cf9294a874ec20490d7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/playerInteraction.cs using Guid(07ae166831cf9294a874ec20490d7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5785d2499e0e6492b1be209bbbbfb255') in 0.007103 seconds
-  Import took 0.010239 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2417.
+Total: 2.588600 ms (FindLiveObjects: 0.384400 ms CreateObjectMapping: 0.126900 ms MarkObjects: 2.056300 ms  DeleteObjects: 0.018100 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
