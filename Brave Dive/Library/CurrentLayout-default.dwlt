@@ -43,12 +43,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1920
     height: 947
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 57
+=======
+    width: 1536
+    height: 770.8
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 114
+>>>>>>> origin/aleksei
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,10 +73,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1575
     y: 0
     width: 345
     height: 947
+=======
+    x: 1051.2
+    y: 0
+    width: 484.80005
+    height: 770.8
+>>>>>>> origin/aleksei
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -92,8 +108,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 251
     height: 614
+=======
+    width: 351.2
+    height: 345.6
+>>>>>>> origin/aleksei
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
@@ -117,9 +138,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 614
     width: 1575
     height: 333
+=======
+    y: 345.6
+    width: 1051.2
+    height: 425.19998
+>>>>>>> origin/aleksei
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -148,8 +175,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1920
     height: 997
+=======
+    width: 1536
+    height: 820.8
+>>>>>>> origin/aleksei
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -197,8 +229,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 977
     width: 1920
+=======
+    y: 800.8
+    width: 1536
+>>>>>>> origin/aleksei
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -221,12 +258,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1575
     height: 947
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 83
+=======
+    width: 1051.2
+    height: 770.8
+  m_MinSize: {x: 402, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 42
+>>>>>>> origin/aleksei
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,12 +292,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1575
     height: 614
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
   controlID: 84
+=======
+    width: 1051.2
+    height: 345.6
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 43
+>>>>>>> origin/aleksei
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,12 +322,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 251
     y: 0
     width: 1324
     height: 614
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    x: 351.2
+    y: 0
+    width: 699.99994
+    height: 345.6
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> origin/aleksei
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -379,9 +443,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 687
     width: 1574
     height: 312
+=======
+    y: 419.2
+    width: 1050.2
+    height: 404.19998
+>>>>>>> origin/aleksei
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -396,22 +466,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/AllMenu
+>>>>>>> origin/aleksei
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
   - Assets
+=======
+  - Assets/AllMenu
+>>>>>>> origin/aleksei
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Stepa\Documents\GitHub\unityTeamGame\Brave Dive
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 724d0000
     m_LastClickedID: 19826
     m_ExpandedIDs: 00000000744d0000764d0000784d00007a4d00007e4d000000ca9a3b
+=======
+    m_SelectedIDs: 7e4d0000
+    m_LastClickedID: 19838
+    m_ExpandedIDs: 00000000724d0000744d0000764d0000784d00007a4d00007e4d000000ca9a3b
+>>>>>>> origin/aleksei
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -515,10 +599,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1575
     y: 73
     width: 344
     height: 926
+=======
+    x: 1051.2001
+    y: 73.6
+    width: 483.80005
+    height: 749.8
+>>>>>>> origin/aleksei
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -553,14 +644,24 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 73
     width: 250
     height: 593
+=======
+    y: 73.6
+    width: 350.2
+    height: 324.6
+>>>>>>> origin/aleksei
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 944d0000
+=======
+      m_SelectedIDs: 
+>>>>>>> origin/aleksei
       m_LastClickedID: 0
       m_ExpandedIDs: 64f4ffff
       m_RenameOverlay:
@@ -606,10 +707,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 251
     y: 73
     width: 1322
     height: 593
+=======
+    x: 351.2
+    y: 73.6
+    width: 697.99994
+    height: 324.6
+>>>>>>> origin/aleksei
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -722,10 +830,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 251
     y: 73
     width: 1322
     height: 593
+=======
+    x: 200.8
+    y: 73.6
+    width: 1057
+    height: 479
+>>>>>>> origin/aleksei
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -769,16 +884,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1322
       height: 572
     m_Scale: {x: 0.52962965, y: 0.52962965}
     m_Translation: {x: 661, y: 286}
+=======
+      width: 1057
+      height: 458
+    m_Scale: {x: 0.5300926, y: 0.5300926}
+    m_Translation: {x: 528.5, y: 229}
+>>>>>>> origin/aleksei
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -1248.0419
       y: -540
       width: 2496.0837
@@ -786,6 +909,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.52962965
   m_LastWindowPixelSize: {x: 1322, y: 593}
+=======
+      x: -996.9956
+      y: -432
+      width: 1993.9912
+      height: 864
+    m_MinimalGUI: 1
+  m_defaultScale: 0.5300926
+  m_LastWindowPixelSize: {x: 1321.25, y: 598.75}
+>>>>>>> origin/aleksei
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

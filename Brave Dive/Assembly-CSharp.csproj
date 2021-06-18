@@ -65,6 +65,8 @@
     <Compile Include="Assets\Scripts\enemyInteraction.cs" />
     <Compile Include="Assets\AllMenu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\dg_simpleCamFollow.cs" />
+    <Compile Include="Assets\AllMenu\OptionMenu.cs" />
+    <Compile Include="Assets\AllMenu\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
