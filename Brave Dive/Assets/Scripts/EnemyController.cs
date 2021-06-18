@@ -2,19 +2,34 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    private Rigidbody2D physic;
+    //private Rigidbody2D physic;
 
     public Transform player;
 
     public float speed;
-    public float agroDistance;
+    public float stoppingDistance;
+    public float retreatDistance;
+
+   // public float agroDistance;
 
     private void Start()
     {
-        physic = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+       // physic = GetComponent<Rigidbody2D>();
     }
     private void Update()
     {
+        if(Vector2.Distance(transform.position, player.position) > stoppingDistance)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+        }else if(Vector2.Distance(transform.position, player.position) < stoppingDistance && (Vector2.Distance(transform.position, player.position)> retreatDistance))
+        {
+            transform.position = this.transform.position;
+        }else if (Vector2.Distance(transform.position, player.position) < retreatDistance)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+        }
+        /*
         float distToPlayer = Vector2.Distance(transform.position, player.position);
 
         if (distToPlayer < agroDistance)
@@ -49,5 +64,6 @@ public class EnemyController : MonoBehaviour
         {
             physic.velocity = new Vector2(0, 0);
         }
+        */
     }
 }

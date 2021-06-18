@@ -1766,7 +1766,6 @@ GameObject:
   - component: {fileID: 445157441}
   - component: {fileID: 445157440}
   - component: {fileID: 445157439}
-  - component: {fileID: 445157438}
   m_Layer: 0
   m_Name: EnemyWithKnife
   m_TagString: Untagged
@@ -1774,22 +1773,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &445157438
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445157437}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 1.0366007, y: 0.054214258}
-  serializedVersion: 2
-  m_Radius: 0.22692582
 --- !u!114 &445157439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1815,8 +1798,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1615154181}
-  speed: 5
-  agroDistance: 10
+  speed: 10
+  stoppingDistance: 6
+  retreatDistance: 3
 --- !u!50 &445157441
 Rigidbody2D:
   serializedVersion: 4
@@ -1855,7 +1839,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.89, y: 2.24}
+    oldSize: {x: 3.13, y: 2.07}
     newSize: {x: 2.89, y: 2.24}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1904,7 +1888,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 0cea6a891b70e4f4f8a9790847a30f8a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 042c26356004c4d4d9c9b15d1957f6c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1923,8 +1907,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445157437}
   m_LocalRotation: {x: -0, y: -0, z: 0.99998057, w: -0.0062371264}
-  m_LocalPosition: {x: 10.42, y: -54.81, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 10.3963, y: -54.8103, z: 0}
+  m_LocalScale: {x: 1.0151, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -5326,7 +5310,7 @@ GameObject:
   - component: {fileID: 1615154187}
   m_Layer: 0
   m_Name: MainPerson
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
