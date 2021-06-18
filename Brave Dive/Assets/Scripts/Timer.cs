@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class Timer : MonoBehaviour
@@ -7,12 +8,15 @@ public class Timer : MonoBehaviour
     public static float timerMinutes = 0f;
     public static float timerSeconds = 0f;
     public string timer = timerMinutes.ToString() + " : " + timerSeconds.ToString();
-    public Text timerText; 
+    public Text timerText;
+
+
 
 
     void Start()
     {
         timerText.text = timer;
+   
     }
 
     void checkTime()
@@ -36,5 +40,6 @@ public class Timer : MonoBehaviour
         timerSeconds += Time.deltaTime;
         checkTime();
         timerText.text = timer;
+      
     }
 }
