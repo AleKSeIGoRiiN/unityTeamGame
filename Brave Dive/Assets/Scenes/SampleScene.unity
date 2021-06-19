@@ -1767,7 +1767,7 @@ GameObject:
   - component: {fileID: 445157440}
   - component: {fileID: 445157439}
   m_Layer: 0
-  m_Name: EnemyWithKnife
+  m_Name: EnemyWithShotgan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1785,6 +1785,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ac8367d569df2f40b26a342780f7ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startTimeBtwShots: 2
+  projectile: {fileID: 7119882869606621569, guid: 393c292d56054934d8464a2bf02c3b7b, type: 3}
+  player: {fileID: 1615154181}
 --- !u!114 &445157440
 MonoBehaviour:
   m_ObjectHideFlags: 0
