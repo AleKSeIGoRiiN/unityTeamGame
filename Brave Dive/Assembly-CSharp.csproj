@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\CharepterAnimation.cs" />
     <Compile Include="Assets\Scripts\playerInteraction.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\spawnEnemy.cs" />
     <Compile Include="Assets\Scripts\simpleFollow_cubeMovement.cs" />
     <Compile Include="Assets\AllMenu\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
@@ -68,7 +69,6 @@
     <Compile Include="Assets\AllMenu\MainMenu.cs" />
     <Compile Include="Assets\AllMenu\OptionMenu.cs" />
     <Compile Include="Assets\Scripts\dg_simpleCamFollow.cs" />
-    <Compile Include="Assets\Scripts\spawnEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
