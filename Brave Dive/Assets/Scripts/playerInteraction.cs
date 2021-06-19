@@ -4,9 +4,7 @@ using UnityEngine.SceneManagement;
 public class playerInteraction : MonoBehaviour
 {
     [SerializeField]
-    private float health = 1f;
-    private float damage = 1f;
-
+    private float health = 100f;
 
 
     public void takeDamage(float damage)
