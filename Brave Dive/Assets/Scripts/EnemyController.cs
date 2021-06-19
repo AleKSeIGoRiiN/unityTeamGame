@@ -2,52 +2,33 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    private Rigidbody2D physic;
+  
 
     public Transform player;
 
     public float speed;
-    public float agroDistance;
+    public float stoppingDistance;
+    public float retreatDistance;
+
+
 
     private void Start()
     {
-        physic = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+    
     }
     private void Update()
     {
-        float distToPlayer = Vector2.Distance(transform.position, player.position);
-
-        if (distToPlayer < agroDistance)
+        if(Vector2.Distance(transform.position, player.position) > stoppingDistance)
         {
-            StartHunting();
-        }
-        else
+            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+        }else if(Vector2.Distance(transform.position, player.position) < stoppingDistance && (Vector2.Distance(transform.position, player.position)> retreatDistance))
         {
-            StopHunting();
-        }
-
-        void StartHunting()
+            transform.position = this.transform.position;
+        }else if (Vector2.Distance(transform.position, player.position) < retreatDistance)
         {
-            if(player.position.x < transform.position.x && player.position.y < transform.position.y)
-            {
-                physic.velocity = new Vector2(-speed, -speed);
-            }
-            if (player.position.x < transform.position.x && player.position.y > transform.position.y)
-            {
-                physic.velocity = new Vector2(-speed, speed);
-            }
-            if (player.position.x > transform.position.x && player.position.y < transform.position.y)
-            {
-                physic.velocity = new Vector2(speed, -speed);
-            }
-            if (player.position.x > transform.position.x && player.position.y > transform.position.y)
-            {
-                physic.velocity = new Vector2(speed, speed);
-            }
+            transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
         }
-        void StopHunting()
-        {
-            physic.velocity = new Vector2(0, 0);
-        }
+      
     }
 }
