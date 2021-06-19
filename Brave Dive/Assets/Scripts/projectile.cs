@@ -6,7 +6,7 @@ public class projectile : MonoBehaviour
 
     private Vector2 target;
     private Transform player;
-    private float damage = 0.25f;
+    private float damage = 5f;
 
 
     // Start is called before the first frame update
@@ -21,19 +21,24 @@ public class projectile : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
-
+        
         if(transform.position.x == target.x && transform.position.y == target.y)
         {
             DestroyProjectile();
         }
+        
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.name == "MainPerson")
+        {
+            other.GetComponent<playerInteraction>().takeDamage(damage);
+            DestroyProjectile();
+
+        }
+        if (other.CompareTag("wall"))
         {
             DestroyProjectile();
-            other.GetComponent<playerInteraction>().takeDamage(damage);
-
         }
     }
     void DestroyProjectile()
