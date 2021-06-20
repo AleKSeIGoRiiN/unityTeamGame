@@ -4,8 +4,11 @@ public class enemyInteraction : MonoBehaviour
 {
     private float timeBtwShots;
     public float startTimeBtwShots;
-    
-   
+
+    private float health = 100f;
+    private float damage = 5f;
+
+
 
 
     public GameObject projectile;
@@ -31,7 +34,24 @@ public class enemyInteraction : MonoBehaviour
             timeBtwShots -= Time.deltaTime;
         }
     }
-    
+
+    public void takeDamage(float amount)
+    {
+        health -= amount;
+
+        if (health <= 0f)
+        {
+            Die();
+        }
+
+        void Die()
+        {
+            Destroy(gameObject);
+        }
+
+
+    }
+
 
 
 

@@ -19,9 +19,11 @@ public class spawnEnemy : MonoBehaviour
         for (int i = 0; i < 5; i++)
         { 
             Instantiate(gameObjects[0], new Vector2(coordsX[i], coordsY[i]), Quaternion.identity);
+            /*
             enemy.speed = Random.Range(5, 10);
             enemy.stoppingDistance = Random.Range(6, 10);
             enemy.retreatDistance = Random.Range(3, 7);
+            */
         }
         
         

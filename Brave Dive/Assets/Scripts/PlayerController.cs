@@ -109,7 +109,7 @@ public class PlayerController : MonoBehaviour
             movementVectors.y = time;
 
         }
-        else if (movement.x > 0 && movementVectors.y == 0)
+        else if (movement.x > 0 && movementVectors.y == 0) 
         {
 
             time = movementVectors.x;
