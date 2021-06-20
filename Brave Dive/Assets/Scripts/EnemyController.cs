@@ -1,61 +1,54 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class EnemyController : MonoBehaviour
 {
-    private float health = 100f;
-    private float damage = 5f;
+    private List<Vector2> PathToMainPerson = new List<Vector2>();
+    private PathFinder PathFinder;
+    public GameObject MainPerson;
+    public float MoveSpeed;
 
-    public Transform player;
-    private Rigidbody2D rb;
-    public float speed;
-    public float stoppingDistance;
-    public float retreatDistance;
 
-    public GameObject[] gameObjects;
-
+    private bool isMoving;
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-       
-
+   
+        PathFinder = GetComponent<PathFinder>();
+        isMoving = true;
     }
     private void Update()
     {
+        if (MainPerson == null) return;
+        if (Vector2.Distance(transform.position, MainPerson.transform.position) >= 5f &&
+             Vector2.Distance(transform.position, MainPerson.transform.position) <= 10f)
+        {
 
-        rb = GetComponent<Rigidbody2D>();
-        if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-        }else if(Vector2.Distance(transform.position, player.position) < stoppingDistance && (Vector2.Distance(transform.position, player.position)> retreatDistance))
-        {
-            transform.position = this.transform.position;
-        }else if (Vector2.Distance(transform.position, player.position) < retreatDistance)
-        {
-            transform.position = Vector2.MoveTowards(transform.position, player.position, -speed * Time.deltaTime);
+            if (PathToMainPerson.Count == 0 && Vector2.Distance(transform.position, MainPerson.transform.position) > 0.5f)
+            {
+                PathToMainPerson = PathFinder.GetPath(MainPerson.transform.position);
+                isMoving = true;
+            }
+            if (PathToMainPerson.Count == 0) return;
+            if (isMoving)
+            {
+                if (Vector2.Distance(transform.position, PathToMainPerson[PathToMainPerson.Count - 1]) > 0.1f)
+                {
+
+                    transform.position = Vector2.MoveTowards(transform.position, PathToMainPerson[PathToMainPerson.Count - 1], MoveSpeed * Time.deltaTime);
+                }
+                if (Vector2.Distance(transform.position, PathToMainPerson[PathToMainPerson.Count - 1]) <= 0.1f)
+                {
+                    isMoving = false;
+                }
+
+            }
+            else
+            {
+                PathToMainPerson = PathFinder.GetPath(MainPerson.transform.position);
+                isMoving = true;
+            }
         }
-
-      
-    }
-    private void FixedUpdate()
-    {
-        Vector2 lookDir = player.position - transform.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;   //А здесь чисто чуток матеши
-        rb.rotation = angle;
-    }
-    public void takeDamage(float amount)
-    {
-        health -= amount;
-
-        if (health <= 0f)
-        {
-            Die();
-        }
-
-        void Die()
-        {
-            Destroy(gameObject);
-        }
-
-
+        else return;
+        
     }
 }
