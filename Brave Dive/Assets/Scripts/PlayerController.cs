@@ -20,7 +20,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         speed = 15.0f;
-        float time;
 
 
         _body = GetComponent<Rigidbody2D>();// Делаем тельце твердым
@@ -34,39 +33,19 @@ public class PlayerController : MonoBehaviour
 
 
 
-        //#######################################################################################################################
-
-        /*if (movement.x < 0 && movementVectors.y == 0)
-        {
-            time = movementVectors.x;
-            movementVectors.x = -movementVectors.y;
-            movementVectors.y = time;
-
-        }
-        else if (movement.x > 0 && movementVectors.y == 0)
-        {
-
-            time = movementVectors.x;
-            movementVectors.x = movementVectors.y;
-            movementVectors.y = -time;
-
-        }
-        else if (movement.x == 0 && movement.y == 0)
-        {
-            movementVectors.x = 0;
-            movementVectors.y = 0;
-        }*/
 
 
     }
 
     void FixedUpdate()
     {
-
+        _body = GetComponent<Rigidbody2D>();
 
 
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg + 90f;   //А здесь чисто чуток матеши p.s. этот кусок не двигать!
-        _body.rotation = angle - 10f;
+
+        
+        _body.rotation = angle - 22f;
 
 
         _body.MovePosition(_body.position + movement * speed * Time.fixedDeltaTime);//Само сдвижение (тайм фиксед, чтобы было независимо от кол-во фпс)
