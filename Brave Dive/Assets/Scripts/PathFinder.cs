@@ -10,10 +10,7 @@ public class PathFinder : MonoBehaviour
     public GameObject Target;
     public LayerMask SolidLayer;
 
-    void Update()
-    {
-        PathToTarget = GetPath(Target.transform.position);
-    }
+   
 
     public List<Vector2> GetPath(Vector2 target)
     {

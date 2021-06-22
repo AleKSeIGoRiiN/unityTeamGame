@@ -1,59 +1,26 @@
 using UnityEngine;
 
-public class enemyInteraction : MonoBehaviour
+public class EnemyInteraction : Health
 {
-    private float timeBtwShots;
-    public float startTimeBtwShots;
+    [SerializeField] private HeathBar _heathBar;
 
-    private float health = 100f;
-    private float damage = 5f;
-
-
-
-
-    public GameObject projectile;
-    public Transform player;
-
-    void Start()
+    protected override void Start()
     {
-        
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        timeBtwShots = startTimeBtwShots;
+        base.Start();
+        _heathBar.SetHeathValue(_currentHealth, MaxHealth);
     }
-
-    void Update()
+    void Die()
     {
-        
-        if (timeBtwShots <= 0)
-        {
-            Instantiate(projectile, transform.position, Quaternion.identity);
-            timeBtwShots = startTimeBtwShots;
-        }
-        else
-        {
-            timeBtwShots -= Time.deltaTime;
-        }
+        Destroy(gameObject);
     }
-
-    public void takeDamage(float amount)
+    public override void TakeDamage(int damage)
     {
-        health -= amount;
-
-        if (health <= 0f)
+        _currentHealth -= damage;
+        _heathBar.SetHeathValue(_currentHealth, MaxHealth);
+        
+        if (_currentHealth <= 0)
         {
             Die();
         }
-
-        void Die()
-        {
-            Destroy(gameObject);
-        }
-
-
     }
-
-
-
-
-
 }

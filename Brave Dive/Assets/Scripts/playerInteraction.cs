@@ -1,27 +1,24 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class playerInteraction : MonoBehaviour
+public class playerInteraction : Health
 {
-    [SerializeField]
-    private float health = 100f;
 
-
-    public void takeDamage(float damage)
+    protected override void Start()
     {
-        health -= damage;
+        base.Start();
+        _currentHealth = MaxHealth;
 
-        if (health <= 0f)
+
+    }
+    void Die()
+    {
+        Destroy(gameObject);
+    }
+
+    public override void TakeDamage(int damage)
+    {
+        _currentHealth -= damage;
+        if (_currentHealth <= 0)
         {
             Die();
         }
     }
-
-    private void Die()
-    {
-        SceneManager.LoadScene(0);
-    }
-
-
-
 }

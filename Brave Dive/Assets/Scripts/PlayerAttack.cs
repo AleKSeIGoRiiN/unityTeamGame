@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-
+    public EnemyInteraction enemy;  
     public Animator animator;
     public Transform attackPoint;
     public float attackRange = 2.0f;

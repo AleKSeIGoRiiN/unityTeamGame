@@ -1,6 +1,4 @@
-﻿//using System.Collections;
-//using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class dg_simpleCamFollow : MonoBehaviour
 {
@@ -22,7 +20,7 @@ public class dg_simpleCamFollow : MonoBehaviour
             whereCameraShouldBe = target.position + generalOffset;
             transform.position = Vector3.Lerp(transform.position, whereCameraShouldBe, 1 / laziness);
 
-            if (lookAtTarget) transform.LookAt(target);
+           // if (lookAtTarget) transform.LookAt(target);
         } else {
             if (!warningAlreadyShown) {
                 Debug.Log("Warning: You should specify a target in the simpleCamFollow script.", gameObject);

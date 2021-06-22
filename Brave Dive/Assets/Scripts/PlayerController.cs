@@ -13,15 +13,12 @@ public class PlayerController : MonoBehaviour
     Vector2 movementVectors = Vector2.zero;
     Vector2 lookDir = Vector2.zero;
 
-    //
 
 
-    // 
     void Update()
     {
         speed = 15.0f;
-        float time;
-
+        
 
         _body = GetComponent<Rigidbody2D>();// Äוכאול עוכüצו עגונהûל
         movement.x = Input.GetAxis("Horizontal");
