@@ -15,8 +15,8 @@ public class spawnEnemy : MonoBehaviour
 
     void Start()
     {
-        
-        for (int i = 0; i < 5; i++)
+        Instantiate(gameObjects[0], new Vector2(coordsX[0], coordsY[0]), Quaternion.identity);
+        /*for (int i = 0; i < 5; i++)
         { 
             Instantiate(gameObjects[0], new Vector2(coordsX[i], coordsY[i]), Quaternion.identity);
             /*
@@ -24,14 +24,9 @@ public class spawnEnemy : MonoBehaviour
             enemy.stoppingDistance = Random.Range(6, 10);
             enemy.retreatDistance = Random.Range(3, 7);
             */
-        }
+        
         
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
