@@ -4,39 +4,47 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-   public HealthEnemy enemy;
-   public Animator animator;
-   public Transform attackPoint;
-   public float attackRange = 2.0f;
-   public LayerMask enemyLayers;
+
+    public Animator animator;
+    public Transform attackPoint;
+    public float attackRange = 200.0f;
+    public LayerMask enemyLayers;
+    public float attackRate = 2f;
+    float nextAttack = 0f; 
 
 
 
 
-   // Start is called before the first frame update
-   void Start()
-   {
+    
+    void Start()
+    {
+        
+    }
 
-   }
+    
+    void Update()
+    {
+        if (Time.time >= nextAttack)
+        {
+            if (Input.GetMouseButton(0))
+            {
+                nextAttack = Time.time + 1f / attackRate;
+                Attack();
+            }
+        }
+        
+    }
+    void Attack()
+    {
+        animator.SetTrigger("Attack");
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-   // Update is called once per frame
-   void Update()
-   {
-      if (Input.GetMouseButton(0))
-      {
-         Attack();
-      }
 
-   }
-   void Attack()
-   {
-      animator.SetTrigger("Attack");
-      Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-
-      foreach (Collider2D enemy in hitEnemies)
-      {
-         Debug.Log("we hit" + enemy.name);
-      }
-   }
+        foreach(Collider2D enemy in hitEnemies)
+        {
+            
+            enemy.GetComponent<enemyInteraction>().takeDamage(50f);
+            
+        }
+    }
 }

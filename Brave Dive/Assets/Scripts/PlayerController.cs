@@ -3,76 +3,58 @@ using System;
 
 public class PlayerController : MonoBehaviour
 {
-   public float speed = 10.0f;
-   public Camera cam; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    public float speed = 15.0f;
+    public Camera cam; // переменка для камеры
 
-   private Rigidbody2D _body; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
+    private Rigidbody2D _body; // создаём под тело
 
-   Vector2 movement = Vector2.zero;// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ & y
-   Vector2 mousePos = Vector2.zero;//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ
-   Vector2 movementVectors = Vector2.zero;
-   Vector2 lookDir = Vector2.zero;
+    Vector2 movement = Vector2.zero;// вектор движений, содержит дельты х & y
+    Vector2 mousePos = Vector2.zero;//Название говорит само за себя
+    Vector2 movementVectors = Vector2.zero;
+    Vector2 lookDir = Vector2.zero;
 
-
-
-   void Update()
-   {
-      speed = 10.0f;
+    //
 
 
-      _body = GetComponent<Rigidbody2D>();// пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
-      movement.x = Input.GetAxis("Horizontal");
-      movement.y = Input.GetAxis("Vertical");//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ wasd)
-      if (Math.Abs(movement.y) == Math.Abs(movement.x)) speed -= 3;
+    // 
+    void Update()
+    {
+        speed = 15.0f;
 
 
-      mousePos = cam.ScreenToWorldPoint(Input.mousePosition);// пїЅпїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅ.пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ)
-      lookDir = mousePos - _body.position;
+        _body = GetComponent<Rigidbody2D>();// Делаем тельце твердым
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");//Принимает нажатия (стрелки и wasd)
+        if (Math.Abs(movement.y) == Math.Abs(movement.x)) speed -= 3;
 
 
-
-      //#######################################################################################################################
-
-      /*if (movement.x < 0 && movementVectors.y == 0)
-      {
-          time = movementVectors.x;
-          movementVectors.x = -movementVectors.y;
-          movementVectors.y = time;
-
-      }
-      else if (movement.x > 0 && movementVectors.y == 0)
-      {
-
-          time = movementVectors.x;
-          movementVectors.x = movementVectors.y;
-          movementVectors.y = -time;
-
-      }
-      else if (movement.x == 0 && movement.y == 0)
-      {
-          movementVectors.x = 0;
-          movementVectors.y = 0;
-      }*/
-
-
-   }
-
-   void FixedUpdate()
-   {
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);// хаваем - камера.Перевести в координаты (позиция мышки)
+        lookDir = mousePos - _body.position;
 
 
 
-      float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg + 90f;   //пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ p.s. пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ!
-      _body.rotation = angle - 10f;
 
 
-      _body.MovePosition(_body.position + movement * speed * Time.fixedDeltaTime);//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅ)
+    }
+
+    void FixedUpdate()
+    {
+        _body = GetComponent<Rigidbody2D>();
+
+
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg + 90f;   //А здесь чисто чуток матеши p.s. этот кусок не двигать!
+
+        
+        _body.rotation = angle - 22f;
+
+
+        _body.MovePosition(_body.position + movement * speed * Time.fixedDeltaTime);//Само сдвижение (тайм фиксед, чтобы было независимо от кол-во фпс)
 
 
 
 
 
 
-   }
+    }
 }
 

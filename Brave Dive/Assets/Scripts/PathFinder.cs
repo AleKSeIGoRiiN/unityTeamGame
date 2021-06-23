@@ -10,11 +10,6 @@ public class PathFinder : MonoBehaviour
     private GameObject Target;
     public LayerMask SolidLayer;
 
-    private void Start()
-    {
-        Target = GameObject.FindGameObjectWithTag("Player");
-    }
-
     public List<Vector2> GetPath(Vector2 target)
     {
         PathToTarget = new List<Vector2>();
@@ -151,8 +146,8 @@ public class Node
     public Node PreviousNode;
 
     public int F; // F=G+H
-    public int G; // расстояние от старта до узла
-    public int H; // расстояние от узла до цели
+    public int G; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ
+    public int H; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ
 
     public Node(int g, Vector2 nodePosition, Vector2 targetPosition, Node previousNode)
     {
