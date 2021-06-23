@@ -11,7 +11,8 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask enemyLayers;
 
 
-
+    [SerializeField] private AudioSource missAttack;
+    [SerializeField] private AudioSource attackEnemy;
 
     // Start is called before the first frame update
     void Start()
@@ -32,11 +33,15 @@ public class PlayerAttack : MonoBehaviour
     {
         animator.SetTrigger("Attack");
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-
+        if (hitEnemies.Length == 0)
+            missAttack.Play();
+        else
+            attackEnemy.Play();
+       
         foreach(Collider2D enemy in hitEnemies)
         {
             Debug.Log("we hit" + enemy.name);
         }
+        
     }
 }

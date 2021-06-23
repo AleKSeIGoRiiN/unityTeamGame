@@ -1,6 +1,8 @@
+using UnityEngine;
 public class playerInteraction : Health
 {
 
+    [SerializeField] private AudioSource diePlayer;
     protected override void Start()
     {
         base.Start();
@@ -11,6 +13,8 @@ public class playerInteraction : Health
     void Die()
     {
         Destroy(gameObject);
+
+        diePlayer.Play(); //смерть
     }
 
     public override void TakeDamage(int damage)
@@ -20,5 +24,6 @@ public class playerInteraction : Health
         {
             Die();
         }
+        //получение урона
     }
 }

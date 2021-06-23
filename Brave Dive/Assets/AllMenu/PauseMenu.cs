@@ -5,7 +5,7 @@ public class PauseMenu : MonoBehaviour
 {
     public bool PauseGame;
     public GameObject pauseGameMenu;
-
+    [SerializeField] private AudioSource TimeOut;
 
     void Update() //вкл выкл паузы на ескейп
     {
@@ -18,6 +18,7 @@ public class PauseMenu : MonoBehaviour
             else
             {
                 Pause();
+                TimeOut.Play();
             }
         }
     }

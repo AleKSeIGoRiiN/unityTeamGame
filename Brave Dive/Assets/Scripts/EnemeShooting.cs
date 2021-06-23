@@ -15,6 +15,7 @@ public class EnemeShooting : MonoBehaviour
 
     bool Detected = false;
 
+    [SerializeField] private AudioSource gunShot;
     private void Update()
     {
         Vector2 targetPos = Target.position;
@@ -49,7 +50,9 @@ public class EnemeShooting : MonoBehaviour
     void Shoot()
     {
         GameObject BulletIns = Instantiate(Bullet, ShootPoint.position, Quaternion.identity);
-        BulletIns.GetComponent<Rigidbody2D>().AddForce(Direction * Force); 
+        BulletIns.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
+
+        gunShot.Play(); //звук стрельбы
     }
     void OnDrawGizmosSelected()
     {
