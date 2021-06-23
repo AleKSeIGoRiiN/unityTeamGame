@@ -7,9 +7,16 @@ public class PlayerAttack : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 200.0f;
     public LayerMask enemyLayers;
+
     public float attackRate = 2f;
     float nextAttack = 0f; 
-    
+
+
+
+    [SerializeField] private AudioSource missAttack;
+    [SerializeField] private AudioSource attackEnemy;
+
+
     void Update()
     {
         if (Time.time >= nextAttack)
@@ -27,11 +34,17 @@ public class PlayerAttack : MonoBehaviour
         animator.SetTrigger("Attack");
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
+        if (hitEnemies.Length == 0)
+            missAttack.Play();
+        else
+            attackEnemy.Play();
+
         foreach(Collider2D enemy in hitEnemies)
         {
             
             enemy.GetComponent<HealthEnemy>().TakeDamage(1);
             
         }
+        
     }
 }

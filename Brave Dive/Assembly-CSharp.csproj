@@ -35,6 +35,37 @@
     <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.7</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2020.3.9f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\CharepterAnimation.cs" />
+    <Compile Include="Assets\Scripts\playerInteraction.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\spawnEnemy.cs" />
+    <Compile Include="Assets\Scripts\simpleFollow_cubeMovement.cs" />
+    <Compile Include="Assets\AllMenu\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\BulletScript.cs" />
+    <Compile Include="Assets\Scripts\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\HeathBar.cs" />
+    <Compile Include="Assets\Scripts\PlayerAttack.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\EnemeShooting.cs" />
+    <Compile Include="Assets\Scripts\Heath.cs" />
+    <Compile Include="Assets\AllMenu\MainMenu.cs" />
+    <Compile Include="Assets\AllMenu\OptionMenu.cs" />
+    <Compile Include="Assets\Scripts\enemyInteraction.cs" />
+    <Compile Include="Assets\Scripts\dg_simpleCamFollow.cs" />
+    <Compile Include="Assets\Scripts\PathFinder.cs" />
+  </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\CharepterAnimation.cs" />
      <Compile Include="Assets\Scripts\playerInteraction.cs" />

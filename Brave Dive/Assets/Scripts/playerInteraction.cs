@@ -5,6 +5,7 @@ public class playerInteraction : MonoBehaviour
    public int MaxHealth = 100;
    public int currentHealth;
    [SerializeField] private HeathBarHero HeathBarHero;
+   [SerializeField] private AudioSource diePlayer;
 
    private void Start()
    {
@@ -13,6 +14,7 @@ public class playerInteraction : MonoBehaviour
    }
    void Die()
    {
+      diePlayer.Play(); //������
       Destroy(gameObject);
       SceneManager.LoadScene(0);
    }
