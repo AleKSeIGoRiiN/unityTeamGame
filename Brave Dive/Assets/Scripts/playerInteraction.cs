@@ -1,24 +1,29 @@
-public class playerInteraction : Health
+using UnityEngine;
+using UnityEngine.SceneManagement;
+public class playerInteraction : MonoBehaviour
 {
+   public int MaxHealth = 100;
+   public int currentHealth;
+   [SerializeField] private HeathBarHero HeathBarHero;
 
-    protected override void Start()
-    {
-        base.Start();
-        _currentHealth = MaxHealth;
+   private void Start()
+   {
+      currentHealth = MaxHealth;
+      HeathBarHero.SetHeathValue(currentHealth, MaxHealth);
+   }
+   void Die()
+   {
+      Destroy(gameObject);
+      SceneManager.LoadScene(0);
+   }
 
-
-    }
-    void Die()
-    {
-        Destroy(gameObject);
-    }
-
-    public override void TakeDamage(int damage)
-    {
-        _currentHealth -= damage;
-        if (_currentHealth <= 0)
-        {
-            Die();
-        }
-    }
+   public void TakeDamage(int damage)
+   {
+      currentHealth -= damage;
+      HeathBarHero.SetHeathValue(currentHealth, MaxHealth);
+      if (currentHealth <= 0)
+      {
+         Die();
+      }
+   }
 }

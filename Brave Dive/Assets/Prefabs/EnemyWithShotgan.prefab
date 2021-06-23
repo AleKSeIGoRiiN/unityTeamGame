@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 753533746764581768}
   - component: {fileID: 6991393071679616174}
   - component: {fileID: 895175868}
+  - component: {fileID: 1436160824}
   m_Layer: 0
   m_Name: EnemyWithShotgan
   m_TagString: Untagged
@@ -343,9 +344,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainPerson: {fileID: 0}
-  MoveSpeed: 5
-  AgroDistance: 0
-  StoppingDistance: 0
+  MoveSpeed: 8
+  AgroDistance: 10
+  StoppingDistance: 5
 --- !u!114 &6991393071679616174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,7 +360,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PathToTarget: []
-  Target: {fileID: 0}
   SolidLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -379,8 +379,22 @@ MonoBehaviour:
   Target: {fileID: 0}
   Bullet: {fileID: 7119882869606621569, guid: 393c292d56054934d8464a2bf02c3b7b, type: 3}
   ShootPoint: {fileID: 1446641303}
-  FireRate: 5
-  Force: 20
+  FireRate: 2
+  Force: 200
+--- !u!114 &1436160824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4151860359773910436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbffd3186ec202745a535626dd648599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 10
+  _heathBar: {fileID: 4151860359956982005}
 --- !u!1 &4151860359956982002
 GameObject:
   m_ObjectHideFlags: 0
