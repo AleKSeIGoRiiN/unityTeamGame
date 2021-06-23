@@ -18,32 +18,35 @@ public class EnemeShooting : MonoBehaviour
     private void Update()
     {
         Vector2 targetPos = Target.position;
-        Direction = targetPos = (Vector2)transform.position;
+        Direction = targetPos - (Vector2)transform.position;
 
         RaycastHit2D rayInfo = Physics2D.Raycast(transform.position, Direction, Range);
 
         if (rayInfo)
         {
-            if (rayInfo.collider.gameObject.tag == "Player")
+            if(rayInfo.collider.gameObject.tag == "Player")
             {
-                if(Detected == false)
-                {
-                    Debug.Log("Da");
-                    Detected = true;
-                }
+                Debug.Log("aaa");
+            }
+            if (Vector2.Distance(transform.position, Target.position) <= Range)
+            {
+                Detected = true;
             }
         }
         else
         {
             if (Detected == true)
             {
-                Debug.Log("Net");
                 Detected = false;
             }
         }
         if (Detected)
         {
-          
+          if(Time.time > nextTimeFire)
+            {
+                nextTimeFire = Time.time + 1 / FireRate;
+                Shoot();
+            }
         }
     }
     void Shoot()

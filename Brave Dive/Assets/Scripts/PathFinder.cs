@@ -7,10 +7,13 @@ public class PathFinder : MonoBehaviour
     public List<Vector2> PathToTarget;
     List<Node> CheckedNodes = new List<Node>();
     List<Node> WaitingNodes = new List<Node>();
-    public GameObject Target;
+    private GameObject Target;
     public LayerMask SolidLayer;
 
-   
+    private void Start()
+    {
+        Target = GameObject.FindGameObjectWithTag("Player");
+    }
 
     public List<Vector2> GetPath(Vector2 target)
     {

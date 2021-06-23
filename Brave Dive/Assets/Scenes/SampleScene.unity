@@ -2102,6 +2102,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 895175868, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: Force
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 895175868, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: Range
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 895175868, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 1615154181}
+    - target: {fileID: 895175868, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: FireRate
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 753533746764581768, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
       propertyPath: MainPerson
       value: 
@@ -2120,11 +2136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4151860359773910461, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.74
+      value: 5.65
       objectReference: {fileID: 0}
     - target: {fileID: 4151860359773910461, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -52.74
+      value: -53.95
       objectReference: {fileID: 0}
     - target: {fileID: 4151860359773910461, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3747,34 +3763,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858428344}
   m_CullTransparentMesh: 1
---- !u!1 &895175867 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4151860359773910436, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
-  m_PrefabInstance: {fileID: 502504248}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &895175868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895175867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ac8367d569df2f40b26a342780f7ac9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Range: 10
-  Target: {fileID: 1615154181}
-  Bullet: {fileID: 7119882869606621569, guid: 393c292d56054934d8464a2bf02c3b7b, type: 3}
-  ShootPoint: {fileID: 1446641303}
-  FireRate: 5
-  Force: 20
---- !u!4 &895175875 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4151860359773910461, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
-  m_PrefabInstance: {fileID: 502504248}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &986127400
 GameObject:
   m_ObjectHideFlags: 0
@@ -5162,36 +5150,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1446641302
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1446641303}
-  m_Layer: 0
-  m_Name: Shootpoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1446641303
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1446641302}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2, y: -0.56, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 895175875}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1528213198
 GameObject:
   m_ObjectHideFlags: 0
@@ -5742,7 +5700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1615154179}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.78, y: -52.97, z: 0}
+  m_LocalPosition: {x: -8.85, y: -54.07, z: 0}
   m_LocalScale: {x: 2.0168982, y: 2.0530174, z: 1}
   m_Children:
   - {fileID: 1596620499}

@@ -5,7 +5,11 @@ public class EnemyController : MonoBehaviour
 {
     private List<Vector2> PathToMainPerson = new List<Vector2>();
     private PathFinder PathFinder;
+
+
     public GameObject MainPerson;
+
+
     public float MoveSpeed;
     public float AgroDistance;
     public float StoppingDistance;
