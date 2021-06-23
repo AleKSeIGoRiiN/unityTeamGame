@@ -16,9 +16,12 @@ public class BulletScript : MonoBehaviour
       float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
       rb.rotation = angle;
    }
-   private void OnCollisionEnter2D(Collision2D collision)
-   {
+  
+   private void OnTriggerEnter2D(Collider2D other){
+      if(other.CompareTag("Player")){
+         other.gameObject.GetComponent<playerInteraction>().TakeDamage(damage);
+      }
       Destroy(gameObject);
-      collision.gameObject.GetComponent<playerInteraction>().TakeDamage(damage);
    }
+
 }

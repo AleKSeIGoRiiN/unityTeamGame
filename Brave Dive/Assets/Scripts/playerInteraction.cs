@@ -12,17 +12,17 @@ public class playerInteraction : MonoBehaviour
       currentHealth = MaxHealth;
       HeathBarHero.SetHeathValue(currentHealth, MaxHealth);
    }
-   void Die()
+   public void Die()
    {
-      diePlayer.Play(); //������
-      Destroy(gameObject);
       SceneManager.LoadScene(0);
+      diePlayer.Play(); 
    }
 
    public void TakeDamage(int damage)
    {
       currentHealth -= damage;
       HeathBarHero.SetHeathValue(currentHealth, MaxHealth);
+      
       if (currentHealth <= 0)
       {
          Die();
