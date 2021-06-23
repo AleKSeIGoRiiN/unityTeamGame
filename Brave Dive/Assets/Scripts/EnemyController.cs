@@ -37,7 +37,7 @@ public class EnemyController : MonoBehaviour
          rb.rotation = angle;
       }
       if (Vector2.Distance(transform.position, MainPerson.transform.position) >= StoppingDistance &&
-           IsInView())
+          Vector2.Distance(transform.position, MainPerson.transform.position) <= ViewDistance)
       {
 
          if (PathToMainPerson.Count == 0 && Vector2.Distance(transform.position, MainPerson.transform.position) > 0.5f)
@@ -80,6 +80,7 @@ public class EnemyController : MonoBehaviour
          hit.transform.position == MainPerson.transform.position)
       {
          return true;
-      }else return false;
+      }
+      else return false;
    }
 }
