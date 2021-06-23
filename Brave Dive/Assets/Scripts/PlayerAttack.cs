@@ -33,13 +33,15 @@ public class PlayerAttack : MonoBehaviour
    {
       animator.SetTrigger("Attack");
       Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-      foreach (Collider2D enemy in hitEnemies)
+        if (hitEnemies.Length == 0) missAttack.Play();
+        else attackEnemy.Play();
+        foreach (Collider2D enemy in hitEnemies)
       {
          Debug.Log(enemy);
          enemy.GetComponent<HealthEnemy>().TakeDamage(1);
 
       }
-      if (hitEnemies.Length == 0) missAttack.Play();
-      else attackEnemy.Play();
+     /* if (hitEnemies.Length == 0) missAttack.Play();
+      else attackEnemy.Play();*/
    }
 }

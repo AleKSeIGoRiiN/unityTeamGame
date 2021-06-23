@@ -8,6 +8,9 @@ public class HealthEnemy : MonoBehaviour
    private int currentHealth;
    [SerializeField] private HeathBar _heathBar;
 
+    [SerializeField] private AudioSource dieEnemy;
+    [SerializeField] private AudioSource hitEnemy;
+
    private void Start()
    {
       currentHealth = MaxHealth; 
@@ -22,10 +25,12 @@ public class HealthEnemy : MonoBehaviour
       Debug.Log("www");
       currentHealth -= damage;
       _heathBar.SetHeathValue(currentHealth, MaxHealth);
+        hitEnemy.Play();
 
       if (currentHealth <= 0)
       {
-         Die();
+            dieEnemy.Play();
+            Die();
       }
    }
 }
