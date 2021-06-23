@@ -16,6 +16,7 @@ public class EnemeShooting : MonoBehaviour
    public float Force;
 
    bool Detected = false;
+   [SerializeField] private AudioSource gunShot;
 
    private void Start()
    {
@@ -50,6 +51,7 @@ public class EnemeShooting : MonoBehaviour
    {
       GameObject BulletIns = Instantiate(Bullet, ShootPoint.position, Quaternion.identity);
       BulletIns.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
+      gunShot.Play(); //���� ��������
    }
    void OnDrawGizmosSelected()
    {

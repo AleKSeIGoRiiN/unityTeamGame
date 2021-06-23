@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour
     {
         speed = 10f;
 
-
         _body = GetComponent<Rigidbody2D>();// ������ ������ �������
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");//��������� ������� (������� � wasd)
@@ -31,28 +30,17 @@ public class PlayerController : MonoBehaviour
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);// ������ - ������.��������� � ���������� (������� �����)
         lookDir = mousePos - _body.position;
 
-
-
-
-
     }
 
     void FixedUpdate()
     {
         _body = GetComponent<Rigidbody2D>();
 
-
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg + 90f;   //� ����� ����� ����� ������ p.s. ���� ����� �� �������!
 
-        
         _body.rotation = angle - 22f;
 
-
         _body.MovePosition(_body.position + movement * speed * Time.fixedDeltaTime);//���� ��������� (���� ������, ����� ���� ���������� �� ���-�� ���)
-
-
-
-
 
 
     }

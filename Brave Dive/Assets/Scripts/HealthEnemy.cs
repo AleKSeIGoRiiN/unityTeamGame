@@ -4,7 +4,7 @@ using UnityEngine;
 public class HealthEnemy : MonoBehaviour
 {
    [Header("Health")]
-   public int MaxHealth = 3;
+   public int MaxHealth;
    private int currentHealth;
    [SerializeField] private HeathBar _heathBar;
 
@@ -19,6 +19,7 @@ public class HealthEnemy : MonoBehaviour
    }
    public void TakeDamage(int damage)
    {
+      Debug.Log("www");
       currentHealth -= damage;
       _heathBar.SetHeathValue(currentHealth, MaxHealth);
 
