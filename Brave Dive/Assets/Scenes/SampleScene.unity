@@ -1895,6 +1895,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &297306337
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297306326}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2db8d676010d30d4ab42b1c61eb33aee, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &298057502
 GameObject:
   m_ObjectHideFlags: 0
@@ -2999,6 +3018,10 @@ PrefabInstance:
       propertyPath: EnemyEye
       value: 
       objectReference: {fileID: 1856486062}
+    - target: {fileID: 895175868, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 297306337}
     - target: {fileID: 895175868, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
       propertyPath: ViewAngle
       value: 360
