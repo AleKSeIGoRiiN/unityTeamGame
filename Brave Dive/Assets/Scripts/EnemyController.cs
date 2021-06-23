@@ -16,11 +16,12 @@ public class EnemyController : MonoBehaviour
 
 
 
-
+   private Animator Anim;
    private bool isMoving;
    private void Start()
    {
       MainPerson = GameObject.FindGameObjectWithTag("Player");
+      Anim = GetComponent<Animator>();
       rb = GetComponent<Rigidbody2D>();
       PathFinder = GetComponent<PathFinder>();
       isMoving = true;
@@ -67,6 +68,7 @@ public class EnemyController : MonoBehaviour
             PathToMainPerson = PathFinder.GetPath(MainPerson.transform.position);
             isMoving = true;
          }
+         Anim.SetBool("isRunning", isMoving);
       }
       else return;
 
