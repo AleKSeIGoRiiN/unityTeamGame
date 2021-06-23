@@ -7,6 +7,7 @@ public class EnemeShooting : MonoBehaviour
    public float ViewDistance;
    public Transform EnemyEye;
 
+   public Animator animator;
    public Transform Target;
    public GameObject Bullet;
    public Transform ShootPoint;
@@ -49,6 +50,7 @@ public class EnemeShooting : MonoBehaviour
    }
    void Shoot()
    {
+      animator.SetTrigger("Shoot");
       GameObject BulletIns = Instantiate(Bullet, ShootPoint.position, Quaternion.identity);
       BulletIns.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
       gunShot.Play(); //���� ��������
