@@ -10,8 +10,8 @@ public class EnemyController : MonoBehaviour
    public float StoppingDistance;
    private Rigidbody2D rb;
 
-   [Range(0, 360)] public float ViewAngle = 90f;
-   public float ViewDistance = 10f;
+   [Range(0, 360)] public float ViewAngle = 360f;
+   public float ViewDistance;
    public Transform EnemyEye;
 
 
@@ -83,6 +83,6 @@ public class EnemyController : MonoBehaviour
       {
          return true;
       }
-      else return false;
+      return false;
    }
 }

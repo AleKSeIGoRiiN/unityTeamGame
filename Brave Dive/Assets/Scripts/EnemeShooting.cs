@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemeShooting : MonoBehaviour
 {
    Vector2 Direction;
-   [Range(0, 360)] public float ViewAngle = 90f;
+   [Range(0, 360)] public float ViewAngle;
    public float ViewDistance;
    public Transform EnemyEye;
 
@@ -67,6 +67,6 @@ public class EnemeShooting : MonoBehaviour
          hit.transform.position == Target.position)
       {
          return true;
-      }else return false;
+      }return false;
    }
 }

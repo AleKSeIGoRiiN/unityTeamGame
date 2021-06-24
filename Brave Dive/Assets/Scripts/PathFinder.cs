@@ -12,6 +12,7 @@ public class PathFinder : MonoBehaviour
    private void Start()
    {
       Target = GameObject.FindGameObjectWithTag("Player");
+      OnDrawGizmos();
    }
    public List<Vector2> GetPath(Vector2 target)
    {
@@ -163,5 +164,8 @@ public class Node
       H = (int)Mathf.Abs(targetPosition.x - Position.x) + (int)Mathf.Abs(targetPosition.x - Position.x);
       F = G + H;
 
+   }
+   void Update(){
+     
    }
 }

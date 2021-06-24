@@ -15,7 +15,8 @@ public class spawnEnemy : MonoBehaviour
 
     void Start()
     {
-        Instantiate(gameObjects[0], new Vector2(coordsX[0], coordsY[0]), Quaternion.identity);
+        //Instantiate(gameObjects[0], new Vector2(-204f,77f), Quaternion.identity);
+
         /*for (int i = 0; i < 5; i++)
         { 
             Instantiate(gameObjects[0], new Vector2(coordsX[i], coordsY[i]), Quaternion.identity);
