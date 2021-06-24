@@ -230,7 +230,7 @@ Transform:
   m_GameObject: {fileID: 4151860359773910436}
   m_LocalRotation: {x: 0, y: -0, z: 0.99998057, w: -0.0062394347}
   m_LocalPosition: {x: 8.97, y: -55.904896, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1.0151, y: 1, z: 1}
   m_Children:
   - {fileID: 4151860359956982004}
   - {fileID: 1446641303}
@@ -348,10 +348,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainPerson: {fileID: 0}
-  MoveSpeed: 3
-  StoppingDistance: 3
+  MoveSpeed: 8
+  StoppingDistance: 5
   ViewAngle: 360
-  ViewDistance: 6
+  ViewDistance: 10
   EnemyEye: {fileID: 1446641303}
 --- !u!114 &6991393071679616174
 MonoBehaviour:
@@ -369,7 +369,7 @@ MonoBehaviour:
   Target: {fileID: 0}
   SolidLayer:
     serializedVersion: 2
-    m_Bits: 520
+    m_Bits: 8
 --- !u!114 &895175868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,13 +377,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4151860359773910436}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ac8367d569df2f40b26a342780f7ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ViewAngle: 360
-  ViewDistance: 4
+  ViewDistance: 7
   EnemyEye: {fileID: 1446641303}
   animator: {fileID: 297306337}
   Target: {fileID: 0}
@@ -405,6 +405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MaxHealth: 3
+  player: {fileID: 0}
   _heathBar: {fileID: 4151860359956982005}
   DieEnemy: {fileID: 297306328}
   HitEnemy: {fileID: 297306327}
@@ -829,7 +830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _slider: {fileID: 4151860359700234803}
-  _offset: {x: 0, y: -0.7, z: 0}
+  _offset: {x: 0, y: -0.85, z: 0}
 --- !u!1 &4151860360015060114
 GameObject:
   m_ObjectHideFlags: 0
