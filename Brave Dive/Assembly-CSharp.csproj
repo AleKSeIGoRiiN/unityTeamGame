@@ -632,98 +632,158 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Animation.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEngineBridge.001">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.PixelPerfect">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.quicksearch">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
- </Reference>
- <Reference Include="PsdPlugin">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.IK.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Psdimporter.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Path.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEditorBridge.001">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.IK.Runtime">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Animation.Triangle.Runtime">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Animation.Runtime">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.PixelPerfect.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Common.Runtime">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.SpriteShape.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Common.Editor">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.SpriteShape.Runtime">
- <HintPath>C:/Users/burts/OneDrive/Документы/GitHub/unityTeamGame/Brave Dive/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+      <Project>{E0ECA37F-88BD-E671-E65D-19350C94037A}</Project>
+      <Name>Unity.2D.Animation.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
+      <Project>{B21056EC-CEEE-B7D9-DB42-1BC17EF6A21D}</Project>
+      <Name>Unity.InternalAPIEngineBridge.001</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{68D24B30-9352-EC5C-9A92-5BD3B8FAFBE6}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
+      <Project>{10EB4C25-019A-D9E0-B7AC-7DF215DEA114}</Project>
+      <Name>Unity.2D.PixelPerfect</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
+      <Project>{096A5D56-4E9C-BC7B-F9AD-C1FD70D05A24}</Project>
+      <Name>Unity.2D.Tilemap.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.quicksearch.csproj">
+      <Project>{9345958D-4771-3109-CA04-C9B66397992E}</Project>
+      <Name>com.unity.quicksearch</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="PsdPlugin.csproj">
+      <Project>{FC6AF0B3-CCA4-1113-5127-053D8038BB55}</Project>
+      <Name>PsdPlugin</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{BC0340E4-67F7-8BEC-6FFE-371F61C4ED84}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{1EBB10A7-2B8A-7DCB-2B11-83E1344F5B17}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{76D98D65-CE37-C64B-CDCE-D9234BDBBB7D}</Project>
+      <Name>Unity.Timeline</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{45962229-56A6-8282-2A44-62088D5929F1}</Project>
+      <Name>Unity.TextMeshPro</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.IK.Editor.csproj">
+      <Project>{8E72AA50-6839-A9CF-8EB9-8D1A3F39E019}</Project>
+      <Name>Unity.2D.IK.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{AF8FD54E-52C3-16D2-5910-3ED7BDD9F4D9}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
+      <Project>{9ED3A1EA-572A-F8A2-A4A8-7D704724323E}</Project>
+      <Name>Unity.2D.Psdimporter.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Path.Editor.csproj">
+      <Project>{6518C0CE-DE0D-F3EF-401E-CECCADC3577A}</Project>
+      <Name>Unity.2D.Path.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
+      <Project>{B675605C-6089-77C6-1393-13EFAA5A2705}</Project>
+      <Name>Unity.InternalAPIEditorBridge.001</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{40DA6A1C-8B6A-1C21-02FE-4929FB8D9EA1}</Project>
+      <Name>UnityEditor.UI</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{3BDF9534-7802-E324-431F-16FB1E0702D5}</Project>
+      <Name>Unity.Rider.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{7096EE5C-6C1B-10D7-BDFE-B2BD88100574}</Project>
+      <Name>UnityEngine.UI</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{235711A2-6F46-29DE-D38A-A6AA0984C81F}</Project>
+      <Name>Unity.Mathematics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
+      <Project>{A7536AA3-1157-8293-A938-FD858CE4EF8D}</Project>
+      <Name>Unity.2D.IK.Runtime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
+      <Project>{A364C37C-D8FF-40BE-D09E-FDF4149B0AFB}</Project>
+      <Name>Unity.2D.Animation.Triangle.Runtime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
+      <Project>{00D59EB6-4737-92CE-CEE2-E951F286B75A}</Project>
+      <Name>Unity.2D.Animation.Runtime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
+      <Project>{086B5E6F-D7E2-4C63-E0C2-19109BB1A476}</Project>
+      <Name>Unity.2D.PixelPerfect.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{52E918CC-9DA9-A5B5-ED9A-FD20FBB3DB74}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{6862EE55-5862-953B-8BEB-76B9E601A668}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
+      <Project>{E0C36C73-A711-1E3E-612C-7C2225EC945C}</Project>
+      <Name>Unity.2D.Common.Runtime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
+      <Project>{2D41B943-D8B1-74B0-635A-A73CBE4531A6}</Project>
+      <Name>Unity.2D.SpriteShape.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
+      <Project>{4331F810-D2C4-5FB6-BCA6-33C1D5512659}</Project>
+      <Name>Unity.2D.Common.Editor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
+      <Project>{B72A24AC-1937-DD3B-7279-BB63B6E32C91}</Project>
+      <Name>Unity.2D.SpriteShape.Runtime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
