@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
    // 
    void Update()
    {
-      speed = 4;
+      speed = 20;
 
       _body = GetComponent<Rigidbody2D>();// ������ ������ �������
       movement.x = Input.GetAxis("Horizontal");
