@@ -230,7 +230,7 @@ Transform:
   m_GameObject: {fileID: 4151860359773910436}
   m_LocalRotation: {x: 0, y: -0, z: 0.99998057, w: -0.0062394347}
   m_LocalPosition: {x: 8.97, y: -55.904896, z: 0}
-  m_LocalScale: {x: 1.0151, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4151860359956982004}
   - {fileID: 1446641303}
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbffd3186ec202745a535626dd648599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 3
+  MaxHealth: 2
   player: {fileID: 0}
   _heathBar: {fileID: 4151860359956982005}
   DieEnemy: {fileID: 297306328}

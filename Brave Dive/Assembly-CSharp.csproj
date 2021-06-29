@@ -36,26 +36,27 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CharepterAnimation.cs" />
-     <Compile Include="Assets\Scripts\playerInteraction.cs" />
-     <Compile Include="Assets\Scripts\Timer.cs" />
-     <Compile Include="Assets\Scripts\spawnEnemy.cs" />
-     <Compile Include="Assets\Scripts\simpleFollow_cubeMovement.cs" />
+     <Compile Include="Assets\Scripts\mainPerson\CharepterAnimation.cs" />
+     <Compile Include="Assets\Scripts\mainPerson\playerInteraction.cs" />
+     <Compile Include="Assets\Scripts\other\Timer.cs" />
+     <Compile Include="Assets\Scripts\Enemy\spawnEnemy.cs" />
+     <Compile Include="Assets\Scripts\other\simpleFollow_cubeMovement.cs" />
      <Compile Include="Assets\AllMenu\PauseMenu.cs" />
-     <Compile Include="Assets\Scripts\HeathBarHero.cs" />
-     <Compile Include="Assets\Scripts\BulletScript.cs" />
+     <Compile Include="Assets\Scripts\mainPerson\HeathBarHero.cs" />
+     <Compile Include="Assets\Scripts\Enemy\BulletScript.cs" />
      <Compile Include="Assets\AllMenu\DieMenu.cs" />
-     <Compile Include="Assets\Scripts\EnemyController.cs" />
-     <Compile Include="Assets\Scripts\HeathBar.cs" />
-     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
-     <Compile Include="Assets\Scripts\HealthEnemy.cs" />
-     <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\EnemeShooting.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
+     <Compile Include="Assets\Scripts\Enemy\HeathBar.cs" />
+     <Compile Include="Assets\Scripts\mainPerson\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\Enemy\HealthEnemy.cs" />
+     <Compile Include="Assets\Scripts\mainPerson\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemeShooting.cs" />
      <Compile Include="Assets\AllMenu\AboutGameMenu.cs" />
      <Compile Include="Assets\AllMenu\MainMenu.cs" />
      <Compile Include="Assets\AllMenu\OptionMenu.cs" />
-     <Compile Include="Assets\Scripts\dg_simpleCamFollow.cs" />
-     <Compile Include="Assets\Scripts\PathFinder.cs" />
+     <Compile Include="Assets\Scripts\other\dg_simpleCamFollow.cs" />
+     <Compile Include="Assets\Scripts\other\PathFinder.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Patrol.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
