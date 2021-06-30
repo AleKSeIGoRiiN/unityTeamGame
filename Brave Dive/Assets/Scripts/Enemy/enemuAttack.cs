@@ -7,6 +7,7 @@ public class enemuAttack : MonoBehaviour
     private float timeBtwAttack;
     public float startTimeBtwAttack;
     public int damage;
+    public Animator animator;
     private playerInteraction player;  
     void Start()
     {
@@ -18,6 +19,7 @@ public class enemuAttack : MonoBehaviour
 
         if(other.CompareTag("Player")){
             if(timeBtwAttack <=0){
+                animator.SetTrigger("isAttack");
                 
             }else{
                 timeBtwAttack -= Time.deltaTime; 

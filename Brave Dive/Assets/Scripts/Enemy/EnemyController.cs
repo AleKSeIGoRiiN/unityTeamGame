@@ -71,7 +71,7 @@ public class EnemyController : MonoBehaviour
             PathToMainPerson = PathFinder.GetPath(MainPerson.transform.position);
             isMoving = true;
          }
-       //  Anim.SetBool("isRunning", isMoving);
+         Anim.SetBool("isRunning", isMoving);
       }
       else return;
 

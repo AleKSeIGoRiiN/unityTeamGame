@@ -8064,6 +8064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enemyWithKnife
       objectReference: {fileID: 0}
+    - target: {fileID: 5554714238487299304, guid: 347e11ed99cbb674ba545babab1a935b, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1242144698}
     - target: {fileID: 7523302440435812429, guid: 347e11ed99cbb674ba545babab1a935b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -8673,7 +8677,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00040531, y: 482.1}
+  m_AnchoredPosition: {x: -0.00039672852, y: 482.1}
   m_SizeDelta: {x: 300.12, y: 115.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680682684
@@ -12880,6 +12884,9 @@ GameObject:
   - component: {fileID: 1087458054}
   - component: {fileID: 1087458055}
   - component: {fileID: 1087458061}
+  - component: {fileID: 1087458060}
+  - component: {fileID: 1087458062}
+  - component: {fileID: 1087458063}
   m_Layer: 9
   m_Name: Boss
   m_TagString: Untagged
@@ -13028,7 +13035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087458053}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -146.8, y: 76.38, z: 0}
+  m_LocalPosition: {x: -146.8, y: 76.1, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children:
   - {fileID: 1427398315}
@@ -13036,6 +13043,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1087458060
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087458053}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 54a53ea1772aef64e9ac71be376fb592, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1087458061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13052,6 +13078,37 @@ MonoBehaviour:
   _heathBar: {fileID: 1427398314}
   DieEnemy: {fileID: 0}
   HitEnemy: {fileID: 0}
+--- !u!114 &1087458062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087458053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f7a9496b41a0d4a9b80bb31acc272d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTimeBtwAttack: 3
+  damage: 5
+  animator: {fileID: 1087458060}
+--- !u!70 &1087458063
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087458053}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.22525024, y: -0.915332}
+  m_Size: {x: 1.8060547, y: 2.0149293}
+  m_Direction: 0
 --- !u!1 &1089252443
 GameObject:
   m_ObjectHideFlags: 0
@@ -15403,6 +15460,46 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 14.96875, y: 0.96875}
   m_EdgeRadius: 0
+--- !u!1 &1242144697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 383710686431498922, guid: 347e11ed99cbb674ba545babab1a935b, type: 3}
+  m_PrefabInstance: {fileID: 645233944}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1242144698
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242144697}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 373f1f17ff0497c4485a8f7fd21c4a2b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &1242144699
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242144697}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.0699997, y: 0.10049772}
+  m_Size: {x: 1.3990021, y: 1.5148935}
+  m_Direction: 0
 --- !u!1 &1246474276
 GameObject:
   m_ObjectHideFlags: 0
