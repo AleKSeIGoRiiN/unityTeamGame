@@ -39,6 +39,7 @@
      <Compile Include="Assets\Scripts\mainPerson\CharepterAnimation.cs" />
      <Compile Include="Assets\Scripts\mainPerson\playerInteraction.cs" />
      <Compile Include="Assets\Scripts\Enemy\enemyCount.cs" />
+     <Compile Include="Assets\Scripts\Individual Scripts\BossOneAttack.cs" />
      <Compile Include="Assets\Scripts\other\Timer.cs" />
      <Compile Include="Assets\Scripts\Enemy\spawnEnemy.cs" />
      <Compile Include="Assets\Scripts\other\simpleFollow_cubeMovement.cs" />
@@ -63,7 +64,6 @@
      <Compile Include="Assets\AllMenu\OptionMenu.cs" />
      <Compile Include="Assets\Scripts\other\dg_simpleCamFollow.cs" />
      <Compile Include="Assets\Scripts\other\PathFinder.cs" />
-     <Compile Include="Assets\Scripts\Individual Scripts\BossOneAttack.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
