@@ -8408,7 +8408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8127200684559666693, guid: 2a71f926bc576c246ae6e3225b19d40e, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8127200684559666693, guid: 2a71f926bc576c246ae6e3225b19d40e, type: 3}
       propertyPath: startWaitTime
@@ -19808,7 +19808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8127200684559666693, guid: 2a71f926bc576c246ae6e3225b19d40e, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8127200684559666693, guid: 2a71f926bc576c246ae6e3225b19d40e, type: 3}
       propertyPath: startWaitTime
@@ -21167,7 +21167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8127200684559666693, guid: 2a71f926bc576c246ae6e3225b19d40e, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8127200684559666693, guid: 2a71f926bc576c246ae6e3225b19d40e, type: 3}
       propertyPath: startWaitTime
@@ -21903,7 +21903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7242371980109868087, guid: 751d4e281babde5438220ebb3c76a388, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7242371980109868087, guid: 751d4e281babde5438220ebb3c76a388, type: 3}
       propertyPath: startWaitTime
@@ -26052,7 +26052,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.635898
+  orthographic size: 33.606125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -26115,7 +26115,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018226671}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -71.6, y: 56.8, z: -10}
+  m_LocalPosition: {x: -57.16, y: 91.2, z: -10}
   m_LocalScale: {x: 1, y: 1.0163114, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
