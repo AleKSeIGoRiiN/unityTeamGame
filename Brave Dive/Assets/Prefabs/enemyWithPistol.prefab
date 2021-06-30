@@ -351,6 +351,7 @@ MonoBehaviour:
   _heathBar: {fileID: 2953618324802465331}
   DieEnemy: {fileID: 5114948176982471972}
   HitEnemy: {fileID: 3104790267496238841}
+  effect: {fileID: 2724280752891531193, guid: ac00cb9c92b022b478077dfe7cdfa9ee, type: 3}
 --- !u!114 &2113022726102115884
 MonoBehaviour:
   m_ObjectHideFlags: 0

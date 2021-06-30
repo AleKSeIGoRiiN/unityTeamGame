@@ -11,6 +11,8 @@ public class HealthEnemy : MonoBehaviour
    [SerializeField] private AudioSource DieEnemy;
    [SerializeField] private AudioSource HitEnemy;
 
+    public GameObject effect;   //частицы кровяки(извините за название делаю в 5 утра)
+
    private void Start()
    {
       currentHealth = MaxHealth;
@@ -26,6 +28,7 @@ public class HealthEnemy : MonoBehaviour
    }
    public void TakeDamage(int damage)
    {
+        Instantiate(effect, transform.position, Quaternion.identity);
       HitEnemy.Play();
       currentHealth -= damage;
       _heathBar.SetHeathValue(currentHealth, MaxHealth);
