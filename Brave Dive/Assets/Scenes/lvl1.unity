@@ -5828,6 +5828,7 @@ GameObject:
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5921,7 +5922,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3f3278813259b44b8b6340649ae9663, type: 3}
   m_Name: 
@@ -5946,6 +5947,19 @@ MonoBehaviour:
   count: {fileID: 1973479257}
   notice: {fileID: 286688765}
   door: {fileID: 948660335}
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 157925036421c85449f231a5855fc375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasStop: {fileID: 1096894382}
 --- !u!1001 &525066476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12280,6 +12294,7 @@ GameObject:
   - component: {fileID: 1096894379}
   - component: {fileID: 1096894380}
   - component: {fileID: 1096894381}
+  - component: {fileID: 1096894382}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -12511,6 +12526,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 97c5850a893d7d74d9cf7502622fdb6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1096894382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096894373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5930f9b01a3d873438ba2be4ea35fd95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1122666490
