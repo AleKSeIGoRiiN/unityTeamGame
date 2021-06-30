@@ -4,8 +4,25 @@ using UnityEngine;
 
 public class AboutGameMenu : MonoBehaviour
 {
-    public void Share()
+    public void ShareSergey()
     {
-        Application.OpenURL("https://www.instagram.com/_porrnoo_gey_/?hl=ru");
+        Application.OpenURL("https://vk.com/sersrh");
+    }
+
+    public void ShareEgor()
+    {
+        Application.OpenURL("https://vk.com/love_yourproblems_69");
+    }
+    public void ShareStepan()
+    {
+        Application.OpenURL("https://vk.com/id172136129");
+    }
+    public void ShareAlex()
+    {
+        Application.OpenURL("https://vk.com/al_denitsa");
+    }
+    public void ShareHits()
+    {
+        Application.OpenURL("https://hits.tsu.ru/");
     }
 }
