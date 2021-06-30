@@ -37,7 +37,8 @@ public class PlayerAttack : MonoBehaviour
         else attackEnemy.Play();
         foreach (Collider2D enemy in hitEnemies)
       {
-         enemy.GetComponent<HealthEnemy>().TakeDamage(1);
+         if( enemy.GetComponent<HealthEnemy>() != null) enemy.GetComponent<HealthEnemy>().TakeDamage(1);
+         if( enemy.GetComponent<BossOnehealth>() != null) enemy.GetComponent<BossOnehealth>().TakeDamage(1);
 
       }
      /* if (hitEnemies.Length == 0) missAttack.Play();
