@@ -43,8 +43,10 @@
      <Compile Include="Assets\Scripts\other\Timer.cs" />
      <Compile Include="Assets\Scripts\Enemy\spawnEnemy.cs" />
      <Compile Include="Assets\Scripts\other\simpleFollow_cubeMovement.cs" />
+     <Compile Include="Assets\Scripts\other\canvasStop.cs" />
      <Compile Include="Assets\AllMenu\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\mainPerson\HeathBarHero.cs" />
+     <Compile Include="Assets\Scripts\other\camMoving.cs" />
      <Compile Include="Assets\AllMenu\WinMenu.cs" />
      <Compile Include="Assets\Scripts\Enemy\BulletScript.cs" />
      <Compile Include="Assets\AllMenu\DieMenu.cs" />
