@@ -56,13 +56,14 @@
      <Compile Include="Assets\AllMenu\AboutGameMenu.cs" />
      <Compile Include="Assets\Scripts\Individual Scripts\enemyHardControl.cs" />
      <Compile Include="Assets\Scripts\Individual Scripts\enemyHardShoot.cs" />
+     <Compile Include="Assets\Scripts\Individual Scripts\BossOnehealth.cs" />
      <Compile Include="Assets\AllMenu\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Individual Scripts\BossOneController.cs" />
      <Compile Include="Assets\Scripts\Enemy\Patrol.cs" />
      <Compile Include="Assets\AllMenu\OptionMenu.cs" />
      <Compile Include="Assets\Scripts\other\dg_simpleCamFollow.cs" />
      <Compile Include="Assets\Scripts\other\PathFinder.cs" />
-     <Compile Include="Assets\Scripts\Individual Scripts\BossOneController.cs" />
-     <Compile Include="Assets\Scripts\Individual Scripts\BossOnehealth.cs" />
+     <Compile Include="Assets\Scripts\Individual Scripts\BossOneAttack.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
