@@ -1,17 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 public class OptionMenu : MonoBehaviour
 {
     public AudioMixer audioMixer;
 
-    public void SetVolume(float volume)  //меняет значение звука
+    public void SetVolume(float volume)  //пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
     {
         audioMixer.SetFloat("volume", Mathf.Log10(volume) * 20);
     }
 
-    public void Sound() //вкл/выкл звука
+    public void Sound() //пїЅпїЅпїЅ/пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
     {
         AudioListener.pause = !AudioListener.pause;
     }

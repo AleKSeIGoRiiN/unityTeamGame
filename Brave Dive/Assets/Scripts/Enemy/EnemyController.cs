@@ -43,7 +43,7 @@ public class EnemyController : MonoBehaviour
       if (Vector2.Distance(transform.position, MainPerson.transform.position) >= StoppingDistance &&
           Vector2.Distance(transform.position, MainPerson.transform.position) <= ViewDistance && view)
       {
-        // work.enabled = false;
+         work.enabled = false;
          if (PathToMainPerson.Count == 0 && Vector2.Distance(transform.position, MainPerson.transform.position) > 0.5f)
          {
             PathToMainPerson = PathFinder.GetPath(MainPerson.transform.position);

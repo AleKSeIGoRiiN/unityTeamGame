@@ -103,9 +103,9 @@
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\Selection\ITransformSelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\Selection\BoneSelection.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\Selection\IBoneSelection.cs" />
-     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\SerializableDictionary.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\UI\BoneToolbar.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\MathUtility.cs" />
+     <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\SerializableDictionary.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\SpriteBoneInfluence\SpriteBoneInfluenceWindow.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\ICharacterDataProvider.cs" />
      <Compile Include="Library\PackageCache\com.unity.2d.animation@5.0.4\Editor\SkinningModule\SkinningCache\CharacterPartCache.cs" />

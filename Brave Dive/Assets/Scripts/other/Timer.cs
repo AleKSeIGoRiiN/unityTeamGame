@@ -5,15 +5,18 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
    public playerInteraction Health;
-   public static float timerMinutes = 0f;
-   public static float timerSeconds = 0f;
-   public string timerStart = timerMinutes.ToString() + " : " + timerSeconds.ToString();
-   public string timer = timerMinutes.ToString() + " : " + timerSeconds.ToString();
+   private static float timerMinutes;
+   private static float timerSeconds;
+   private string timerStart;
+   private string timer = timerMinutes.ToString() + " : " + timerSeconds.ToString();
    public Text timerText;
 
 
    void Start()
    {
+      timerMinutes = 0f;
+      timerSeconds = 0f;
+      timerStart = timerMinutes.ToString() + " : " + timerSeconds.ToString();
       timerText.text = timerStart;
       timerText.gameObject.SetActive(true);
    }

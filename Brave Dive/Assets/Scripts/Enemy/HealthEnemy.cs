@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class HealthEnemy : MonoBehaviour
@@ -7,6 +6,7 @@ public class HealthEnemy : MonoBehaviour
    public int MaxHealth;
    private int currentHealth;
    public playerInteraction player;
+
    [SerializeField] private HeathBar _heathBar;
    [SerializeField] private AudioSource DieEnemy;
    [SerializeField] private AudioSource HitEnemy;
@@ -18,8 +18,9 @@ public class HealthEnemy : MonoBehaviour
    }
    void Die()
    {
+      enemyCount.enemys += 1;
       Destroy(gameObject, 0.5f);
-      if(player.MaxHealth -player.currentHealth >= 10 ){
+      if(player.MaxHealth - player.currentHealth >= 10 ){
          player.currentHealth += 5;
       }
    }
