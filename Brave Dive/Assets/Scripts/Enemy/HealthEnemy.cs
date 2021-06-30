@@ -26,12 +26,12 @@ public class HealthEnemy : MonoBehaviour
    }
    public void TakeDamage(int damage)
    {
-      HitEnemy.Play();
+      //HitEnemy.Play();
       currentHealth -= damage;
       _heathBar.SetHeathValue(currentHealth, MaxHealth);
       if (currentHealth <= 0)
       {
-         DieEnemy.Play();
+         //DieEnemy.Play();
          Die();
       }
    }

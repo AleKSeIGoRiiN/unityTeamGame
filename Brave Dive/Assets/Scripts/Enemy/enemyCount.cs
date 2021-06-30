@@ -16,7 +16,7 @@ public class enemyCount : MonoBehaviour
          if (count.text == "45")
          {
             Destroy(door);
-            notice.gameObject.SetActive(true);
+            if (notice != null) notice.gameObject.SetActive(true);
             Destroy(notice, 3f);
          }
       }
