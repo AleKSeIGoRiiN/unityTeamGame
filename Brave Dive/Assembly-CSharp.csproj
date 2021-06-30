@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\mainPerson\CharepterAnimation.cs" />
      <Compile Include="Assets\Scripts\mainPerson\playerInteraction.cs" />
+     <Compile Include="Assets\Scripts\Enemy\enemyCount.cs" />
      <Compile Include="Assets\Scripts\other\Timer.cs" />
      <Compile Include="Assets\Scripts\Enemy\spawnEnemy.cs" />
      <Compile Include="Assets\Scripts\other\simpleFollow_cubeMovement.cs" />
@@ -49,18 +50,17 @@
      <Compile Include="Assets\Scripts\Enemy\HeathBar.cs" />
      <Compile Include="Assets\Scripts\mainPerson\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy\HealthEnemy.cs" />
+     <Compile Include="Assets\Scripts\Individual Scripts\enemyShootingRoof.cs" />
      <Compile Include="Assets\Scripts\mainPerson\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemeShooting.cs" />
      <Compile Include="Assets\AllMenu\AboutGameMenu.cs" />
+     <Compile Include="Assets\Scripts\Individual Scripts\enemyHardControl.cs" />
+     <Compile Include="Assets\Scripts\Individual Scripts\enemyHardShoot.cs" />
      <Compile Include="Assets\AllMenu\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Enemy\Patrol.cs" />
      <Compile Include="Assets\AllMenu\OptionMenu.cs" />
      <Compile Include="Assets\Scripts\other\dg_simpleCamFollow.cs" />
      <Compile Include="Assets\Scripts\other\PathFinder.cs" />
-     <Compile Include="Assets\Scripts\Individual Scripts\enemyHardControl.cs" />
-     <Compile Include="Assets\Scripts\Individual Scripts\enemyHardShoot.cs" />
-     <Compile Include="Assets\Scripts\Individual Scripts\enemyShootingRoof.cs" />
-     <Compile Include="Assets\Scripts\Enemy\enemyCount.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
