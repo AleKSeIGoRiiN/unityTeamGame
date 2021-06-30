@@ -26018,6 +26018,7 @@ GameObject:
   - component: {fileID: 2018226674}
   - component: {fileID: 2018226673}
   - component: {fileID: 2018226677}
+  - component: {fileID: 2018226678}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -26052,7 +26053,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 33.606125
+  orthographic size: 4.546788
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -26075,7 +26076,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018226671}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3f3278813259b44b8b6340649ae9663, type: 3}
   m_Name: 
@@ -26115,7 +26116,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018226671}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57.16, y: 91.2, z: -10}
+  m_LocalPosition: {x: -71.59, y: 56.87, z: -10}
   m_LocalScale: {x: 1, y: 1.0163114, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -26136,6 +26137,19 @@ MonoBehaviour:
   count: {fileID: 14941669}
   notice: {fileID: 25692677}
   door: {fileID: 564672070}
+--- !u!114 &2018226678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018226671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 157925036421c85449f231a5855fc375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasStop: {fileID: 2104687754}
 --- !u!1 &2021262023
 GameObject:
   m_ObjectHideFlags: 0
@@ -27402,6 +27416,7 @@ GameObject:
   - component: {fileID: 2104687747}
   - component: {fileID: 2104687746}
   - component: {fileID: 2104687745}
+  - component: {fileID: 2104687754}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -27648,6 +27663,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2104687754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104687744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5930f9b01a3d873438ba2be4ea35fd95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2112637940
 GameObject:
   m_ObjectHideFlags: 0
