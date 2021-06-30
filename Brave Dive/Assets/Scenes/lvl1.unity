@@ -1002,6 +1002,16 @@ Transform:
   m_Father: {fileID: 283249129}
   m_RootOrder: 154
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &115415238 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 297306328, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+  m_PrefabInstance: {fileID: 2138472861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &115415239 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 297306327, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+  m_PrefabInstance: {fileID: 2138472861}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &117473642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12548,7 +12558,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9aa5e7032b198ee4db491cc7195e77dd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bd3ef1db94f4cf44a8c9a379fce8af5f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
   m_Pitch: 1
@@ -19093,7 +19103,7 @@ MonoBehaviour:
   currentHealth: 0
   dieMenu: {fileID: 1122666490}
   HeathBarHero: {fileID: 1096894380}
-  diePlayer: {fileID: 1615154190}
+  diePlayer: {fileID: 1615154192}
 --- !u!114 &1615154188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19113,8 +19123,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   attackRate: 2
-  missAttack: {fileID: 1615154191}
-  attackEnemy: {fileID: 1615154192}
+  missAttack: {fileID: 1615154190}
+  attackEnemy: {fileID: 1615154191}
 --- !u!82 &1615154190
 AudioSource:
   m_ObjectHideFlags: 0
@@ -19125,7 +19135,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 78c38c6e241f4ea4290ddf6578555d32, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c55105dbfa6732a45849ef098407f3e0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1
@@ -19221,7 +19231,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8a0377f0b78e49140ada0491741c9739, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0ce579d03d5b421439acdae3c27b0651, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1
@@ -19317,7 +19327,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d97fa404d8ae86949be74d4f9caa40c0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e10eaa20d4c8f5e4ab6b7163e5d1e955, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.1
   m_Pitch: 1
@@ -25079,6 +25089,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 986710666}
     m_Modifications:
+    - target: {fileID: 297306327, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f869896ef4f1c04fb5011c3be468112, type: 3}
+    - target: {fileID: 297306328, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5655058ff27606240a8731a711507d9a, type: 3}
+    - target: {fileID: 297306329, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 05e6af7394ee46d4c9864a4bd054d0e2, type: 3}
     - target: {fileID: 1436160824, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
       propertyPath: player
       value: 
@@ -25087,6 +25109,14 @@ PrefabInstance:
       propertyPath: Account
       value: 
       objectReference: {fileID: 1973479257}
+    - target: {fileID: 1436160824, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: DieEnemy
+      value: 
+      objectReference: {fileID: 115415239}
+    - target: {fileID: 1436160824, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
+      propertyPath: HitEnemy
+      value: 
+      objectReference: {fileID: 115415238}
     - target: {fileID: 753533746764581768, guid: e5c0c4e1b00f8c7408b5bac6f12a2a01, type: 3}
       propertyPath: MainPerson
       value: 
