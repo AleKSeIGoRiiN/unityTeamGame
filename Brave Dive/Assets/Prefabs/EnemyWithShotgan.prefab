@@ -410,6 +410,7 @@ MonoBehaviour:
   _heathBar: {fileID: 4151860359956982005}
   DieEnemy: {fileID: 297306328}
   HitEnemy: {fileID: 297306327}
+  effect: {fileID: 2724280752891531193, guid: ac00cb9c92b022b478077dfe7cdfa9ee, type: 3}
 --- !u!82 &297306327
 AudioSource:
   m_ObjectHideFlags: 0
