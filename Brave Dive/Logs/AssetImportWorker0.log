@@ -1,209 +1,365 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'ru' Physical Memory: 15733 MB
+OS: 'Windows 10 Pro; OS build 18362.1082; Version 1903; 64bit' Language: 'ru' Physical Memory: 12146 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Unity.exe
+D:\programm\2020.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive
+D:/programm/unityTeamGame/Brave Dive
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60909
-Successfully changed project path to: C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive
-C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive
+58847
+Successfully changed project path to: D:/programm/unityTeamGame/Brave Dive
+D:/programm/unityTeamGame/Brave Dive
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.63 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 370.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive/Assets
+[Subsystems] Discovering subsystems at path D:/programm/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/programm/unityTeamGame/Brave Dive/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 640M LE (ID=0xfd3)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   27.21.14.6230
+    VRAM:     2007 MB
+    Driver:   25.21.14.2531
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Mono path[0] = 'D:/programm/2020.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/programm/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/programm/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001689 seconds.
+Register platform support module: D:/programm/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/programm/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005474 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.87 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 191.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.915 seconds
+- Completed reload, in  4.411 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001213 seconds.
+Registered in 0.003134 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.34 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 387.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.888 seconds
+- Completed reload, in  6.896 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.93 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.2 MB.
-System memory in use after: 92.3 MB.
+System memory in use before: 92.4 MB.
+System memory in use after: 92.5 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2397.
-Total: 2.832500 ms (FindLiveObjects: 0.259900 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.413400 ms  DeleteObjects: 0.070100 ms)
+Total: 15.433600 ms (FindLiveObjects: 0.429300 ms CreateObjectMapping: 0.228900 ms MarkObjects: 12.656100 ms  DeleteObjects: 2.116100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/lvl4.unity
-  artifactKey: Guid(c1ba332effc41564a8427bcffbee7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl4.unity using Guid(c1ba332effc41564a8427bcffbee7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e41abddcdb7d152ffd775004e683856') in 0.012583 seconds
-  Import took 0.015819 seconds .
+  path: Assets/Assets.index
+  artifactKey: Guid(c0861126ebf6be74098ce449da6bc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets.index using Guid(c0861126ebf6be74098ce449da6bc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e0967973cbb15bd208ede87d004820') in 0.906047 seconds
+  Import took 1.022789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.287265 seconds.
+  path: Assets/Sprites/Map 4/2021-06-29 (16) (3).png
+  artifactKey: Guid(93eae3ea692188d4da1615840a7a6772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map 4/2021-06-29 (16) (3).png using Guid(93eae3ea692188d4da1615840a7a6772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0c8a71bccb4ac7b1f3fff2b3526cc2') in 1.640118 seconds
+  Import took 1.656080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000491 seconds.
+  path: Assets/Sprites/Map 4/2021-06-29 (16) (7).png
+  artifactKey: Guid(4025062f24a07174fbbe5e6eeec2d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map 4/2021-06-29 (16) (7).png using Guid(4025062f24a07174fbbe5e6eeec2d8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75def158fdafc2fad6139e324c50c2e') in 0.035832 seconds
+  Import took 0.045418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sprites/Map 4/2021-06-29 (16) (6).png
+  artifactKey: Guid(02970097a22bb8f42aaec127d4ad03c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map 4/2021-06-29 (16) (6).png using Guid(02970097a22bb8f42aaec127d4ad03c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce7e955055d790edff76312e776820b') in 0.047623 seconds
+  Import took 0.073960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Sprites/Map 4/2021-06-29 (16) (5).png
+  artifactKey: Guid(de69fda771b1819419897ec6e8b55e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map 4/2021-06-29 (16) (5).png using Guid(de69fda771b1819419897ec6e8b55e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc3aaef6fa509e87fb5c6fbe75b4b77') in 0.061481 seconds
+  Import took 0.077544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000696 seconds.
+  path: Assets/Sprites/Map 4/2021-06-29 (16) (4).png
+  artifactKey: Guid(072a0c749ed387d4a929ffd4183f7033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Map 4/2021-06-29 (16) (4).png using Guid(072a0c749ed387d4a929ffd4183f7033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e4684a2dc3864f04ef1237ee63920a') in 0.053159 seconds
+  Import took 0.084816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.431553 seconds.
+  path: Assets/Sprites/emeny/boss/shootGun20
+  artifactKey: Guid(22c9b6869a0af574585449897084bc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/shootGun20 using Guid(22c9b6869a0af574585449897084bc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c7032ca5445bfaba3e0484570b7531') in 0.018188 seconds
+  Import took 0.094400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.583289 seconds.
+  path: Assets/Sprites/emeny/boss/walk60
+  artifactKey: Guid(d2de3138d8bd7b54db764d020175a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60 using Guid(d2de3138d8bd7b54db764d020175a661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096da3ebcc8ac5ae3f83cf802a97ce8a') in 0.063514 seconds
+  Import took 0.361110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.742546 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_40.png
+  artifactKey: Guid(698ef194238e6184db1d3a429b0b4f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_40.png using Guid(698ef194238e6184db1d3a429b0b4f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc0dd2f83fcf4b955d76563204d50f3') in 0.299767 seconds
+  Import took 0.331537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_41.png
+  artifactKey: Guid(1ddbd91390b059e4e8ef714e247e348f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_41.png using Guid(1ddbd91390b059e4e8ef714e247e348f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea187386d91389f0873ec10d598b0771') in 0.300261 seconds
+  Import took 0.371698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002827 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_42.png
+  artifactKey: Guid(4895a0fe4440d7e449ddf0cecd42b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_42.png using Guid(4895a0fe4440d7e449ddf0cecd42b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7d846b398a18479938f905da05256b') in 0.111829 seconds
+  Import took 0.128901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_43.png
+  artifactKey: Guid(4399569359152b0469306e73b56be4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_43.png using Guid(4399569359152b0469306e73b56be4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b38020bd18eded56725971e7b274cdf') in 0.312595 seconds
+  Import took 0.350481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001449 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_41.png
+  artifactKey: Guid(1ddbd91390b059e4e8ef714e247e348f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_41.png using Guid(1ddbd91390b059e4e8ef714e247e348f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea187386d91389f0873ec10d598b0771') in 0.054287 seconds
+  Import took 0.075808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_44.png
+  artifactKey: Guid(9c9fde908acbf22459816422c62eb331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_44.png using Guid(9c9fde908acbf22459816422c62eb331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7637b44f66ab2cace1bf677bfd161c3b') in 0.124921 seconds
+  Import took 0.142124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_43.png
+  artifactKey: Guid(4399569359152b0469306e73b56be4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_43.png using Guid(4399569359152b0469306e73b56be4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b38020bd18eded56725971e7b274cdf') in 0.046309 seconds
+  Import took 0.059076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_40.png
+  artifactKey: Guid(698ef194238e6184db1d3a429b0b4f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_40.png using Guid(698ef194238e6184db1d3a429b0b4f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc0dd2f83fcf4b955d76563204d50f3') in 0.095769 seconds
+  Import took 0.110014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_44.png
+  artifactKey: Guid(9c9fde908acbf22459816422c62eb331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_44.png using Guid(9c9fde908acbf22459816422c62eb331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7637b44f66ab2cace1bf677bfd161c3b') in 0.026493 seconds
+  Import took 0.041620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.425030 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_45.png
+  artifactKey: Guid(b9d14802107494543b00e51d8ce686ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_45.png using Guid(b9d14802107494543b00e51d8ce686ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efdeea2edf2eefc67f19bb608f6ed3c') in 0.136865 seconds
+  Import took 0.170856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_50.png
+  artifactKey: Guid(0754cd8952a8c9941826b7c18a6edd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_50.png using Guid(0754cd8952a8c9941826b7c18a6edd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94214c82d602347171e56c8e5c4584a7') in 0.438945 seconds
+  Import took 0.470906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_52.png
+  artifactKey: Guid(af038db4144d1a24eb4626418cb683d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_52.png using Guid(af038db4144d1a24eb4626418cb683d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcc8a9dc2e54b93c36e7eca1d83cc64') in 0.352727 seconds
+  Import took 0.415409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_55.png
+  artifactKey: Guid(ce1e7d3f8c6330d40a796e21e780cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_55.png using Guid(ce1e7d3f8c6330d40a796e21e780cd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df8529b4c57200dea03a30cff5a7b81') in 0.594205 seconds
+  Import took 0.642502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_48.png
+  artifactKey: Guid(3885178581c54e24f94805811fa2c3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_48.png using Guid(3885178581c54e24f94805811fa2c3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14d3ae6caf6ebb7e3993cabac690e82') in 0.731306 seconds
+  Import took 0.768748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001871 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_54.png
+  artifactKey: Guid(f567f1cfbb2fa7e4aa1bd6f151640def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_54.png using Guid(f567f1cfbb2fa7e4aa1bd6f151640def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf28b0f2dcd55ed35900c8c37896619') in 0.498681 seconds
+  Import took 0.548849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_47.png
+  artifactKey: Guid(3fc2660e98eea6e4d9cf6573645a491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_47.png using Guid(3fc2660e98eea6e4d9cf6573645a491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c029af4d8a017a570e5e90f5eab021') in 0.481429 seconds
+  Import took 0.529118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001170 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_46.png
+  artifactKey: Guid(622e3ad5e5b171a488d5409084fca765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_46.png using Guid(622e3ad5e5b171a488d5409084fca765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea60c2ffb51b3a2008717c8c2b74baa') in 0.181972 seconds
+  Import took 0.384973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000693 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_49.png
+  artifactKey: Guid(d77bfae5b798f834481ef7b8eb4f1a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_49.png using Guid(d77bfae5b798f834481ef7b8eb4f1a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb94073e767a2eaed4923c1cd463865c') in 0.112301 seconds
+  Import took 0.135250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000639 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_53.png
+  artifactKey: Guid(4de8316e57d8b3044abd44540022eb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_53.png using Guid(4de8316e57d8b3044abd44540022eb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de42d08612ade6078b9a051deef2fd92') in 0.132965 seconds
+  Import took 0.155444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001466 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_46.png
+  artifactKey: Guid(622e3ad5e5b171a488d5409084fca765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_46.png using Guid(622e3ad5e5b171a488d5409084fca765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea60c2ffb51b3a2008717c8c2b74baa') in 0.032831 seconds
+  Import took 0.046690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_51.png
+  artifactKey: Guid(9605c7ecb363d6b43a2ebf1e360916e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_51.png using Guid(9605c7ecb363d6b43a2ebf1e360916e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ae5492167f35dd0b19e51626481316') in 0.207170 seconds
+  Import took 0.224372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.514247 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_56.png
+  artifactKey: Guid(7cf4837c1ebd56e46b19da1bb6fd6dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_56.png using Guid(7cf4837c1ebd56e46b19da1bb6fd6dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fba64f8703e94e8e99ede048f0c5ba') in 0.125750 seconds
+  Import took 0.158457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_58.png
+  artifactKey: Guid(a69e83e1499eeb14dbc5f7cbc99d5d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_58.png using Guid(a69e83e1499eeb14dbc5f7cbc99d5d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aad85ad037fbc9484899980e9f55aa6') in 0.446015 seconds
+  Import took 0.471605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000852 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_57.png
+  artifactKey: Guid(fd5f673b955994149b24f3042db37a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_57.png using Guid(fd5f673b955994149b24f3042db37a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16715253092ef044910761f9bc652ac') in 0.086012 seconds
+  Import took 0.107103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000878 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_59.png
+  artifactKey: Guid(e02979967bcf6d34ba9289594cfca536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_59.png using Guid(e02979967bcf6d34ba9289594cfca536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4466a6b70951a14eee83862f7f63c43b') in 0.129985 seconds
+  Import took 0.153241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000734 seconds.
+  path: Assets/Sprites/emeny/boss/walk60/Armature_walk_60.png
+  artifactKey: Guid(eef7bbe765458f843a36df77bdda13d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/emeny/boss/walk60/Armature_walk_60.png using Guid(eef7bbe765458f843a36df77bdda13d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efca2fc5831ff9abd7e58041cf43f22') in 0.227409 seconds
+  Import took 0.240706 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001080 seconds.
+Registered in 0.007761 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
+- Completed reload, in  4.260 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1937 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.7 MB.
-System memory in use after: 91.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2401.
-Total: 2.410600 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.124900 ms MarkObjects: 1.926000 ms  DeleteObjects: 0.018000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002112 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.833 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1937 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.7 MB.
-System memory in use after: 91.9 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2405.
-Total: 1.895300 ms (FindLiveObjects: 0.185600 ms CreateObjectMapping: 0.043600 ms MarkObjects: 1.647500 ms  DeleteObjects: 0.017200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.216273 seconds.
-  path: Assets/Scripts/Individual Scripts/BossOneController.cs
-  artifactKey: Guid(601a0d8227dc85843856ea8e753c109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Individual Scripts/BossOneController.cs using Guid(601a0d8227dc85843856ea8e753c109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c465fc0f24e91a9eea972e9e4755d99') in 0.018784 seconds
-  Import took 0.022076 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001079 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.777 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1937 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.8 MB.
-System memory in use after: 91.9 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2409.
-Total: 2.042700 ms (FindLiveObjects: 0.305200 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.647700 ms  DeleteObjects: 0.019200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.625683 seconds.
-  path: Assets/Scripts/Individual Scripts/BossOnehealth.cs
-  artifactKey: Guid(276859f18474a534baa5c19d196603f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Individual Scripts/BossOnehealth.cs using Guid(276859f18474a534baa5c19d196603f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca0d6bd03ad8f0d0ca4fdbadde87f3d') in 0.005597 seconds
-  Import took 0.009044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.024004 seconds.
-  path: Assets/Scripts/Individual Scripts/BossOnehealth.cs
-  artifactKey: Guid(276859f18474a534baa5c19d196603f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Individual Scripts/BossOnehealth.cs using Guid(276859f18474a534baa5c19d196603f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca0d6bd03ad8f0d0ca4fdbadde87f3d') in 0.002440 seconds
-  Import took 0.005517 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001102 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.802 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1937 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.8 MB.
-System memory in use after: 91.9 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2413.
-Total: 2.060700 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.089800 ms MarkObjects: 1.691400 ms  DeleteObjects: 0.017400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.953310 seconds.
-  path: Assets/Scripts/Individual Scripts/BossOneController.cs
-  artifactKey: Guid(601a0d8227dc85843856ea8e753c109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Individual Scripts/BossOneController.cs using Guid(601a0d8227dc85843856ea8e753c109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f6394f20902428fcc6afd04a5d98a7') in 0.005462 seconds
-  Import took 0.008823 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001069 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.801 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1937 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.8 MB.
-System memory in use after: 91.9 MB.
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2417.
-Total: 2.275800 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.044500 ms MarkObjects: 2.013600 ms  DeleteObjects: 0.017200 ms)
+Total: 12.723900 ms (FindLiveObjects: 0.429700 ms CreateObjectMapping: 0.135300 ms MarkObjects: 12.089400 ms  DeleteObjects: 0.066200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

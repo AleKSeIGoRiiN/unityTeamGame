@@ -15610,6 +15610,7 @@ GameObject:
   - component: {fileID: 717482422}
   - component: {fileID: 717482426}
   - component: {fileID: 717482427}
+  - component: {fileID: 717482428}
   m_Layer: 0
   m_Name: Armature
   m_TagString: Untagged
@@ -15765,6 +15766,25 @@ MonoBehaviour:
   ViewAngle: 360
   ViewDistance: 40
   EnemyEye: {fileID: 409503060}
+--- !u!95 &717482428
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717482421}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 87af3af2ab133584a9a61986df7cd793, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &720061750
 GameObject:
   m_ObjectHideFlags: 0
