@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\mainPerson\HeathBarHero.cs" />
      <Compile Include="Assets\Scripts\other\camMoving.cs" />
      <Compile Include="Assets\AllMenu\WinMenu.cs" />
+     <Compile Include="Assets\Scripts\Enemy\enemuAttack.cs" />
      <Compile Include="Assets\Scripts\Enemy\BulletScript.cs" />
      <Compile Include="Assets\AllMenu\DieMenu.cs" />
      <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
