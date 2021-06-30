@@ -5,7 +5,7 @@ using UnityEngine;
 public class camMoving : MonoBehaviour
 {
    public canvasStop canvasStop;
-   public const float maxSpeed = 0.015f;
+   public const float maxSpeed = 0.09f;
 
    Vector3 moving = Vector3.zero;
    Vector3 endMoving = Vector3.zero;
