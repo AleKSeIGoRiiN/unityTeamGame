@@ -7,7 +7,11 @@ public class BossOneAttack : MonoBehaviour
     private float timeBtwAttack;
     public float startTimeBtwAttack;
     public int damage;
+    public Animator animator;
     private playerInteraction player;  
+    int attack = 0;
+
+    
     void Start()
     {
         player = FindObjectOfType<playerInteraction>();
@@ -18,6 +22,16 @@ public class BossOneAttack : MonoBehaviour
 
         if(other.CompareTag("Player")){
             if(timeBtwAttack <=0){
+                if(attack == 0)
+                {
+                     animator.SetTrigger("attack1");
+                     attack = 1;
+                }
+                if(attack == 1)
+                {
+                    animator.SetTrigger("attack2");
+                    attack = 0;
+                }
                 
             }else{
                 timeBtwAttack -= Time.deltaTime; 

@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4003769300108903487}
   - component: {fileID: 5554714238487299304}
   - component: {fileID: 2077257087767842032}
+  - component: {fileID: 8309699569815071544}
   m_Layer: 9
   m_Name: enemyWithKnife
   m_TagString: Untagged
@@ -202,6 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startTimeBtwAttack: 2
   damage: 3
+  animator: {fileID: 8309699569815071544}
 --- !u!114 &2077257087767842032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,6 +221,25 @@ MonoBehaviour:
   SolidLayer:
     serializedVersion: 2
     m_Bits: 8
+--- !u!95 &8309699569815071544
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383710686431498922}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 373f1f17ff0497c4485a8f7fd21c4a2b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2283300353410659156
 GameObject:
   m_ObjectHideFlags: 0

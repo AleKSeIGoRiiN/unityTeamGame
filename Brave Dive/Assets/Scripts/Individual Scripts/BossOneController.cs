@@ -66,7 +66,7 @@ public class BossOneController : MonoBehaviour
             PathToMainPerson = PathFinder.GetPath(MainPerson.transform.position);
             isMoving = true;
          }
-         //  Anim.SetBool("isRunning", isMoving);
+           Anim.SetBool("running", isMoving);
       }
       else return;
 
