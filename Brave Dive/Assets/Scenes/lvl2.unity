@@ -24203,7 +24203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7242371980109868087, guid: 751d4e281babde5438220ebb3c76a388, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7242371980109868087, guid: 751d4e281babde5438220ebb3c76a388, type: 3}
       propertyPath: startWaitTime
