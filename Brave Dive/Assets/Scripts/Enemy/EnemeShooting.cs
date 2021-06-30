@@ -53,7 +53,7 @@ public class EnemeShooting : MonoBehaviour
       //animator.SetTrigger("Shoot");
       GameObject BulletIns = Instantiate(Bullet, ShootPoint.position, Quaternion.identity);
       BulletIns.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
-     // gunShot.Play(); //���� ��������
+      gunShot.Play(); //���� ��������
    }
    void OnDrawGizmosSelected()
    {
