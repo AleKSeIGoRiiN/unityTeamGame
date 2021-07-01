@@ -15,11 +15,11 @@ C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49539
+53649
 Successfully changed project path to: C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive
 C:/Users/lllll/Documents/GitHub/unityTeamGame/Brave Dive
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.86 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,51 +35,63 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001670 seconds.
+Registered in 0.001701 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 53.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.971 seconds
+- Completed reload, in  0.892 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001187 seconds.
+Registered in 0.001088 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 54.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
+- Completed reload, in  0.883 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.2 MB.
 System memory in use after: 92.3 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2397.
-Total: 2.679300 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.044200 ms MarkObjects: 2.343200 ms  DeleteObjects: 0.074400 ms)
+Total: 2.788900 ms (FindLiveObjects: 0.271900 ms CreateObjectMapping: 0.088800 ms MarkObjects: 2.357400 ms  DeleteObjects: 0.069200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/lvl2.unity
-  artifactKey: Guid(ad9d08b0e102c41469657d9a6fefbc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl2.unity using Guid(ad9d08b0e102c41469657d9a6fefbc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf0d254b47e0de71cd9474d7eec6b55') in 0.013478 seconds
-  Import took 0.016850 seconds .
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(f78f3cfd73090a641ae6f829a2ff3de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(f78f3cfd73090a641ae6f829a2ff3de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dde5915f30fb14628ca019fbea70da') in 0.018025 seconds
+  Import took 0.021270 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 473.604307 seconds.
-  path: Assets/Scenes/lvl4.unity
-  artifactKey: Guid(c1ba332effc41564a8427bcffbee7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl4.unity using Guid(c1ba332effc41564a8427bcffbee7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884ca2e47a4d81b21a5536cfc55bb751') in 0.003021 seconds
-  Import took 0.006383 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008927 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 2.905600 ms (FindLiveObjects: 0.359800 ms CreateObjectMapping: 0.117200 ms MarkObjects: 2.148700 ms  DeleteObjects: 0.277300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
