@@ -15761,8 +15761,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MainPerson: {fileID: 903247470}
-  MoveSpeed: 3
-  StoppingDistance: 5
+  MoveSpeed: 1
+  StoppingDistance: 2
   ViewAngle: 360
   ViewDistance: 40
   EnemyEye: {fileID: 409503060}
@@ -19717,7 +19717,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -21527,7 +21527,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.411703
+  orthographic size: 12.42115
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -21576,7 +21576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903247470}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.46, y: -21.11, z: -10}
+  m_LocalPosition: {x: 17.88, y: -11.78, z: -10}
   m_LocalScale: {x: 1, y: 1.0163114, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -25778,7 +25778,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -38106,7 +38106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1614948635
 MonoBehaviour:
   m_ObjectHideFlags: 0
