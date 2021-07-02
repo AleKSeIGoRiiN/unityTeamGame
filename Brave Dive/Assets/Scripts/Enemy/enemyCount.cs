@@ -8,6 +8,16 @@ public class enemyCount : MonoBehaviour
    public GameObject door;
    public static int enemys;
 
+   void Start()
+   {
+      enemys = 0;
+      if (count != null)
+      {
+         count.text = enemys.ToString();
+      }
+
+   }
+
    void Update()
    {
       if (count != null)
