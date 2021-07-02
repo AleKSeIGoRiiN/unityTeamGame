@@ -1,12 +1,12 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
-
 public class BossOnehealth : MonoBehaviour
 {
    [Header("Health")]
    public int MaxHealth;
    private int currentHealth;
+
+   public GameObject winMenu;
 
    [SerializeField] private HeathBar _heathBar;
    [SerializeField] private AudioSource DieEnemy;
@@ -17,9 +17,11 @@ public class BossOnehealth : MonoBehaviour
       currentHealth = MaxHealth;
       _heathBar.SetHeathValue(currentHealth, MaxHealth);
    }
-   void Die()
+   IEnumerator Die()
    {
-      Destroy(gameObject, 0.5f);
+      yield return new WaitForSeconds(3f);
+      winMenu.SetActive(true);
+      Destroy(gameObject, 3f);
    }
    public void TakeDamage(int damage)
    {
@@ -29,18 +31,8 @@ public class BossOnehealth : MonoBehaviour
       if (currentHealth <= 0)
       {
          //DieEnemy.Play();
-         Die();
+         Time.timeScale = 0f;
+         StartCoroutine(Die());
       }
    }
-   void Update()
-   {
-      if (currentHealth <= 0)
-      {
-         StartCoroutine(EndScene());
-      }
-   }
-   IEnumerator EndScene(){
-      yield return new WaitForSeconds(3f);
-      SceneManager.LoadScene(3);
-   } 
 }
