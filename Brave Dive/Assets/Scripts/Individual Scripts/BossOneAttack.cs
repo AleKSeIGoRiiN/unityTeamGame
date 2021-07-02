@@ -8,38 +8,44 @@ public class BossOneAttack : MonoBehaviour
     public float startTimeBtwAttack;
     public int damage;
     public Animator animator;
-    private playerInteraction player;  
+    public Transform attackPoint;
+    public float attackRange = 200.0f;
+
+    public LayerMask PlayerLayer;
+
+    private GameObject Target;
+
+    public float attackDistance; 
     int attack = 0;
 
     
     void Start()
     {
-        player = FindObjectOfType<playerInteraction>();
-        
+       Target = GameObject.FindGameObjectWithTag("Player");
     }
 
-    public void OnTriggerStay2D(Collider2D other){
-
-        if(other.CompareTag("Player")){
-            if(timeBtwAttack <=0){
+    void Update(){
+        if(Vector2.Distance(Target.transform.position, transform.position) <= attackDistance){
+            if (Time.time >= timeBtwAttack){
                 if(attack == 0)
                 {
                      animator.SetTrigger("attack1");
                      attack = 1;
+                     timeBtwAttack = Time.time + 1f / startTimeBtwAttack;
                 }
-                if(attack == 1)
+                else if(attack == 1)
                 {
                     animator.SetTrigger("attack2");
                     attack = 0;
+                    timeBtwAttack = Time.time + 1f / startTimeBtwAttack;
                 }
-                
-            }else{
-                timeBtwAttack -= Time.deltaTime; 
             }
         }
     }
     public void OnEnemyAttack(){
-        player.currentHealth -= damage;
-        timeBtwAttack = startTimeBtwAttack; 
+        Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, PlayerLayer);
+        foreach (Collider2D Player in hitPlayer){
+            Player.GetComponent<playerInteraction>().TakeDamage(damage);
+        }
     }
 }

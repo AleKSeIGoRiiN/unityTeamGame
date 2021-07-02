@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ViewAngle: 360
-  ViewDistance: 10
+  ViewDistance: 8
   EnemyEye: {fileID: 8318767239423988272}
   animator: {fileID: 0}
   Target: {fileID: 0}
@@ -909,6 +909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _slider: {fileID: 1205864450481687038}
   _offset: {x: 0, y: -0.85, z: 0}
+  Boss: {fileID: 0}
 --- !u!1 &6842802520510295754
 GameObject:
   m_ObjectHideFlags: 0

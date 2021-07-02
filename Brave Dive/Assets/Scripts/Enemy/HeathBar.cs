@@ -6,9 +6,11 @@ public class HeathBar : MonoBehaviour
    [SerializeField] private Slider _slider;
    [SerializeField] private Vector3 _offset;
 
+   public GameObject Boss;
+
    private void Update()
    {
-      _slider.transform.position = Camera.main.WorldToScreenPoint(transform.parent.position + _offset);
+      if(Boss == null) _slider.transform.position = Camera.main.WorldToScreenPoint(transform.parent.position + _offset);
    }
 
    public void SetHeathValue(int currentHealth, int maxHeath)

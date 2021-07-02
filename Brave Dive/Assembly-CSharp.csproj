@@ -46,6 +46,7 @@
      <Compile Include="Assets\Scripts\other\canvasStop.cs" />
      <Compile Include="Assets\AllMenu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\mainPerson\HeathBarHero.cs" />
+     <Compile Include="Assets\Scripts\other\wait.cs" />
      <Compile Include="Assets\Scripts\other\camMoving.cs" />
      <Compile Include="Assets\AllMenu\Scripts\WinMenu.cs" />
      <Compile Include="Assets\Scripts\Enemy\enemuAttack.cs" />
@@ -67,7 +68,6 @@
      <Compile Include="Assets\AllMenu\Scripts\OptionMenu.cs" />
      <Compile Include="Assets\Scripts\other\dg_simpleCamFollow.cs" />
      <Compile Include="Assets\Scripts\other\PathFinder.cs" />
-     <Compile Include="Assets\Scripts\other\wait.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

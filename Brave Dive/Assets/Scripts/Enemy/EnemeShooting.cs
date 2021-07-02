@@ -43,7 +43,7 @@ public class EnemeShooting : MonoBehaviour
       {
          if (Time.time > nextTimeFire)
          {
-            animator.SetTrigger("Shoot");
+            if(animator!=null) {animator.SetTrigger("Shoot"); Debug.Log("asd");} else Debug.Log(animator);
             nextTimeFire = Time.time + 1 / FireRate;
             Shoot();
          }
@@ -51,7 +51,6 @@ public class EnemeShooting : MonoBehaviour
    }
    void Shoot()
    {
-      //animator.SetTrigger("Shoot");
       GameObject BulletIns = Instantiate(Bullet, ShootPoint.position, Quaternion.identity);
       BulletIns.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
       gunShot.Play(); //���� ��������
