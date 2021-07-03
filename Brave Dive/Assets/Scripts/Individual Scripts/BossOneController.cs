@@ -34,7 +34,7 @@ public class BossOneController : MonoBehaviour
       {
          Vector2 lookDir = MainPerson.transform.position - transform.position;
          float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-         rb.rotation = angle + 280f;
+         rb.rotation = angle + 100f;
       }
       if (Vector2.Distance(transform.position, MainPerson.transform.position) >= StoppingDistance &&
           Vector2.Distance(transform.position, MainPerson.transform.position) <= ViewDistance && view)
@@ -53,7 +53,7 @@ public class BossOneController : MonoBehaviour
                transform.position = Vector2.MoveTowards(transform.position, PathToMainPerson[PathToMainPerson.Count - 1], MoveSpeed * Time.deltaTime);
                Vector2 lookDir = MainPerson.transform.position - transform.position;
                float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-               rb.rotation = angle + 280f;
+               rb.rotation = angle + 100f;
             }
             if (Vector2.Distance(transform.position, PathToMainPerson[PathToMainPerson.Count - 1]) <= 0.1f)
             {

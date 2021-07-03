@@ -10,6 +10,8 @@ public class EnemyController : MonoBehaviour
    public float StoppingDistance;
    private Rigidbody2D rb;
 
+   private float minDistance = 2f;
+
    [Range(0, 360)] public float ViewAngle = 360f;
    public float ViewDistance;
    public Transform EnemyEye;
@@ -33,8 +35,9 @@ public class EnemyController : MonoBehaviour
    {
       if (MainPerson == null) return;
 
-
-      if (IsInView())
+    
+      
+      if (IsInView() || Vector2.Distance(transform.position, MainPerson.transform.position) <= minDistance)
       {
          Vector2 lookDir = MainPerson.transform.position - transform.position;
          float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
@@ -71,7 +74,7 @@ public class EnemyController : MonoBehaviour
             PathToMainPerson = PathFinder.GetPath(MainPerson.transform.position);
             isMoving = true;
          }
-         Anim.SetBool("isRunning", isMoving);
+         if(Anim != null) Anim.SetBool("isRunning", isMoving);
       }
       else return;
 

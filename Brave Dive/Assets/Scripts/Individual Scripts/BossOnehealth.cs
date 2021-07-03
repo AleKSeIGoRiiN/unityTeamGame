@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class BossOnehealth : MonoBehaviour
 {
@@ -30,4 +32,15 @@ public class BossOnehealth : MonoBehaviour
          Die();
       }
    }
+   void Update()
+   {
+      if (currentHealth <= 0)
+      {
+         StartCoroutine(EndScene());
+      }
+   }
+   IEnumerator EndScene(){
+      yield return new WaitForSeconds(3f);
+      SceneManager.LoadScene(3);
+   } 
 }

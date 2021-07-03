@@ -1,13 +1,11 @@
 using UnityEngine;
-
+using System.Collections;
 public class enemyHardShoot : MonoBehaviour
 {
    Vector2 Direction;
    [Range(0, 360)] public float ViewAngle;
    public float ViewDistance;
    public Transform EnemyEye;
-
-   public Animator animator;
    public Transform Target;
    public GameObject Bullet;
    public Transform ShootPointOne;
@@ -51,14 +49,13 @@ public class enemyHardShoot : MonoBehaviour
    }
    void ShootOne()
    {
-      //animator.SetTrigger("Shoot");
       GameObject BulletInOne = Instantiate(Bullet, ShootPointOne.position, Quaternion.identity);
       BulletInOne.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
       // gunShot.Play(); //���� ��������
    }
-   void ShootTwo()
+   IEnumerator ShootTwo()
    {
-      //animator.SetTrigger("Shoot");
+      yield return new WaitForSeconds(1f);
       GameObject BulletInTwo = Instantiate(Bullet, ShootPointTwo.position, Quaternion.identity);
       BulletInTwo.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
      // gunShot.Play(); //���� ��������
