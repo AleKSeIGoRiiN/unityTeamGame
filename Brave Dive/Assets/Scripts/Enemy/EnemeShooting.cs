@@ -43,7 +43,7 @@ public class EnemeShooting : MonoBehaviour
       {
          if (Time.time > nextTimeFire)
          {
-            if(animator!=null) {animator.SetTrigger("Shoot");} else Debug.Log(animator);
+            if(animator!=null) animator.SetTrigger("Shoot");
             nextTimeFire = Time.time + 1 / FireRate;
             Shoot();
          }

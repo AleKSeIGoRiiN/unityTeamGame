@@ -1,10 +1,12 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Patrol : MonoBehaviour
 {
     public float speed;
     private float waitTime;
     public float startWaitTime;
+    public Animator Anim;
 
     public Transform[] moveSpots;
     private int numberSpots;
@@ -15,10 +17,12 @@ public class Patrol : MonoBehaviour
         numberSpots = 0;
         waitTime = startWaitTime;
         rb = GetComponent<Rigidbody2D>();
+        Anim = GetComponent<Animator>();
     }
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[numberSpots].position, speed * Time.deltaTime);
+        if(Anim != null) Anim.SetBool("isRunning", true);
 
         if(Vector2.Distance(transform.position, moveSpots[numberSpots].position)< 0.2f){
             if(waitTime <= 0){

@@ -39,7 +39,7 @@ public class enemyHardShoot : MonoBehaviour
       }
       if (Detected)
       {
-        if (Time.time > nextTimeFire)
+         if (Time.time > nextTimeFire)
          {
             nextTimeFire = Time.time + 1 / FireRate;
             ShootTwo();
@@ -51,14 +51,14 @@ public class enemyHardShoot : MonoBehaviour
    {
       GameObject BulletInOne = Instantiate(Bullet, ShootPointOne.position, Quaternion.identity);
       BulletInOne.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
-      // gunShot.Play(); //���� ��������
+      gunShot.Play(); //���� ��������
    }
    IEnumerator ShootTwo()
    {
       yield return new WaitForSeconds(1f);
       GameObject BulletInTwo = Instantiate(Bullet, ShootPointTwo.position, Quaternion.identity);
       BulletInTwo.GetComponent<Rigidbody2D>().AddForce(Direction * Force);
-     // gunShot.Play(); //���� ��������
+      gunShot.Play(); //���� ��������
    }
    void OnDrawGizmosSelected()
    {
@@ -72,6 +72,7 @@ public class enemyHardShoot : MonoBehaviour
          hit.transform.position == Target.position)
       {
          return true;
-      }return false;
+      }
+      return false;
    }
 }

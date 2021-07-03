@@ -11,7 +11,7 @@ public class HealthEnemy : MonoBehaviour
    [SerializeField] private AudioSource DieEnemy;
    [SerializeField] private AudioSource HitEnemy;
 
-    public GameObject effect;   //частицы кровяки(извините за название делаю в 5 утра)
+    public GameObject effect;   //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ(пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ 5 пїЅпїЅпїЅпїЅ)
 
    private void Start()
    {
@@ -23,7 +23,7 @@ public class HealthEnemy : MonoBehaviour
       enemyCount.enemys += 1;
       Destroy(gameObject, 0.5f);
       if(player.MaxHealth - player.currentHealth >= 10 ){
-         player.currentHealth += 5;
+         player.currentHealth += 2;
       }
    }
    public void TakeDamage(int damage)

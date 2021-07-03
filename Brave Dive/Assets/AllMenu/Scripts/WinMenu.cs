@@ -12,16 +12,15 @@ public class WinMenu : MonoBehaviour
         Time.timeScale = 1f;
     }
 
-    public void BackMenu() //выход в меню
+    public void BackMenu() //пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 
-    public void Restart() //перезапуск игры
+    public void Restart() //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        //SceneManager.LoadScene(1);
         Time.timeScale = 1f;
     }
 
