@@ -15,11 +15,11 @@ D:/programm/unityTeamGame/Brave Dive
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58735
+62303
 Successfully changed project path to: D:/programm/unityTeamGame/Brave Dive
 D:/programm/unityTeamGame/Brave Dive
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 602.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 203.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path D:/programm/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,442 +35,158 @@ Initialize mono
 Mono path[0] = 'D:/programm/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'D:/programm/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/programm/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/programm/2020.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/programm/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003742 seconds.
+Registered in 0.003588 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 180.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 189.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.588 seconds
+- Completed reload, in  3.446 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003513 seconds.
+Registered in 0.002401 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 634.89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 231.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.473 seconds
+- Completed reload, in  4.294 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
-Refreshing native plugins compatible for Editor in 3.58 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.30 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1961 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.7 MB.
 System memory in use after: 94.7 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2413.
-Total: 10.354600 ms (FindLiveObjects: 1.331400 ms CreateObjectMapping: 0.991300 ms MarkObjects: 7.816000 ms  DeleteObjects: 0.211500 ms)
+Total: 6.435400 ms (FindLiveObjects: 0.458300 ms CreateObjectMapping: 0.338400 ms MarkObjects: 5.443100 ms  DeleteObjects: 0.191900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/cacab3544e32a0bd633f7fac7e2f8fe6.png
-  artifactKey: Guid(d24d7fda48df5104fba4b0906117bc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cacab3544e32a0bd633f7fac7e2f8fe6.png using Guid(d24d7fda48df5104fba4b0906117bc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e6238fb8202f6b8b14ca45d6144efb') in 1.547396 seconds
-  Import took 1.569215 seconds .
+  path: Assets/Sprites/Безымянный.png
+  artifactKey: Guid(43c4bdf1038a53d459c2c2283e125bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Безымянный.png using Guid(43c4bdf1038a53d459c2c2283e125bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0312f8a26efc111466c8709080d08a') in 0.453892 seconds
+  Import took 0.462498 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000829 seconds.
-  path: Assets/Assets.index
-  artifactKey: Guid(c0861126ebf6be74098ce449da6bc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets.index using Guid(c0861126ebf6be74098ce449da6bc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcf63f5c6f6fcf9bfbbda11f6f40ca3') in 0.282964 seconds
-  Import took 0.299657 seconds .
+  Time since last request: 196.588961 seconds.
+  path: Assets/Sprites/Безымянный.png
+  artifactKey: Guid(43c4bdf1038a53d459c2c2283e125bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Безымянный.png using Guid(43c4bdf1038a53d459c2c2283e125bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4bdfff852bd8251d184d428a9d5b06') in 0.140294 seconds
+  Import took 0.163095 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1696.605035 seconds.
-  path: Assets/Prefabs/BloodEnemy.prefab
-  artifactKey: Guid(ac00cb9c92b022b478077dfe7cdfa9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/BloodEnemy.prefab using Guid(ac00cb9c92b022b478077dfe7cdfa9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9dc19c10643e7de5f6faddb63bf719') in 0.123510 seconds
-  Import took 0.150013 seconds .
+  Time since last request: 1835.178292 seconds.
+  path: Assets/Sprites/MainCharacter/MainPerson.png
+  artifactKey: Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainCharacter/MainPerson.png using Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a382930c26670382d008a1de5ac9b9') in 0.829503 seconds
+  Import took 0.946776 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000813 seconds.
-  path: Assets/Prefabs/EnemyWithShotgunSnow.prefab
-  artifactKey: Guid(2a71f926bc576c246ae6e3225b19d40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemyWithShotgunSnow.prefab using Guid(2a71f926bc576c246ae6e3225b19d40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bbd1dcd1a923c8f344cb42c8070bac') in 0.708465 seconds
-  Import took 0.732899 seconds .
+  Time since last request: 561.119045 seconds.
+  path: Assets/Sprites/MainCharacter/MainPerson.png
+  artifactKey: Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainCharacter/MainPerson.png using Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c80f979f5e28fe2f12963da800db2d4') in 0.279176 seconds
+  Import took 0.306525 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000853 seconds.
-  path: Assets/Prefabs/enemyHard.prefab
-  artifactKey: Guid(68405eef259839a448f50fcdcb4f8f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemyHard.prefab using Guid(68405eef259839a448f50fcdcb4f8f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bc4805de4405f5beaa80dad6a4325') in 0.088726 seconds
-  Import took 0.116602 seconds .
+  Time since last request: 469.304697 seconds.
+  path: Assets/Sprites/MainCharacter/MainPerson.png
+  artifactKey: Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainCharacter/MainPerson.png using Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64beec693daf2151962e78700ff3933e') in 0.081427 seconds
+  Import took 0.103047 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000917 seconds.
-  path: Assets/Prefabs/EnemyWithShotSnow.prefab
-  artifactKey: Guid(751d4e281babde5438220ebb3c76a388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemyWithShotSnow.prefab using Guid(751d4e281babde5438220ebb3c76a388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbe23a14c3be67e8106d2995ad4c19c') in 0.071354 seconds
-  Import took 0.100400 seconds .
+  Time since last request: 0.014988 seconds.
+  path: Assets/Sprites/MainCharacter/MainPerson.png
+  artifactKey: Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainCharacter/MainPerson.png using Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64beec693daf2151962e78700ff3933e') in 0.062794 seconds
+  Import took 0.080197 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004327 seconds.
-  path: Assets/Prefabs/EnemyWithShotgunSand.prefab
-  artifactKey: Guid(3fbc1fdec21ef0c4e8dad1513c2a962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemyWithShotgunSand.prefab using Guid(3fbc1fdec21ef0c4e8dad1513c2a962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976cb4202b930e6622f5e5ff333f9e56') in 0.071542 seconds
-  Import took 0.103155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000879 seconds.
-  path: Assets/Prefabs/EnemyWithKnife 1.prefab
-  artifactKey: Guid(4f516d513bd027242a7e8b3a86b70d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemyWithKnife 1.prefab using Guid(4f516d513bd027242a7e8b3a86b70d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d7ee868a8f761d4cfc23bd61f94d77') in 0.157420 seconds
-  Import took 0.182209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000748 seconds.
-  path: Assets/Prefabs/EnemyWithShotgan.prefab
-  artifactKey: Guid(e5c0c4e1b00f8c7408b5bac6f12a2a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemyWithShotgan.prefab using Guid(e5c0c4e1b00f8c7408b5bac6f12a2a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd750f53d8a0644844b25390c27c89422') in 0.232519 seconds
-  Import took 0.247928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002721 seconds.
-  path: Assets/Prefabs/EnemyWithKnifeP(1).prefab
-  artifactKey: Guid(2c34a69eb79879d4bbdc768192e0805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemyWithKnifeP(1).prefab using Guid(2c34a69eb79879d4bbdc768192e0805d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce7d90f006c9c7fb5ac49017ed10b15') in 0.085853 seconds
-  Import took 0.111846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001081 seconds.
-  path: Assets/Prefabs/enemyWithKnife.prefab
-  artifactKey: Guid(347e11ed99cbb674ba545babab1a935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemyWithKnife.prefab using Guid(347e11ed99cbb674ba545babab1a935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f40ec91a7bd552d5f8ce7831f0a9f7') in 0.100507 seconds
-  Import took 0.138564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000885 seconds.
-  path: Assets/Prefabs/enemyWithPistol.prefab
-  artifactKey: Guid(6e92e60c5d2427748bb03fdafbbf5ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemyWithPistol.prefab using Guid(6e92e60c5d2427748bb03fdafbbf5ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a994e643823b235cde78e142a417573a') in 0.093540 seconds
-  Import took 0.126044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Prefabs/EnemyWithShotSand.prefab
-  artifactKey: Guid(ad9029d37aaf0934a970e14cfbf02608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/EnemyWithShotSand.prefab using Guid(ad9029d37aaf0934a970e14cfbf02608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36670d1966523f4e7e0ac773ab25cdc0') in 0.112229 seconds
-  Import took 0.134760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 174.405558 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move
-  artifactKey: Guid(89bff579a52462e47baf3f81b385de3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move using Guid(89bff579a52462e47baf3f81b385de3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a3652838ebea86f9c121ba97527c41') in 0.016762 seconds
-  Import took 0.037406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.140427 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_0.png
-  artifactKey: Guid(2a23984212448c94890544676c4e1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_0.png using Guid(2a23984212448c94890544676c4e1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a1693fb1d662ad55603311dc29a5ec') in 0.130047 seconds
-  Import took 0.166818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000823 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_1.png
-  artifactKey: Guid(e8005173f7b68c9488c50a923766ffa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_1.png using Guid(e8005173f7b68c9488c50a923766ffa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb444661bf53e52ed061ec9e49eed9c8') in 0.067739 seconds
-  Import took 0.093651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000918 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_19.png
-  artifactKey: Guid(5f117c020f2d5ab4db151545521392fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_19.png using Guid(5f117c020f2d5ab4db151545521392fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb68c496d98be5c6fceeb99b3b591d60') in 0.088585 seconds
-  Import took 0.114575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001015 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_11.png
-  artifactKey: Guid(28f3ded0f8e1c274d9ff3d64e0c9008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_11.png using Guid(28f3ded0f8e1c274d9ff3d64e0c9008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41af0c3b9d2f89a7f876194d960a12f') in 0.071451 seconds
-  Import took 0.094286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000895 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_9.png
-  artifactKey: Guid(6caf2d027d55e854288be9a2f1418838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_9.png using Guid(6caf2d027d55e854288be9a2f1418838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1252d0f6ba34d0f98a8dceba425fd782') in 0.114254 seconds
-  Import took 0.143038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007482 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_2.png
-  artifactKey: Guid(9215f52f0d0456644b4bd01fb0bc756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_2.png using Guid(9215f52f0d0456644b4bd01fb0bc756a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89b8621e8d9e5557507f1708cf2a543') in 0.088536 seconds
-  Import took 0.122574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001149 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_10.png
-  artifactKey: Guid(ac0e598b3bfda6346b3ce99df82272b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_10.png using Guid(ac0e598b3bfda6346b3ce99df82272b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38849b6fec6cdcdfd35a3e2238fc285') in 0.075646 seconds
-  Import took 0.101097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002722 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_5.png
-  artifactKey: Guid(c8a58333953249c49a8d0349f96bd609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_5.png using Guid(c8a58333953249c49a8d0349f96bd609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd846e46929f5f30e80ddf364d2a5b843') in 0.156929 seconds
-  Import took 0.211853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001755 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_12.png
-  artifactKey: Guid(f8c86d9982cfc524fb9523a0d7da4f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_12.png using Guid(f8c86d9982cfc524fb9523a0d7da4f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57108402af9b094e5445fb94254aaaa3') in 0.075499 seconds
-  Import took 0.106897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001268 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_13.png
-  artifactKey: Guid(d4f95ea819b55f84f96b3234b2a7f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_13.png using Guid(d4f95ea819b55f84f96b3234b2a7f763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d725639c3eb0690c8b8cd5b8925fed') in 0.173501 seconds
-  Import took 0.214129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002380 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_14.png
-  artifactKey: Guid(da37d592c130cc64fa79e85bb0f0bce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_14.png using Guid(da37d592c130cc64fa79e85bb0f0bce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1eba6867e355f17d6eb48ea052b9e2') in 0.168002 seconds
-  Import took 0.224164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000786 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_6.png
-  artifactKey: Guid(5f42dd9da33379445a128d1ffef53374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_6.png using Guid(5f42dd9da33379445a128d1ffef53374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbbb0cd1e478a290fe0de9412624f5a') in 0.114789 seconds
-  Import took 0.142604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000892 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_3.png
-  artifactKey: Guid(8a4c5f7248e493142b22e1a765f65b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_3.png using Guid(8a4c5f7248e493142b22e1a765f65b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f1f5aee9a43dc30ea0c7aca6b2d36c') in 0.104533 seconds
-  Import took 0.140501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000789 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_17.png
-  artifactKey: Guid(e6b25476cd94d984bab9ea9728bf5289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_17.png using Guid(e6b25476cd94d984bab9ea9728bf5289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb9f0d06dd91a43140f9f5a0c491199') in 0.112400 seconds
-  Import took 0.137675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002210 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_15.png
-  artifactKey: Guid(0d41266e1afb2164f8b47688ba8dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_15.png using Guid(0d41266e1afb2164f8b47688ba8dae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d27203b7cf0f656a1ed0f56b773fcb') in 0.057390 seconds
-  Import took 0.080465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000643 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_8.png
-  artifactKey: Guid(a523468371faeb74a8d04f5672374be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_8.png using Guid(a523468371faeb74a8d04f5672374be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d0a92c396b6e28cc50f147c8282a59') in 0.042829 seconds
-  Import took 0.051998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000875 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_7.png
-  artifactKey: Guid(a5d13885583f3b94d93383ebf72abce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_7.png using Guid(a5d13885583f3b94d93383ebf72abce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef94d2a577ec815fe25464941ec966dc') in 0.045883 seconds
-  Import took 0.059399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000619 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_18.png
-  artifactKey: Guid(620f6312d2d9e9e48aa4b1923ff4dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_18.png using Guid(620f6312d2d9e9e48aa4b1923ff4dbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e517a12a1957cc99e37d05c743c9b613') in 0.029146 seconds
-  Import took 0.039361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000807 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_4.png
-  artifactKey: Guid(e416336ba3cd951458ecbc298cac4258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_4.png using Guid(e416336ba3cd951458ecbc298cac4258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7021838dc0f1fceaca12d9e13a5677e9') in 0.027810 seconds
-  Import took 0.037582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000654 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_16.png
-  artifactKey: Guid(5594e33bcbed9db448cee6263c82f6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/move/survivor-move_handgun_16.png using Guid(5594e33bcbed9db448cee6263c82f6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c361e5295a3ec7d5325edd9aa7479902') in 0.027873 seconds
-  Import took 0.038894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.128696 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/shoot
-  artifactKey: Guid(433a97a05e7990547abd68e2130a15cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/shoot using Guid(433a97a05e7990547abd68e2130a15cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adede9f31a26c7a485842729cb8dde21') in 0.024758 seconds
-  Import took 0.064906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.140029 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_0.png
-  artifactKey: Guid(54656d48f45dd2343835713560284865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_0.png using Guid(54656d48f45dd2343835713560284865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a95aafb9518e578a1ab9092ea5ca38') in 0.153233 seconds
-  Import took 0.179016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000837 seconds.
-  path: Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_1.png
-  artifactKey: Guid(615b5241981cb2140a34e46146b19aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/Top_Down_Survivor/Top_Down_Survivor/handgun/shoot/survivor-shoot_handgun_1.png using Guid(615b5241981cb2140a34e46146b19aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eeeac6342ff5c4b76cade29a9dfae30') in 0.075783 seconds
-  Import took 0.099139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 124.864846 seconds.
-  path: Assets/Animations/enemyWithPistol (1).controller
-  artifactKey: Guid(70fc5579469fdc14b854c70bfafccfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/enemyWithPistol (1).controller using Guid(70fc5579469fdc14b854c70bfafccfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4381047a841d6f0aeb86001efdefe2ed') in 0.048401 seconds
-  Import took 0.095569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003661 seconds.
-  path: Assets/Animations/enemyWithPistol (1).controller
-  artifactKey: Guid(70fc5579469fdc14b854c70bfafccfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/enemyWithPistol (1).controller using Guid(70fc5579469fdc14b854c70bfafccfb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4381047a841d6f0aeb86001efdefe2ed') in 0.027327 seconds
-  Import took 0.050402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 171.292644 seconds.
-  path: Assets/Scripts/Enemy/EnemeShooting.cs
-  artifactKey: Guid(7ac8367d569df2f40b26a342780f7ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy/EnemeShooting.cs using Guid(7ac8367d569df2f40b26a342780f7ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b61d08ba39b2fb6565d3519565c17ed') in 0.044592 seconds
-  Import took 0.073293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031502 seconds.
-  path: Assets/Scripts/Enemy/EnemeShooting.cs
-  artifactKey: Guid(7ac8367d569df2f40b26a342780f7ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy/EnemeShooting.cs using Guid(7ac8367d569df2f40b26a342780f7ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b61d08ba39b2fb6565d3519565c17ed') in 0.035951 seconds
-  Import took 0.056621 seconds .
+  Time since last request: 60.007133 seconds.
+  path: Assets/Sprites/MainCharacter/MainPerson.png
+  artifactKey: Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainCharacter/MainPerson.png using Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49cce4fde2932a4c72c0959d6f382657') in 0.124160 seconds
+  Import took 0.161286 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.020324 seconds.
+Registered in 0.003387 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 4.22 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.141 seconds
+- Completed reload, in  7.396 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 96.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2425.
+Total: 7.899700 ms (FindLiveObjects: 0.372300 ms CreateObjectMapping: 0.149500 ms MarkObjects: 7.288100 ms  DeleteObjects: 0.085100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.0 MB.
 System memory in use after: 96.1 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2431.
-Total: 11.514700 ms (FindLiveObjects: 0.887600 ms CreateObjectMapping: 0.582100 ms MarkObjects: 9.920800 ms  DeleteObjects: 0.118000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2429.
+Total: 9.685600 ms (FindLiveObjects: 0.323600 ms CreateObjectMapping: 0.428800 ms MarkObjects: 8.865900 ms  DeleteObjects: 0.044700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002565 seconds.
+Registered in 0.004343 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.982 seconds
+- Completed reload, in  3.237 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.2 MB.
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2435.
-Total: 9.972200 ms (FindLiveObjects: 0.476500 ms CreateObjectMapping: 0.651100 ms MarkObjects: 8.795200 ms  DeleteObjects: 0.045900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 252.366296 seconds.
-  path: Assets/Prefabs/enemyWithPistol.prefab
-  artifactKey: Guid(6e92e60c5d2427748bb03fdafbbf5ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/enemyWithPistol.prefab using Guid(6e92e60c5d2427748bb03fdafbbf5ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (enemyWithPistol (1)) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
-The Animator Controller (enemyWithPistol (1)) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 333]
-
- -> (artifact id: 'd9523b8686693fe2b11548942872603a') in 0.283396 seconds
-  Import took 0.299031 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2433.
+Total: 3.793500 ms (FindLiveObjects: 0.753000 ms CreateObjectMapping: 0.205500 ms MarkObjects: 2.797600 ms  DeleteObjects: 0.034500 ms)
 
 ========================================================================
 Received Prepare
@@ -479,2089 +195,197 @@ Registered in 0.002684 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.654 seconds
+- Completed reload, in  5.020 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.64 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.3 MB.
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2440.
-Total: 9.832700 ms (FindLiveObjects: 0.895900 ms CreateObjectMapping: 0.466700 ms MarkObjects: 8.398400 ms  DeleteObjects: 0.067900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2437.
+Total: 8.365300 ms (FindLiveObjects: 0.921900 ms CreateObjectMapping: 0.665000 ms MarkObjects: 6.746300 ms  DeleteObjects: 0.029500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4286.614447 seconds.
+  path: Assets/Sprites/MainCharacter/MainPerson.png
+  artifactKey: Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MainCharacter/MainPerson.png using Guid(a36d10c3bb8181544bcc3a11fbff1180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414cb2143c21dc15770b26281f433a8e') in 0.576639 seconds
+  Import took 0.678787 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004700 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.27 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.129 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2444.
-Total: 6.476600 ms (FindLiveObjects: 1.321900 ms CreateObjectMapping: 0.381300 ms MarkObjects: 4.731500 ms  DeleteObjects: 0.038100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006430 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.519 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.86 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2448.
-Total: 7.533400 ms (FindLiveObjects: 0.654800 ms CreateObjectMapping: 0.361900 ms MarkObjects: 6.475100 ms  DeleteObjects: 0.038600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007755 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.906 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2452.
-Total: 6.761800 ms (FindLiveObjects: 1.833900 ms CreateObjectMapping: 0.383200 ms MarkObjects: 4.494400 ms  DeleteObjects: 0.046100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005749 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.625 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2456.
-Total: 8.472500 ms (FindLiveObjects: 0.361800 ms CreateObjectMapping: 0.244500 ms MarkObjects: 7.820000 ms  DeleteObjects: 0.043100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003438 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.24 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.578 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.48 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2460.
-Total: 9.372700 ms (FindLiveObjects: 0.918700 ms CreateObjectMapping: 0.571100 ms MarkObjects: 7.811500 ms  DeleteObjects: 0.066500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005940 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.253 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2464.
-Total: 5.804200 ms (FindLiveObjects: 0.619800 ms CreateObjectMapping: 0.351900 ms MarkObjects: 4.789800 ms  DeleteObjects: 0.039700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004890 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.770 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.71 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.3 MB.
-System memory in use after: 96.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2468.
-Total: 15.269000 ms (FindLiveObjects: 0.616800 ms CreateObjectMapping: 0.304200 ms MarkObjects: 14.290300 ms  DeleteObjects: 0.053400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1722.682114 seconds.
-  path: Assets/Animations/LevelTwo
-  artifactKey: Guid(22c1c4f28458e624da15ac7724991d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/LevelTwo using Guid(22c1c4f28458e624da15ac7724991d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f829afe669ba044579d995a187f9b2d') in 0.052701 seconds
-  Import took 0.093291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2988.403221 seconds.
-  path: Assets/Sprites/Map 2/2021-06-23 (9) (3).png
-  artifactKey: Guid(8d76b8225a0995f46b2a7de41cb8eaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-23 (9) (3).png using Guid(8d76b8225a0995f46b2a7de41cb8eaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7ab4d9993e7826795b1bfe26ab49f9') in 0.457338 seconds
-  Import took 0.536957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000864 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (24).png
-  artifactKey: Guid(e9d9abb03af94554d92a65f581b9cf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (24).png using Guid(e9d9abb03af94554d92a65f581b9cf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1cf7d452df8c4581eeb300f6e53a8f') in 0.087267 seconds
-  Import took 0.105272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000899 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (9).png
-  artifactKey: Guid(c5ad29f980cac754f8d37c0ce0e0b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (9).png using Guid(c5ad29f980cac754f8d37c0ce0e0b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546875360d59e9536612c7aa7a78def9') in 0.116527 seconds
-  Import took 0.135062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000940 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (21).png
-  artifactKey: Guid(ca721ef7ce16f9944b47ad4606a6290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (21).png using Guid(ca721ef7ce16f9944b47ad4606a6290a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed99ea02b9fb8a97c700d08ff2cef1b') in 0.319480 seconds
-  Import took 0.361646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (16).png
-  artifactKey: Guid(803dfc6a20c22394d929b64eac5d80ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (16).png using Guid(803dfc6a20c22394d929b64eac5d80ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e9ce2cbcf1d5f5c3741bbb37e06e62') in 0.186229 seconds
-  Import took 0.240730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001265 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (3).png
-  artifactKey: Guid(2224c21efe8e3fb4caefa5ef0d212a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (3).png using Guid(2224c21efe8e3fb4caefa5ef0d212a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29d79fd061fd75f71472eb300157177') in 0.140890 seconds
-  Import took 0.212664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002046 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (9).png
-  artifactKey: Guid(88d1d2663a00a0a47999891689b324a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (9).png using Guid(88d1d2663a00a0a47999891689b324a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab1cc9caeb8fb936287b950e7bb851c') in 0.077900 seconds
-  Import took 0.094941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002194 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (17).png
-  artifactKey: Guid(f854209f2d6ba5344b264a3ad4169e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (17).png using Guid(f854209f2d6ba5344b264a3ad4169e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc9c3ccbecc1c4ce3370cad5abc4bb4') in 0.185863 seconds
-  Import took 0.210515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (6).png
-  artifactKey: Guid(0866f47bf54c95a4a804fd4a68e724d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (6).png using Guid(0866f47bf54c95a4a804fd4a68e724d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27f09ae0df53d46b81e19084ddf4f36') in 0.468100 seconds
-  Import took 0.596948 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000978 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (10).png
-  artifactKey: Guid(4f650125ba1b15d429441a45d977acf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (10).png using Guid(4f650125ba1b15d429441a45d977acf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9857576fa060f601f8b1563fc4708f5') in 0.128364 seconds
-  Import took 0.152233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005283 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (12).png
-  artifactKey: Guid(4fb7c55a6d56ab54ba99a6409975d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (12).png using Guid(4fb7c55a6d56ab54ba99a6409975d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4cc1131ee63cf5ac370c6d96d86185') in 0.068940 seconds
-  Import took 0.089844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000759 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (15).png
-  artifactKey: Guid(9902098c09223414495008a6c0fa47e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (15).png using Guid(9902098c09223414495008a6c0fa47e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333c4472a57c9fbf24ec6e7841ec14ff') in 0.107795 seconds
-  Import took 0.130078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000678 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (3).png
-  artifactKey: Guid(1cc51de01f3fc6e48b64ddbf249e8bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (3).png using Guid(1cc51de01f3fc6e48b64ddbf249e8bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a75524fd797c8b4cce19c1ae739f935') in 0.076764 seconds
-  Import took 0.096657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000753 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (13).png
-  artifactKey: Guid(a41401b9e3671784eb4bb7b4bc7f2f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (13).png using Guid(a41401b9e3671784eb4bb7b4bc7f2f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2facb5d1660bed48d1f8e66189df5cb') in 0.085214 seconds
-  Import took 0.098871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000674 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (12).png
-  artifactKey: Guid(4622e6082fbe4c14ca3253b68484bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (12).png using Guid(4622e6082fbe4c14ca3253b68484bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed16c06cb09f5b604b4632419663f846') in 0.176763 seconds
-  Import took 0.191034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001101 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (1).png
-  artifactKey: Guid(f1f6b4660a377654786f47b5f86669d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (1).png using Guid(f1f6b4660a377654786f47b5f86669d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe7015e0ce6a2c85e7811aab8ea4cb5') in 0.059235 seconds
-  Import took 0.082031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000751 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (20).png
-  artifactKey: Guid(13f3513b0e6ab804dae9a1501d0cee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (20).png using Guid(13f3513b0e6ab804dae9a1501d0cee09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc7bc7e1b7a12b9af47b6734e38d31a') in 0.077035 seconds
-  Import took 0.096986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000703 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (25).png
-  artifactKey: Guid(bf13d08afbe5c2349a410a97fd8c27f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (25).png using Guid(bf13d08afbe5c2349a410a97fd8c27f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d46d6e27c527c5b3820c276356d2ab0') in 0.068570 seconds
-  Import took 0.084267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000771 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (2).png
-  artifactKey: Guid(91bca7b2694ef4c4c9d003bd611ed04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (2).png using Guid(91bca7b2694ef4c4c9d003bd611ed04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6d6756924b2b7dd7ebe477d59f2fcf') in 0.099462 seconds
-  Import took 0.140123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004576 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (11).png
-  artifactKey: Guid(c3967f53af2968543bc48229cfa9b066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (11).png using Guid(c3967f53af2968543bc48229cfa9b066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbf9fdb97b28c89b44c482942778406') in 0.149529 seconds
-  Import took 0.166244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000740 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (11).png
-  artifactKey: Guid(9b032452a5c36664c9c79e8dbf345de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (11).png using Guid(9b032452a5c36664c9c79e8dbf345de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8389574d842fbff4b25dfd0aeff082ce') in 0.200586 seconds
-  Import took 0.212425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000585 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (4).png
-  artifactKey: Guid(23c65de41e9b74e489f5b09a661c0413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (4).png using Guid(23c65de41e9b74e489f5b09a661c0413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f9c55c631529ca9b4d5910571ef492') in 0.072613 seconds
-  Import took 0.088064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001521 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (15).png
-  artifactKey: Guid(f952edc5a92e47640927766e5dda1b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (15).png using Guid(f952edc5a92e47640927766e5dda1b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397d8689218dd3c6d9b0642afc530ada') in 0.055371 seconds
-  Import took 0.068770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000532 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (14).png
-  artifactKey: Guid(c7a82fa45b553eb42a61d374153c497e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (14).png using Guid(c7a82fa45b553eb42a61d374153c497e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aa67ea57c24561c7f588322f2f4bf2') in 0.068483 seconds
-  Import took 0.081969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000613 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (1).png
-  artifactKey: Guid(4096d760ebfbce34880b0c083b60b2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (1).png using Guid(4096d760ebfbce34880b0c083b60b2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c124f15224b3f893f03a18d4a926fde') in 0.061536 seconds
-  Import took 0.076751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001065 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (1).png
-  artifactKey: Guid(272ca82040da6464aaacd30e26bd0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (1).png using Guid(272ca82040da6464aaacd30e26bd0063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e597a9ae90c3514860e4a95c662bb09') in 0.071054 seconds
-  Import took 0.090141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (19).png
-  artifactKey: Guid(e680ca171cd800245a2fedcc010869ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (19).png using Guid(e680ca171cd800245a2fedcc010869ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62c45e3415341fec0117a84d025a2e3') in 0.074658 seconds
-  Import took 0.109892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (7).png
-  artifactKey: Guid(dd1afdebefa787c4a8dc8f86f0aa9bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (7).png using Guid(dd1afdebefa787c4a8dc8f86f0aa9bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8b32dd1f9fdce0c7b68166f2a8bc59') in 0.068165 seconds
-  Import took 0.080163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (23).png
-  artifactKey: Guid(f82e2dea5ae4a1549a16645750bf4311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (23).png using Guid(f82e2dea5ae4a1549a16645750bf4311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac36cee9cb75fd18fe830c6878e60c3c') in 0.228121 seconds
-  Import took 0.243674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000676 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (14).png
-  artifactKey: Guid(37e173fafc9b27d46b23b7549dca4797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (14).png using Guid(37e173fafc9b27d46b23b7549dca4797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda47905f618e37565096632dff9ba09') in 0.184250 seconds
-  Import took 0.199701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001103 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (10).png
-  artifactKey: Guid(99e688dfda26a634b9f68c3164fd0cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (10).png using Guid(99e688dfda26a634b9f68c3164fd0cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec3ee55a4b4f87d97e92ca899c752f2') in 0.117660 seconds
-  Import took 0.154794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (7).png
-  artifactKey: Guid(c2b9cb56c9a0a614294020d67f116d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (7).png using Guid(c2b9cb56c9a0a614294020d67f116d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699036f24e380bbdd08147a173ba511d') in 0.149215 seconds
-  Import took 0.174464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001149 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (5).png
-  artifactKey: Guid(5e65b22a8fdfa78448a139dc77ccdec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (5).png using Guid(5e65b22a8fdfa78448a139dc77ccdec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bdfcf5ec7292174443d6af6f537ee9') in 0.136946 seconds
-  Import took 0.154573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000637 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (27).png
-  artifactKey: Guid(1fde3ac3b61803a4a859eb8da75d06bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (27).png using Guid(1fde3ac3b61803a4a859eb8da75d06bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fb86f8afbf1a118b10ec22b1060697') in 0.086581 seconds
-  Import took 0.104897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000585 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (8).png
-  artifactKey: Guid(0c63df32af1672c4b82a944a5eaf0b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (8).png using Guid(0c63df32af1672c4b82a944a5eaf0b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff1545f2556abf0cd1458dc013f41a3') in 0.114074 seconds
-  Import took 0.133679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000815 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (2).png
-  artifactKey: Guid(a745fd166c29cf04981e63d8f15d6d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (2).png using Guid(a745fd166c29cf04981e63d8f15d6d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814bbbbaaba0c503ee071532a72962ef') in 0.102692 seconds
-  Import took 0.123298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000579 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (22).png
-  artifactKey: Guid(a9276f4b554d71148980fe9d5c3e6c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (22).png using Guid(a9276f4b554d71148980fe9d5c3e6c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b7222e2354f81a7b80bb79d1bb990e') in 0.067706 seconds
-  Import took 0.076900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000700 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (4).png
-  artifactKey: Guid(fa98add2277dde0429687beaa753aa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (4).png using Guid(fa98add2277dde0429687beaa753aa77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d30ed3c92e5af9363308338fcbdea4') in 0.108957 seconds
-  Import took 0.128415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001019 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (18).png
-  artifactKey: Guid(844255881d77bf748a9c31d8a8281b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (18).png using Guid(844255881d77bf748a9c31d8a8281b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959bb195877dd3dd4b0063b0384d91bc') in 0.060737 seconds
-  Import took 0.079433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000527 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (6).png
-  artifactKey: Guid(97f49bffecbb6b34b9931acbbf504e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (6).png using Guid(97f49bffecbb6b34b9931acbbf504e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e14de6781fcb08828f29611b74644d') in 0.059760 seconds
-  Import took 0.072107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (16).png
-  artifactKey: Guid(7160120e9f5a9944283ae53aeecfa300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (16).png using Guid(7160120e9f5a9944283ae53aeecfa300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7040063a17c2285f17245b1dd1e4b697') in 0.052996 seconds
-  Import took 0.079714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (26).png
-  artifactKey: Guid(ea0c0412e27e319449cac868dd380974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (26).png using Guid(ea0c0412e27e319449cac868dd380974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080d3f7dcd9c1c119f6ad8c28c614da1') in 0.050095 seconds
-  Import took 0.060039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (8).png
-  artifactKey: Guid(7b59f9e0cf2d2b54fb2393b556b23fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (8).png using Guid(7b59f9e0cf2d2b54fb2393b556b23fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5f2b8b71fe18f325495c0b9aac29d1') in 0.045079 seconds
-  Import took 0.060753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Sprites/Map 2/2021-06-27 (2) (5).png
-  artifactKey: Guid(81303b1df0c06fe4bbd0d81d1a56b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-27 (2) (5).png using Guid(81303b1df0c06fe4bbd0d81d1a56b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d90d75c340f6905b48a3a5aaeef003') in 0.049381 seconds
-  Import took 0.060551 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000914 seconds.
-  path: Assets/Sprites/Map 2/2021-06-26 (13).png
-  artifactKey: Guid(565c03323161712419a82c73d329ffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map 2/2021-06-26 (13).png using Guid(565c03323161712419a82c73d329ffd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b8bb896e2836b74559b947dc3e94ec') in 0.048785 seconds
-  Import took 0.062187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 214.225356 seconds.
-  path: Assets/Animations/LevelTwo/EnemyWithKnife 1 (3).controller
-  artifactKey: Guid(c17e7587e89381048b1787e9e6ab2248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/LevelTwo/EnemyWithKnife 1 (3).controller using Guid(c17e7587e89381048b1787e9e6ab2248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85632fa7c7d1d50b2ef2d2c58e17188') in 0.024900 seconds
-  Import took 0.047494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.909744 seconds.
-  path: Assets/Scripts/Enemy/enemuAttack.cs
-  artifactKey: Guid(e6ce7c71de4ede745afc3fc6c9cbdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy/enemuAttack.cs using Guid(e6ce7c71de4ede745afc3fc6c9cbdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc4301df3e979fe879dca42aebeeaff') in 0.018173 seconds
-  Import took 0.031674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.422041 seconds.
-  path: Assets/Animations/LevelTwo/EnemyWithShotSnow (2).controller
-  artifactKey: Guid(809c5befcd5f0f049857e0dedbd35ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/LevelTwo/EnemyWithShotSnow (2).controller using Guid(809c5befcd5f0f049857e0dedbd35ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78c66b009e75bcc3fe80a4f28cf6cab') in 0.021396 seconds
-  Import took 0.041881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025646 seconds.
-  path: Assets/Animations/LevelTwo/EnemyWithShotSnow (2).controller
-  artifactKey: Guid(809c5befcd5f0f049857e0dedbd35ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/LevelTwo/EnemyWithShotSnow (2).controller using Guid(809c5befcd5f0f049857e0dedbd35ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f78c66b009e75bcc3fe80a4f28cf6cab') in 0.090806 seconds
-  Import took 0.172450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.161361 seconds.
-  path: Assets/Animations/LevelTwo/EnemyWithKnife 1 (3).controller
-  artifactKey: Guid(c17e7587e89381048b1787e9e6ab2248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/LevelTwo/EnemyWithKnife 1 (3).controller using Guid(c17e7587e89381048b1787e9e6ab2248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7100f82b542474cac09cff7b3ed3ab70') in 0.043817 seconds
-  Import took 0.067778 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004140 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.22 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  5.519 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.4 MB.
-System memory in use after: 96.6 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2551.
-Total: 15.396200 ms (FindLiveObjects: 1.840200 ms CreateObjectMapping: 0.488000 ms MarkObjects: 7.779200 ms  DeleteObjects: 5.281900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004986 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.337 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.14 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.5 MB.
-System memory in use after: 96.6 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2555.
-Total: 6.480000 ms (FindLiveObjects: 0.559600 ms CreateObjectMapping: 0.306700 ms MarkObjects: 5.558600 ms  DeleteObjects: 0.050700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 287.156326 seconds.
-  path: Assets/Assets.index
-  artifactKey: Guid(c0861126ebf6be74098ce449da6bc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets.index using Guid(c0861126ebf6be74098ce449da6bc7f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e16c283aafae3bbff31b0f29e68f0f5') in 0.280133 seconds
-  Import took 0.296843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.083260 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/hit
-  artifactKey: Guid(2cfa43556af673848888d4102a67a6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/hit using Guid(2cfa43556af673848888d4102a67a6e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00198004f79b4cb63d2910a8d8f24269') in 0.015498 seconds
-  Import took 0.033534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.216041 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot
-  artifactKey: Guid(131a7ab659a02774a95dad861a1cfe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot using Guid(131a7ab659a02774a95dad861a1cfe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4840dab9f42760c0b4afc157774b3930') in 0.007689 seconds
-  Import took 0.026755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.114928 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_000.png
-  artifactKey: Guid(bc823e78e7404ab45b40a4288589a39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_000.png using Guid(bc823e78e7404ab45b40a4288589a39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47686642a2725eb8e6ea75bf5b903f87') in 0.373787 seconds
-  Import took 0.385088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000606 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_038.png
-  artifactKey: Guid(1885db3763224dd4db07b0da91032266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_038.png using Guid(1885db3763224dd4db07b0da91032266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a4afc75304a0dec33d56de598b2235') in 0.079170 seconds
-  Import took 0.098449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_022.png
-  artifactKey: Guid(0791cab5061496f45a714b9d1e70e116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_022.png using Guid(0791cab5061496f45a714b9d1e70e116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c248b5e02fe0a8dd86b005195be18a') in 0.241628 seconds
-  Import took 0.257187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000615 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_017.png
-  artifactKey: Guid(9b8ff54e34e11bb49ae9a91bd5a08ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_017.png using Guid(9b8ff54e34e11bb49ae9a91bd5a08ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d209c1bc88aef13cdc0056ac513b366') in 0.073403 seconds
-  Import took 0.102235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_039.png
-  artifactKey: Guid(73950485d464d4e40921c11f1fbef2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_039.png using Guid(73950485d464d4e40921c11f1fbef2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61b14dc72ac213397304aba7d5d2d4e') in 0.163805 seconds
-  Import took 0.186242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000532 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_025.png
-  artifactKey: Guid(c018705da05b5284a88d19b391bed151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_025.png using Guid(c018705da05b5284a88d19b391bed151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dc4fd0507bba9bf59539540691264a') in 0.078150 seconds
-  Import took 0.105601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_042.png
-  artifactKey: Guid(dec46926ac552c3468eb945771b84bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_042.png using Guid(dec46926ac552c3468eb945771b84bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069d9288d32d896fdc6bafd847133f88') in 0.137464 seconds
-  Import took 0.157829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003743 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_019.png
-  artifactKey: Guid(e1d9c2c0381191f489d287fdb04ec787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_019.png using Guid(e1d9c2c0381191f489d287fdb04ec787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fec7aae464bf87ff1926403a62d6f6f') in 0.117505 seconds
-  Import took 0.141662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000796 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_023.png
-  artifactKey: Guid(0a4a29fd563e1944a866ee245f5dd726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_023.png using Guid(0a4a29fd563e1944a866ee245f5dd726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868d366380faca2101b04f1c031d6f64') in 0.067428 seconds
-  Import took 0.099825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000606 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_007.png
-  artifactKey: Guid(098d89e93baf9dc40901099971fa873b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_007.png using Guid(098d89e93baf9dc40901099971fa873b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c880a288343aaba0ab1e481e3149305e') in 0.178261 seconds
-  Import took 0.195755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_027.png
-  artifactKey: Guid(a289608cd44813c449ed396f35a544aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_027.png using Guid(a289608cd44813c449ed396f35a544aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c178f84904c46ae6aaf81ddd5df80d') in 0.076766 seconds
-  Import took 0.108677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000901 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_041.png
-  artifactKey: Guid(c5a094d8770e72247a541fbef1ab23f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_041.png using Guid(c5a094d8770e72247a541fbef1ab23f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6a7dcbf67e33e4a85c7d808d16b458') in 0.203475 seconds
-  Import took 0.262987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000562 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_011.png
-  artifactKey: Guid(373a498b9cb708e4099f00f0534f3576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_011.png using Guid(373a498b9cb708e4099f00f0534f3576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2c82822fee61364a03643ce89786b7') in 0.135060 seconds
-  Import took 0.166732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007702 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_021.png
-  artifactKey: Guid(377099bc93e6a6443baa9fadf11b900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_021.png using Guid(377099bc93e6a6443baa9fadf11b900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b9b87519291d200cc79fb75d3d8b6c') in 0.145975 seconds
-  Import took 0.161479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_009.png
-  artifactKey: Guid(6a5a2e7eb8276d444aba5ba41b499809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_009.png using Guid(6a5a2e7eb8276d444aba5ba41b499809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85663afdaeee209c3d996d3aa6608a6') in 0.118914 seconds
-  Import took 0.128939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_002.png
-  artifactKey: Guid(ad8bfeeb0b4e52742b4eacbd22065e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_002.png using Guid(ad8bfeeb0b4e52742b4eacbd22065e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34370aa277f9cc738c100ee013ec864d') in 0.096598 seconds
-  Import took 0.110685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000538 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_026.png
-  artifactKey: Guid(9f7589f550f224a439d62154c7eb03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_026.png using Guid(9f7589f550f224a439d62154c7eb03ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364cee6394588687ab2298d625dc1d1c') in 0.048137 seconds
-  Import took 0.060095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_029.png
-  artifactKey: Guid(bde94faa00e78e742bf40b4ed2def588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_029.png using Guid(bde94faa00e78e742bf40b4ed2def588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99d7c5dce4e1c4efe2526c8306e986a') in 0.122247 seconds
-  Import took 0.134949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000518 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_020.png
-  artifactKey: Guid(daaed1b4365d0dd43bce527d528ad577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_020.png using Guid(daaed1b4365d0dd43bce527d528ad577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7236911805f69024618223d44436f36d') in 0.090384 seconds
-  Import took 0.101021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_055.png
-  artifactKey: Guid(a093bb449bad5cc43a5a7ebeb742e3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_055.png using Guid(a093bb449bad5cc43a5a7ebeb742e3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2ebcaab90df54d3a942c65466ce5a9') in 0.058345 seconds
-  Import took 0.068248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_053.png
-  artifactKey: Guid(3276723051d5dc6478101ab24f5f09d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_053.png using Guid(3276723051d5dc6478101ab24f5f09d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40ea7d6bd55d22567a070ce55d10e57') in 0.175980 seconds
-  Import took 0.184609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_050.png
-  artifactKey: Guid(5ef278d9947f8d34db1f33e05f737538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_050.png using Guid(5ef278d9947f8d34db1f33e05f737538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a79cab5b0d13d0fe847327fe889926') in 0.074385 seconds
-  Import took 0.087136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_056.png
-  artifactKey: Guid(d8a8be71098da6e4b9f6d3dd9df4c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_056.png using Guid(d8a8be71098da6e4b9f6d3dd9df4c398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cd7b8f69eab541eb0a02d4ad0e4f0f') in 0.100302 seconds
-  Import took 0.116415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_069.png
-  artifactKey: Guid(88ffe06b0dae9304aa0b4e901a247f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_069.png using Guid(88ffe06b0dae9304aa0b4e901a247f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7a88b37cb3f56e0de0f140dca036e0') in 0.073311 seconds
-  Import took 0.082032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_047.png
-  artifactKey: Guid(25bc650780624994f8691766328816b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_047.png using Guid(25bc650780624994f8691766328816b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2695979090f42d848968c6e07e461fc4') in 0.151994 seconds
-  Import took 0.159829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_064.png
-  artifactKey: Guid(12a9c94debc01b440b4c1f1d0e8e42be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_064.png using Guid(12a9c94debc01b440b4c1f1d0e8e42be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39130772c5804a672219ef2ff009061e') in 0.069696 seconds
-  Import took 0.102610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_087.png
-  artifactKey: Guid(21c7dfd5dadb78943a13d1ffb736bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_087.png using Guid(21c7dfd5dadb78943a13d1ffb736bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e74a0fdafe9c4d988c50e3ae27e5feb') in 0.224848 seconds
-  Import took 0.234981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_088.png
-  artifactKey: Guid(0f4e3a1705519054baf70702d1fec4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_088.png using Guid(0f4e3a1705519054baf70702d1fec4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abeb9fac7ac5496581d3cb10f0ab5ad8') in 0.454493 seconds
-  Import took 0.476610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001139 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_107.png
-  artifactKey: Guid(6f8b5b6f49a7d5a4c84312a05cdfcbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_107.png using Guid(6f8b5b6f49a7d5a4c84312a05cdfcbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac47de7ebd8918214418ba7e403dd93') in 0.381182 seconds
-  Import took 0.405170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001329 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_117.png
-  artifactKey: Guid(5e7810457e73e1d429f451149e9df931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_117.png using Guid(5e7810457e73e1d429f451149e9df931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19cdb08f5dcb363dbee765496015ad2a') in 0.273460 seconds
-  Import took 0.294852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000870 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_093.png
-  artifactKey: Guid(ac403f9d67ebb20429afcfa55e5d2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_093.png using Guid(ac403f9d67ebb20429afcfa55e5d2112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2556dbacbd8a6c39c62ca15b0de41c67') in 0.096256 seconds
-  Import took 0.123262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000885 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_110.png
-  artifactKey: Guid(773f791e44179e443bd6c8f9afa32a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_110.png using Guid(773f791e44179e443bd6c8f9afa32a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06ce4b44763a3472bd02aa0940a3a88') in 0.102249 seconds
-  Import took 0.125358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001672 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_102.png
-  artifactKey: Guid(3ba4f5925a371f64883a4d198f403819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_102.png using Guid(3ba4f5925a371f64883a4d198f403819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054879863857ea692ced1a1e4c0b4530') in 0.068503 seconds
-  Import took 0.081361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001523 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_072.png
-  artifactKey: Guid(84b4e669f1edc244f8034a63bd7aaa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_072.png using Guid(84b4e669f1edc244f8034a63bd7aaa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93941328efc8efac5c61e3754b7a77f5') in 0.088600 seconds
-  Import took 0.106077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000755 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_105.png
-  artifactKey: Guid(8a9923c03f9c75448a735f2706754179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_105.png using Guid(8a9923c03f9c75448a735f2706754179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cef03b9fa58e539ae00f1bbf78a77d') in 0.081189 seconds
-  Import took 0.103299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000826 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_054.png
-  artifactKey: Guid(d705458f92e5381479aae9fc7f9139e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_054.png using Guid(d705458f92e5381479aae9fc7f9139e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2abc5b86692a16321ea115c5092547') in 0.062481 seconds
-  Import took 0.085987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_089.png
-  artifactKey: Guid(98cf04e7a4d88a94ab62d03a3e1e4af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_089.png using Guid(98cf04e7a4d88a94ab62d03a3e1e4af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b8e5689569edc16583f12d9a8400d9') in 0.182550 seconds
-  Import took 0.208939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001015 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_092.png
-  artifactKey: Guid(4ceca777082dd804dab9c149fe9c5b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_092.png using Guid(4ceca777082dd804dab9c149fe9c5b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2875a684efde8289e6a6dbfb67812075') in 0.198138 seconds
-  Import took 0.217987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_057.png
-  artifactKey: Guid(63e7d652b391e1d49a9df5b858e4e38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_057.png using Guid(63e7d652b391e1d49a9df5b858e4e38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd285693f4bc0367eee503a4309b84ed4') in 0.160965 seconds
-  Import took 0.217470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000742 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_098.png
-  artifactKey: Guid(404500527abb7ef41a97e20e8e038178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_098.png using Guid(404500527abb7ef41a97e20e8e038178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a49c146893f554203e8527e985ec8e') in 0.370921 seconds
-  Import took 0.418541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002244 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_076.png
-  artifactKey: Guid(65336d64f18074f43b1d4955281cc501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_076.png using Guid(65336d64f18074f43b1d4955281cc501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42f8f8f49a8283b5627a6ad894d1469') in 0.305704 seconds
-  Import took 0.329059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000729 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_075.png
-  artifactKey: Guid(dc7ca863e7e059045a1e185f90c827eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_075.png using Guid(dc7ca863e7e059045a1e185f90c827eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ed01213bf79156ace1dfda1caae9d0') in 0.154511 seconds
-  Import took 0.182258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_066.png
-  artifactKey: Guid(81744b2ac2d36ef4c8b49c865cae0707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_066.png using Guid(81744b2ac2d36ef4c8b49c865cae0707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81741c025ad93b458c48b91d8016bfa4') in 0.076516 seconds
-  Import took 0.090664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_036.png
-  artifactKey: Guid(c25fdedefa23e404fb86f632e55cbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_036.png using Guid(c25fdedefa23e404fb86f632e55cbe72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db222b6385a88005aa324747ab4440b4') in 0.061201 seconds
-  Import took 0.077733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000597 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_045.png
-  artifactKey: Guid(0216ebeecfea68245984bbf56607e345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_045.png using Guid(0216ebeecfea68245984bbf56607e345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0234f076d319ef407c2e8a8dbfeba8b6') in 0.099888 seconds
-  Import took 0.110677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_012.png
-  artifactKey: Guid(869ca4c9ccf3a9b4d99376b72b1289e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_012.png using Guid(869ca4c9ccf3a9b4d99376b72b1289e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1658bf1b129a22631cd3ddc8a3bf9793') in 0.064488 seconds
-  Import took 0.076244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_068.png
-  artifactKey: Guid(b975bac04ec5dbc41ab6658970375c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_068.png using Guid(b975bac04ec5dbc41ab6658970375c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39043376cd05a0194408f22cc89bd4c4') in 0.126633 seconds
-  Import took 0.149861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001838 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_077.png
-  artifactKey: Guid(223a946467b929a45893cf9775bb5fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_077.png using Guid(223a946467b929a45893cf9775bb5fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb36152b732054b14e18d0777cd76a9f') in 0.049253 seconds
-  Import took 0.060335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000586 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_048.png
-  artifactKey: Guid(49b3945f02a850b4d84dd62950b0eed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_048.png using Guid(49b3945f02a850b4d84dd62950b0eed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c8e39e8f30bda9ea187f34e8463133') in 0.077558 seconds
-  Import took 0.090649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000634 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_004.png
-  artifactKey: Guid(f628a50c61df35f489d5c1d737450235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_004.png using Guid(f628a50c61df35f489d5c1d737450235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b41113a1cf7e2f5ea5fa9cf275a9ce') in 0.064829 seconds
-  Import took 0.074730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_084.png
-  artifactKey: Guid(2f8ed308ecdac0140b9e5b94d85a9713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_084.png using Guid(2f8ed308ecdac0140b9e5b94d85a9713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e1e3c5a607d96de18bcd6c5ce403e1') in 0.053128 seconds
-  Import took 0.065613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000805 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_119.png
-  artifactKey: Guid(80609b834a0df3b4788b52fb1aa31a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_119.png using Guid(80609b834a0df3b4788b52fb1aa31a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15dd1636b7e3e01071b92d82746e7963') in 0.073206 seconds
-  Import took 0.083839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000550 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_031.png
-  artifactKey: Guid(8a53084a575b3c740b81e8d964ffcce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_031.png using Guid(8a53084a575b3c740b81e8d964ffcce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabd2b90a93c520e85b8b49e2c107c9d') in 0.061213 seconds
-  Import took 0.076911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000623 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_116.png
-  artifactKey: Guid(e0048c1e8298f8748b696c25071d2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_116.png using Guid(e0048c1e8298f8748b696c25071d2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91deb8fe084170da6170ee5bb48bb088') in 0.119722 seconds
-  Import took 0.134789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_114.png
-  artifactKey: Guid(2face845980fb0e47a88f5f7fbe69480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_114.png using Guid(2face845980fb0e47a88f5f7fbe69480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4d1942e5996d526c7690ff63581115') in 0.134564 seconds
-  Import took 0.151688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_118.png
-  artifactKey: Guid(ffc8d6b2c6a139643959df17f55f0f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_118.png using Guid(ffc8d6b2c6a139643959df17f55f0f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72516aa7a038beb6dbf9e535de7dc01') in 0.075426 seconds
-  Import took 0.089733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_018.png
-  artifactKey: Guid(cb69c99ef3d798d498657a42c42776c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_018.png using Guid(cb69c99ef3d798d498657a42c42776c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3676c618db2f172253512b9e5f19cd98') in 0.142910 seconds
-  Import took 0.153906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000600 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_106.png
-  artifactKey: Guid(95e5c0a0bc09d77449f804217cf98684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_106.png using Guid(95e5c0a0bc09d77449f804217cf98684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86eefcefd2409249fcc4c1b31bae90d') in 0.121127 seconds
-  Import took 0.135503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_070.png
-  artifactKey: Guid(ca9b17de93aed8f48ac3a820b2fecb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_070.png using Guid(ca9b17de93aed8f48ac3a820b2fecb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fdabe5cc26114cf19ee75a19367efb') in 0.072610 seconds
-  Import took 0.082544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_059.png
-  artifactKey: Guid(df595b7114d01f047b84a5a166c120c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_059.png using Guid(df595b7114d01f047b84a5a166c120c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebce4a46c388e6ac3bafe258b652d05e') in 0.087167 seconds
-  Import took 0.096322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_058.png
-  artifactKey: Guid(e39e53768f97d8c41a3bffacd0e49934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_058.png using Guid(e39e53768f97d8c41a3bffacd0e49934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d5f6802c3076013b7dbdd0c34b9af0') in 0.047871 seconds
-  Import took 0.057043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001176 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_003.png
-  artifactKey: Guid(048515c59d36f9c4e93c1da43efc5bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_003.png using Guid(048515c59d36f9c4e93c1da43efc5bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782df37001c834ea1e20c72af3a27189') in 0.040765 seconds
-  Import took 0.050091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000769 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_013.png
-  artifactKey: Guid(dbf9d00d0e6f8fc428276ad6ac67829c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_013.png using Guid(dbf9d00d0e6f8fc428276ad6ac67829c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681f4e10118ca3e0181f0548be576226') in 0.083011 seconds
-  Import took 0.091848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000733 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_103.png
-  artifactKey: Guid(f5bf6ba0a348d444fb07451bee05b8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_103.png using Guid(f5bf6ba0a348d444fb07451bee05b8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeae696ebd56cc04dadf55d183fbe92a') in 0.056025 seconds
-  Import took 0.067490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001411 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_014.png
-  artifactKey: Guid(d805d20710043fe48a7128890a135536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_014.png using Guid(d805d20710043fe48a7128890a135536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b48e8d5861843d1bba3ef7d911f5a94') in 0.042655 seconds
-  Import took 0.056828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000540 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_006.png
-  artifactKey: Guid(fa2c544f219bc6447997e2b697410afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_006.png using Guid(fa2c544f219bc6447997e2b697410afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109f2d0dd5d0be55803aaeb650e98ee9') in 0.501287 seconds
-  Import took 0.513077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000529 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_043.png
-  artifactKey: Guid(00c64faabf0b1e8479db7bc0cec37a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_043.png using Guid(00c64faabf0b1e8479db7bc0cec37a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6d496ebea4697d50b967ee223482c7') in 0.165583 seconds
-  Import took 0.176113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_060.png
-  artifactKey: Guid(c24fc5601e0e38a4fafa6cf3a742a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_060.png using Guid(c24fc5601e0e38a4fafa6cf3a742a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c465de011580d92f41e1256a5986e4f') in 0.198048 seconds
-  Import took 0.213485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000627 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_001.png
-  artifactKey: Guid(99bd46bf0c96d3f41bc8c168b8868575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_001.png using Guid(99bd46bf0c96d3f41bc8c168b8868575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5946d32a47cdb2bcf35b60f10c11e41c') in 0.060725 seconds
-  Import took 0.080105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000580 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_109.png
-  artifactKey: Guid(be3ef1d0a4a318a4ea7f3b0280fb4f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_109.png using Guid(be3ef1d0a4a318a4ea7f3b0280fb4f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7de1d812792bdd69fe7363d0b2c066') in 0.119449 seconds
-  Import took 0.206444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_033.png
-  artifactKey: Guid(1fdd6ea6caf4a8a4eb70004869ee160c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_033.png using Guid(1fdd6ea6caf4a8a4eb70004869ee160c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a722ed4098d2c83e28ee4b5c1feba8a3') in 0.157366 seconds
-  Import took 0.181226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_028.png
-  artifactKey: Guid(ace61b2e618dfc14ba91e28fad402df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_028.png using Guid(ace61b2e618dfc14ba91e28fad402df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d43216eddaeee7b099543be3d4e05b0') in 0.110603 seconds
-  Import took 0.126090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_067.png
-  artifactKey: Guid(7ca19dc0263a6f547b6721982f01f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_067.png using Guid(7ca19dc0263a6f547b6721982f01f9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7df1d58d670e4616f9de83a21bffd4e') in 0.221367 seconds
-  Import took 0.252834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000556 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_010.png
-  artifactKey: Guid(d5d340ceb96001043ba773821c182193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_010.png using Guid(d5d340ceb96001043ba773821c182193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ceaba8a7a92fae31c63c83fba0825c') in 0.279544 seconds
-  Import took 0.290681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_115.png
-  artifactKey: Guid(9e8108efe52c35443925622736b90c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_115.png using Guid(9e8108efe52c35443925622736b90c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d4c44d62524b819a5ca07d7bcfda8f') in 0.417782 seconds
-  Import took 0.453829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_101.png
-  artifactKey: Guid(90464b73271808a45b64686a125f932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_101.png using Guid(90464b73271808a45b64686a125f932b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658be4cc25c0b71bf87c3c52e6554312') in 0.068828 seconds
-  Import took 0.091847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_078.png
-  artifactKey: Guid(f76b97af786fa5d4bbe4af5440f37cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_078.png using Guid(f76b97af786fa5d4bbe4af5440f37cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f0e5e6fdbd69f3c87647b37d69d8d5') in 0.167565 seconds
-  Import took 0.175376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_111.png
-  artifactKey: Guid(3b827c1bc8b4e9849b056c96e34770cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_111.png using Guid(3b827c1bc8b4e9849b056c96e34770cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47459812b08c0951aff225aee15a52f') in 0.062063 seconds
-  Import took 0.075904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_104.png
-  artifactKey: Guid(bdff2ac320edff24a8bb0d11b6e66732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_104.png using Guid(bdff2ac320edff24a8bb0d11b6e66732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fadfc57f088f838d2b1c1a58676a4a5') in 0.046565 seconds
-  Import took 0.053533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_100.png
-  artifactKey: Guid(1ca9038fd552cbe4990c90cc0b6103df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_100.png using Guid(1ca9038fd552cbe4990c90cc0b6103df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc8873ee97f3f33d153bb94fbc3b84c') in 0.071330 seconds
-  Import took 0.086261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_094.png
-  artifactKey: Guid(f09ff1e3c5d1ebc42bc1ec7907072950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_094.png using Guid(f09ff1e3c5d1ebc42bc1ec7907072950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40ba2f4613724f0a698b57eb67f3ed8') in 0.059055 seconds
-  Import took 0.071477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000732 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_095.png
-  artifactKey: Guid(52950de01f3387d468210c93551d318d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_095.png using Guid(52950de01f3387d468210c93551d318d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3243ffcd2bff2ed1dfe5b68e06e9ffac') in 0.107614 seconds
-  Import took 0.117269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_071.png
-  artifactKey: Guid(8180545d54224b04b91df8b991bb90af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_071.png using Guid(8180545d54224b04b91df8b991bb90af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3851edc89cbf4c8b47b9c8fe0a3666b8') in 0.079470 seconds
-  Import took 0.087510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_099.png
-  artifactKey: Guid(f64617269ed2d844a9d3100d4463d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_099.png using Guid(f64617269ed2d844a9d3100d4463d1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41abde223870baac17efb9b7f79c82dc') in 0.044017 seconds
-  Import took 0.051707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_096.png
-  artifactKey: Guid(f7461ed15b173874287c679e6c1a8dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_096.png using Guid(f7461ed15b173874287c679e6c1a8dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198d531dc3ef16663d0580ba0bf8ff51') in 0.076900 seconds
-  Import took 0.084413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_079.png
-  artifactKey: Guid(3869b92e70619e54d945c0fa4567b197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_079.png using Guid(3869b92e70619e54d945c0fa4567b197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e526f025fcc899cd1e4a637fed5c0fb8') in 0.084506 seconds
-  Import took 0.093988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_097.png
-  artifactKey: Guid(3c2fda7eda409ef49bf735ecc53c73ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_097.png using Guid(3c2fda7eda409ef49bf735ecc53c73ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010d12ca65d20ed1002302c1b19db1c8') in 0.074641 seconds
-  Import took 0.083211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000582 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_080.png
-  artifactKey: Guid(0dc8026e3f01d3e4a8ca9c7c79ae15a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_080.png using Guid(0dc8026e3f01d3e4a8ca9c7c79ae15a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc900ba0e2c4ca251786c0e1f8e5c78') in 0.090160 seconds
-  Import took 0.096864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_049.png
-  artifactKey: Guid(81348c8d555912349995d2e226a3b13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_049.png using Guid(81348c8d555912349995d2e226a3b13b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86cf21ce96e3f01cf602f45c15ae0997') in 0.117729 seconds
-  Import took 0.126705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004689 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_081.png
-  artifactKey: Guid(b81d850f7c7b5a04484f13cca781e3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_081.png using Guid(b81d850f7c7b5a04484f13cca781e3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9d38d2a4f0154584b08108b07cc584') in 0.068187 seconds
-  Import took 0.109858 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_034.png
-  artifactKey: Guid(8bc62094c54d56245a0a607c089b8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_034.png using Guid(8bc62094c54d56245a0a607c089b8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42aa0c9f503431f04f8c3a49d2f9957') in 0.056225 seconds
-  Import took 0.125201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_032.png
-  artifactKey: Guid(08cd26173ce31ae4f8401258d47ddc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_032.png using Guid(08cd26173ce31ae4f8401258d47ddc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a814a318247faf0b55623e8d2925dd31') in 0.115778 seconds
-  Import took 0.123837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_015.png
-  artifactKey: Guid(36b5cabbb49121640a2103de138c6725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_015.png using Guid(36b5cabbb49121640a2103de138c6725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568a96615bce286b6a598116ff42547d') in 0.196494 seconds
-  Import took 0.207434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_108.png
-  artifactKey: Guid(04fb48063a4783b4392c52ef50da6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_108.png using Guid(04fb48063a4783b4392c52ef50da6b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c7020db32b02bb043111eb2eae4939') in 0.086576 seconds
-  Import took 0.102927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_085.png
-  artifactKey: Guid(59fb3817fa1094242be3e4d3d58e337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_085.png using Guid(59fb3817fa1094242be3e4d3d58e337b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c18c2dc67a9f43172955b457410fb9') in 0.052618 seconds
-  Import took 0.065152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001440 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_090.png
-  artifactKey: Guid(4c5c64eb5376a0f4a938d45bf5ad37ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_090.png using Guid(4c5c64eb5376a0f4a938d45bf5ad37ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7407ac0415761b60de7918e3967b5c9f') in 0.082298 seconds
-  Import took 0.115010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000616 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_024.png
-  artifactKey: Guid(a6004738f28732b4fa76f9aa796ebb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_024.png using Guid(a6004738f28732b4fa76f9aa796ebb5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd233276fd345f4b2d5b17675140fa33e') in 0.039760 seconds
-  Import took 0.053021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_044.png
-  artifactKey: Guid(86d3b91e5e039824bbee9319ebe21f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_044.png using Guid(86d3b91e5e039824bbee9319ebe21f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335b5131980c067e287565bfc9e3278d') in 0.270848 seconds
-  Import took 0.282397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_062.png
-  artifactKey: Guid(c7830d655fda32049b937782c327f2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_062.png using Guid(c7830d655fda32049b937782c327f2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5b323c91e2742cadf341c0e88e41a1') in 0.100975 seconds
-  Import took 0.112877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000678 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_086.png
-  artifactKey: Guid(95c431ea72fffd245a6da322b5480bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_086.png using Guid(95c431ea72fffd245a6da322b5480bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e475102d5fc2ecc426a49b0ad3c7684f') in 0.167864 seconds
-  Import took 0.174862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_035.png
-  artifactKey: Guid(b869c5e68b6d84943b00ba27c3e91cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_035.png using Guid(b869c5e68b6d84943b00ba27c3e91cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9ce8596e808368d378551101baf66e') in 0.090713 seconds
-  Import took 0.099581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_037.png
-  artifactKey: Guid(31fbe68574de122409653654e63e1cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_037.png using Guid(31fbe68574de122409653654e63e1cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5cbcf5fd88955c9684857da12d490a') in 0.055883 seconds
-  Import took 0.093281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_052.png
-  artifactKey: Guid(3f71e55aea6c2964d9a566cbe338b37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_052.png using Guid(3f71e55aea6c2964d9a566cbe338b37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a988fa0ce2cc2b1b0a7033017f10a052') in 0.117285 seconds
-  Import took 0.129156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_112.png
-  artifactKey: Guid(a869789b6cf0a434ca9bf489806d571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_112.png using Guid(a869789b6cf0a434ca9bf489806d571f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f3814a2cfa587adecddefba3a3aa86') in 0.167662 seconds
-  Import took 0.176495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_074.png
-  artifactKey: Guid(ff669ac211d9b884a9bba76596daf7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_074.png using Guid(ff669ac211d9b884a9bba76596daf7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007c1a3ed40f2e724c7bfed701dc1034') in 0.051481 seconds
-  Import took 0.064013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_008.png
-  artifactKey: Guid(bc43b16c476661543b3e58a9b5058dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_008.png using Guid(bc43b16c476661543b3e58a9b5058dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c152d6cce9a1a296482f487f709466f') in 0.106469 seconds
-  Import took 0.115512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_073.png
-  artifactKey: Guid(c59f31d37fbaee143b35819c7d913a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_073.png using Guid(c59f31d37fbaee143b35819c7d913a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78481ff52624cfac7ae670458fed314d') in 0.083351 seconds
-  Import took 0.107696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_091.png
-  artifactKey: Guid(94796cae2b40fce478453c9d18bc7974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_091.png using Guid(94796cae2b40fce478453c9d18bc7974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e84d0b28de02a42bf522166998e9a46') in 0.346998 seconds
-  Import took 0.360171 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000802 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_051.png
-  artifactKey: Guid(dec8ffe87613cea418f5917572623ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_051.png using Guid(dec8ffe87613cea418f5917572623ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccb63d473251b14cf669d0f06622db9') in 0.184719 seconds
-  Import took 0.210652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000779 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_120.png
-  artifactKey: Guid(44e9140d3fc7f48439ca517d0e187ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_120.png using Guid(44e9140d3fc7f48439ca517d0e187ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd429b54a12db33557a7117ab877f833d') in 0.570012 seconds
-  Import took 0.597280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001012 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_040.png
-  artifactKey: Guid(d1add1e098c30934e94d167a9d1c0779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_040.png using Guid(d1add1e098c30934e94d167a9d1c0779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd8aa87031bb49092bc0cbdd20e2533') in 0.271996 seconds
-  Import took 0.302457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001573 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_082.png
-  artifactKey: Guid(4c73c40badd77e14a9463687062d2e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_082.png using Guid(4c73c40badd77e14a9463687062d2e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f5b6dc7fd16b95f1cf74a4cf720c05') in 0.139575 seconds
-  Import took 0.178874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001943 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_113.png
-  artifactKey: Guid(33b625e21dafa0d4281e07704452e0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_113.png using Guid(33b625e21dafa0d4281e07704452e0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851fe408d3c0d435854ce744dbc00f19') in 0.137163 seconds
-  Import took 0.171619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001652 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_016.png
-  artifactKey: Guid(97af47753d2fbc74a9b4b962f925c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_016.png using Guid(97af47753d2fbc74a9b4b962f925c60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce34cf337296e0b31a934f9239ef160') in 0.356026 seconds
-  Import took 0.376901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000740 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_061.png
-  artifactKey: Guid(4eb09bb76ff632a47bbbfd0d643870ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_061.png using Guid(4eb09bb76ff632a47bbbfd0d643870ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064a4e398cc1777332dccf5eaba9a4ff') in 0.129548 seconds
-  Import took 0.151999 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000792 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_065.png
-  artifactKey: Guid(0024d6737c9260748bcc172ec17e8140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_065.png using Guid(0024d6737c9260748bcc172ec17e8140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95870c5269d9214c800b61285e73ef29') in 0.205403 seconds
-  Import took 0.229636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001597 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_083.png
-  artifactKey: Guid(44c6c03fe848f3f44a600dcaef5ac450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_083.png using Guid(44c6c03fe848f3f44a600dcaef5ac450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1705e282b13ba261b74691edd8112ee1') in 0.072078 seconds
-  Import took 0.093355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000723 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_030.png
-  artifactKey: Guid(fd25f652c65dffc40a3e39b943b68a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_030.png using Guid(fd25f652c65dffc40a3e39b943b68a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffca96fd3ad2d1b39ed9487b53651ec3') in 0.076730 seconds
-  Import took 0.089443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000737 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_063.png
-  artifactKey: Guid(2ec94a6c13b4db748b1825616a8d4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_063.png using Guid(2ec94a6c13b4db748b1825616a8d4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fecf670c2aeb211b01058d180ec00fa') in 0.097689 seconds
-  Import took 0.527543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_005.png
-  artifactKey: Guid(3ac873d7b6b0e42469f449f5224a8f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_005.png using Guid(3ac873d7b6b0e42469f449f5224a8f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c7418fb3e23e8b0877db3c5241f199') in 0.146076 seconds
-  Import took 0.169696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001156 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_046.png
-  artifactKey: Guid(61c54732a21560b4db121e8e43723c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/shoot/Armature_shoot_046.png using Guid(61c54732a21560b4db121e8e43723c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29010a86bb557d6aca29cc950662ad47') in 0.114293 seconds
-  Import took 0.379389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 747.814387 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_22.png
-  artifactKey: Guid(15637e65bb2d4374587e525bada41c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_22.png using Guid(15637e65bb2d4374587e525bada41c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df62ea2d589c801c592ba635696604fd') in 0.131064 seconds
-  Import took 0.156402 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_47.png
-  artifactKey: Guid(74af113f17c1ac044bde8c1b3c4b4d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_47.png using Guid(74af113f17c1ac044bde8c1b3c4b4d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76be72e83117cb00dc4430a98ef19ecd') in 0.138749 seconds
-  Import took 0.153194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000490 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_40.png
-  artifactKey: Guid(373cedb5a78ebbe4787b2b142a2424c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_40.png using Guid(373cedb5a78ebbe4787b2b142a2424c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40a51b1b30467e248136a9589546202') in 0.083238 seconds
-  Import took 0.096301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_41.png
-  artifactKey: Guid(cbe6af60881d9314687f86a3b03c06ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_41.png using Guid(cbe6af60881d9314687f86a3b03c06ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b3cfc12b8fd372efb640bf7bed0958') in 0.280309 seconds
-  Import took 0.292774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_25.png
-  artifactKey: Guid(918121c2d9b9e8d4fb821bee0f5b3156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_25.png using Guid(918121c2d9b9e8d4fb821bee0f5b3156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fde6140d411a048c16625d70e2f7655') in 0.040625 seconds
-  Import took 0.056603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_32.png
-  artifactKey: Guid(b4c7b590dbb47794da5f867cc8a6bb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_32.png using Guid(b4c7b590dbb47794da5f867cc8a6bb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd488bb5b6fa40ce34665d0865c71f3ea') in 0.049666 seconds
-  Import took 0.059293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000545 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_36.png
-  artifactKey: Guid(9721c31d956562643b7a7e3cd059a292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_36.png using Guid(9721c31d956562643b7a7e3cd059a292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d870e0eadce62117d82f52142ecf914') in 0.044755 seconds
-  Import took 0.067307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_26.png
-  artifactKey: Guid(57ff5bc10b501f34180c746a886a967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_26.png using Guid(57ff5bc10b501f34180c746a886a967c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c4dfdee710e099538a7f01808d05ec') in 0.090304 seconds
-  Import took 0.110250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_30.png
-  artifactKey: Guid(30bd4db4633816047af6ff089c10157a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_30.png using Guid(30bd4db4633816047af6ff089c10157a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcb844166180859870d2a7dec25add5') in 0.054450 seconds
-  Import took 0.062984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_23.png
-  artifactKey: Guid(add3d04697a3fd346bf09f340aaf0782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_23.png using Guid(add3d04697a3fd346bf09f340aaf0782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9edf5ee1fc362a580c699144da7aad8') in 0.121575 seconds
-  Import took 0.131931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_27.png
-  artifactKey: Guid(10f4f24a0f0fa644980a7ca3f308b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_27.png using Guid(10f4f24a0f0fa644980a7ca3f308b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7ceb937544b12015e28f69f82ec77c') in 0.094439 seconds
-  Import took 0.102181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_38.png
-  artifactKey: Guid(20d3bd8e47e97884e9f558e1d1ff380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_38.png using Guid(20d3bd8e47e97884e9f558e1d1ff380e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87573fc2bee443454b6ca2ea75d06a67') in 0.041329 seconds
-  Import took 0.048190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_43.png
-  artifactKey: Guid(6decabd41cdef1c4f9599001a7703e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_43.png using Guid(6decabd41cdef1c4f9599001a7703e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19ef2a2d172c0a4014acbef5fb6518e') in 0.034580 seconds
-  Import took 0.040931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_50.png
-  artifactKey: Guid(6c0348cd3dafea046b72fc130e8affb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_50.png using Guid(6c0348cd3dafea046b72fc130e8affb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a041fde47f0bf842673dbc5d063f9227') in 0.036890 seconds
-  Import took 0.043611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_44.png
-  artifactKey: Guid(fa09f1b9f1e38744e864b79dd20afcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_44.png using Guid(fa09f1b9f1e38744e864b79dd20afcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175d879f1ac83d44dd8dd6a23d501395') in 0.039862 seconds
-  Import took 0.047664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000560 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_46.png
-  artifactKey: Guid(0ebd8222072e57f4d8ba7a27eb55fd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_46.png using Guid(0ebd8222072e57f4d8ba7a27eb55fd8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2069dc17be53bd765c6715fd2d7b69') in 0.036854 seconds
-  Import took 0.045493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000555 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_45.png
-  artifactKey: Guid(d8eefedb1e899b1428aaa64335675c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_45.png using Guid(d8eefedb1e899b1428aaa64335675c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe53d690031e5d25c7c8525a0bc1dd3') in 0.089462 seconds
-  Import took 0.122942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_49.png
-  artifactKey: Guid(1dcefa7a0ce5e9b42b185119f881a0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_49.png using Guid(1dcefa7a0ce5e9b42b185119f881a0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7971e758727c92639e9b5d4c3b18a349') in 0.050027 seconds
-  Import took 0.075582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_29.png
-  artifactKey: Guid(273426e317a5aa447b92c4f6f1efe385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_29.png using Guid(273426e317a5aa447b92c4f6f1efe385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489186b895948ae414a930538c0bcf29') in 0.052400 seconds
-  Import took 0.061794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_48.png
-  artifactKey: Guid(30bada3470d7c854da9b9b6421f88b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_48.png using Guid(30bada3470d7c854da9b9b6421f88b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24fc2fa2c586fd5bda043011a792303') in 0.050456 seconds
-  Import took 0.060145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_42.png
-  artifactKey: Guid(9de34d14323c2ea4f91d1526ed0f3ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_42.png using Guid(9de34d14323c2ea4f91d1526ed0f3ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0e0a99f070be18611c287e02c5c36f') in 0.043578 seconds
-  Import took 0.054109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_39.png
-  artifactKey: Guid(7e56852f995db6b4a85153f9e2a97e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_39.png using Guid(7e56852f995db6b4a85153f9e2a97e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ba06ca22694cd036dfbcdc32971249') in 0.048936 seconds
-  Import took 0.057674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_31.png
-  artifactKey: Guid(f6b6aeff6a94a754bb56b3272199b12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_31.png using Guid(f6b6aeff6a94a754bb56b3272199b12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bbeb9c02bd6723c69a2d6e55fb0642') in 0.033619 seconds
-  Import took 0.041047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_33.png
-  artifactKey: Guid(de5233d85ab89c14c922bdbd73848aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_33.png using Guid(de5233d85ab89c14c922bdbd73848aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f30015c399a0539eb3356b320a0389') in 0.034707 seconds
-  Import took 0.042520 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_34.png
-  artifactKey: Guid(b9252ba09897c2e428e391c536f9b263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_34.png using Guid(b9252ba09897c2e428e391c536f9b263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f52eb2c079719ec8ce7d6bbf85a792') in 0.087809 seconds
-  Import took 0.095228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_35.png
-  artifactKey: Guid(7d885189dfe169d43a44c64994dbb23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_35.png using Guid(7d885189dfe169d43a44c64994dbb23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539e9048eda6116660c81952d653e0a2') in 0.067043 seconds
-  Import took 0.073843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000443 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_24.png
-  artifactKey: Guid(539977b201231ee4caefe14a9c5df37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_24.png using Guid(539977b201231ee4caefe14a9c5df37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2e5958ca42740a711d8d75f6e16007') in 0.120885 seconds
-  Import took 0.140543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001003 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_37.png
-  artifactKey: Guid(5a1a382804a62ad4b9994dcbe9c133e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_37.png using Guid(5a1a382804a62ad4b9994dcbe9c133e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ca3799db8dcceebac104a175578e76') in 0.134200 seconds
-  Import took 0.167398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002865 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_28.png
-  artifactKey: Guid(7ea2ea5639e1a9e4294541358acf9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_28.png using Guid(7ea2ea5639e1a9e4294541358acf9f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e602e6ac25056a5bfe2f0f987b4d36d') in 2.509380 seconds
-  Import took 2.545967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.445438 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_11.png
-  artifactKey: Guid(774b056cd8ba8344888da78ddf4148f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_11.png using Guid(774b056cd8ba8344888da78ddf4148f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bdb114717c9e1498379120539ac32b5') in 0.131445 seconds
-  Import took 0.149319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_15.png
-  artifactKey: Guid(de7b3134de03ec948a991c1f20dae03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_15.png using Guid(de7b3134de03ec948a991c1f20dae03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cf62c28706e2d69d782ae262352a49') in 0.043744 seconds
-  Import took 0.064025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003759 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_21.png
-  artifactKey: Guid(028103c0df7c0e54889dc25f1bc36b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_21.png using Guid(028103c0df7c0e54889dc25f1bc36b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8eb9ee30e31308fc298d4df7f2c0f0d') in 0.043889 seconds
-  Import took 0.054966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_12.png
-  artifactKey: Guid(b9768b372bfac7a4d9ba67f58ea29756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_12.png using Guid(b9768b372bfac7a4d9ba67f58ea29756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6855e4293cef872c29ff91e34ac0ff') in 0.083181 seconds
-  Import took 0.099997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_19.png
-  artifactKey: Guid(35ba16b72cf98b844a3a9a46c6c437e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_19.png using Guid(35ba16b72cf98b844a3a9a46c6c437e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1376e2b2f416dec8f1480b8c78555cd') in 0.059719 seconds
-  Import took 0.070644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_20.png
-  artifactKey: Guid(9c7d5669a18ca964b99264ef507d586c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_20.png using Guid(9c7d5669a18ca964b99264ef507d586c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577b609e21eec04377d0515e10af2dfd') in 0.090158 seconds
-  Import took 0.113193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_13.png
-  artifactKey: Guid(ce5793a4d6bf1ad4e8999f50b0c0d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_13.png using Guid(ce5793a4d6bf1ad4e8999f50b0c0d59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86560d9c4ec48fa9f171b5d345a07e4d') in 0.110584 seconds
-  Import took 0.121148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001271 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_00.png
-  artifactKey: Guid(501fd668073dc4b418fe0409055ec128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_00.png using Guid(501fd668073dc4b418fe0409055ec128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f63095bbfc1a871d987fe599146576') in 0.086223 seconds
-  Import took 0.103666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000496 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_14.png
-  artifactKey: Guid(d8b911b6ad20d514f8fc19b7daa2d77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_14.png using Guid(d8b911b6ad20d514f8fc19b7daa2d77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14afabe95fd68485cd4a2bf736c6849b') in 0.068548 seconds
-  Import took 0.078229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_16.png
-  artifactKey: Guid(573323e208887ba4fa9a04ea10b988a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_16.png using Guid(573323e208887ba4fa9a04ea10b988a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74128ca6d7fa7e1e4306ebe47e293655') in 0.080561 seconds
-  Import took 0.098732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003891 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_08.png
-  artifactKey: Guid(1491eea76cb14b047998b0a2cac15213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_08.png using Guid(1491eea76cb14b047998b0a2cac15213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756d64b00868cebbbce0afe03ccbb0cb') in 0.050302 seconds
-  Import took 0.066849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000754 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_03.png
-  artifactKey: Guid(25b43ec3c9ff16248927b28b8c732de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_03.png using Guid(25b43ec3c9ff16248927b28b8c732de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236dd9227771677b45668d9ae3ad9a23') in 0.058092 seconds
-  Import took 0.077260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001008 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_05.png
-  artifactKey: Guid(80efecc78f93f3f418db56ff7611cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_05.png using Guid(80efecc78f93f3f418db56ff7611cc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204397a7bb3519c10b19e8f7898fd4ad') in 0.105968 seconds
-  Import took 0.120082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000507 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_09.png
-  artifactKey: Guid(18bc8500c7eab05408a89a47bbc27a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_09.png using Guid(18bc8500c7eab05408a89a47bbc27a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cd7673164f234bd700c6cfd5cb70a3') in 0.027845 seconds
-  Import took 0.047265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000575 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_10.png
-  artifactKey: Guid(035623583b8fe014ea026415e8af70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_10.png using Guid(035623583b8fe014ea026415e8af70c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2220e63f3b4ec2200b9718e0acb7735f') in 0.143608 seconds
-  Import took 0.157104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_02.png
-  artifactKey: Guid(e6728c5a6fd29f54ba13f6c8f59715c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_02.png using Guid(e6728c5a6fd29f54ba13f6c8f59715c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d350146389168232ab6db820f254774') in 0.077742 seconds
-  Import took 0.091495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001811 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_01.png
-  artifactKey: Guid(edd3684dc0a6ae244b9cb1b6012729c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_01.png using Guid(edd3684dc0a6ae244b9cb1b6012729c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19bceb0d392836ef8bc244f4fccf090f') in 0.132625 seconds
-  Import took 0.158767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_18.png
-  artifactKey: Guid(ab1b97cb6da08e64c8d8f32907effa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_18.png using Guid(ab1b97cb6da08e64c8d8f32907effa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8332c2187df149f86e92a94e9868f3e5') in 0.081925 seconds
-  Import took 0.093742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_17.png
-  artifactKey: Guid(266086e6792c97e4bb68f11e72107b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_17.png using Guid(266086e6792c97e4bb68f11e72107b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0158de97ab3f4387ddf7baf2db6ebabe') in 0.050999 seconds
-  Import took 0.067811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_06.png
-  artifactKey: Guid(ed51ee09027aad0458aa77003f180677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_06.png using Guid(ed51ee09027aad0458aa77003f180677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4e7a16582d462ecab93bbeb228ddca') in 0.101408 seconds
-  Import took 0.111081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000651 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_07.png
-  artifactKey: Guid(9221ccbd6946be84cbbb5631d5f1d262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_07.png using Guid(9221ccbd6946be84cbbb5631d5f1d262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0879823faccb00d1f90c895d41727') in 0.249624 seconds
-  Import took 0.260564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_04.png
-  artifactKey: Guid(c25f55e38c3e125449df741b79124057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/emeny/lvl2Boss/run/Armature_newAnimation_04.png using Guid(c25f55e38c3e125449df741b79124057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5c150cc7272ae7180641b55441e7d5') in 0.052894 seconds
-  Import took 0.064736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 137.938718 seconds.
-  path: Assets/Animations/LevelTwo/BossTwo.controller
-  artifactKey: Guid(c871545bc1b68c148b102e34473153b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/LevelTwo/BossTwo.controller using Guid(c871545bc1b68c148b102e34473153b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19176c23ea17323aa6f1a7b2358ac856') in 0.015754 seconds
-  Import took 0.028542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 122.908301 seconds.
-  path: Assets/Animations/LevelTwo/BossTwo.controller
-  artifactKey: Guid(c871545bc1b68c148b102e34473153b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/LevelTwo/BossTwo.controller using Guid(c871545bc1b68c148b102e34473153b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6598219fbb1e4aed54ebfd15b0d92c') in 0.360437 seconds
-  Import took 0.408986 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003178 seconds.
+Registered in 0.002184 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.029 seconds
+- Completed reload, in  6.861 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 4.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.7 MB.
-System memory in use after: 96.8 MB.
+System memory in use before: 96.0 MB.
+System memory in use after: 96.1 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2561.
-Total: 14.477100 ms (FindLiveObjects: 1.364700 ms CreateObjectMapping: 0.344800 ms MarkObjects: 12.611300 ms  DeleteObjects: 0.152400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 7047.739852 seconds.
-  path: Assets/Animations/LevelThree/EnemyWithKnifeP(1).controller
-  artifactKey: Guid(da51fa6f1edc7fa4297b994100102204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/LevelThree/EnemyWithKnifeP(1).controller using Guid(da51fa6f1edc7fa4297b994100102204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa8f99abb90eadc1cc15daa607fb649') in 0.749643 seconds
-  Import took 1.096926 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2442.
+Total: 3.788000 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.155400 ms MarkObjects: 3.242900 ms  DeleteObjects: 0.063800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.715978 seconds.
-  path: Assets/Animations/LevelThree/EnemyWithKnifeP(1).controller
-  artifactKey: Guid(da51fa6f1edc7fa4297b994100102204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/LevelThree/EnemyWithKnifeP(1).controller using Guid(da51fa6f1edc7fa4297b994100102204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997b487691ffc34d310d591cf87c60e2') in 0.059504 seconds
-  Import took 0.102212 seconds .
+  Time since last request: 2871.613999 seconds.
+  path: Assets/Scenes/lvl1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/lvl1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab503b3a921b6ba4be794d5f4ac3665') in 0.268671 seconds
+  Import took 0.298565 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.031005 seconds.
+Registered in 0.006056 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.72 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.747 seconds
+- Completed reload, in  4.298 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 2.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.7 MB.
-System memory in use after: 96.9 MB.
+System memory in use before: 96.0 MB.
+System memory in use after: 96.2 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2565.
-Total: 10.216500 ms (FindLiveObjects: 1.000200 ms CreateObjectMapping: 0.499300 ms MarkObjects: 8.669600 ms  DeleteObjects: 0.043400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2446.
+Total: 13.433300 ms (FindLiveObjects: 0.422000 ms CreateObjectMapping: 0.165100 ms MarkObjects: 4.786700 ms  DeleteObjects: 8.055600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.029 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2450.
+Total: 8.314900 ms (FindLiveObjects: 1.313800 ms CreateObjectMapping: 2.709000 ms MarkObjects: 4.242300 ms  DeleteObjects: 0.047300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 175.787612 seconds.
+  path: Assets/Scenes/lvl2.unity
+  artifactKey: Guid(ad9d08b0e102c41469657d9a6fefbc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/lvl2.unity using Guid(ad9d08b0e102c41469657d9a6fefbc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf27142fa29aa544a3996f994dfe310') in 0.086217 seconds
+  Import took 0.100488 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003534 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.768 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 3.296700 ms (FindLiveObjects: 0.285300 ms CreateObjectMapping: 0.199900 ms MarkObjects: 2.708800 ms  DeleteObjects: 0.100400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.491865 seconds.
+  path: Assets/Scenes/lvl3.unity
+  artifactKey: Guid(f49d1bccc6e581043b7cdae7f5ece6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/lvl3.unity using Guid(f49d1bccc6e581043b7cdae7f5ece6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c359d4940ec2128e36d72017f585b41') in 0.807865 seconds
+  Import took 1.012033 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003450 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 9.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.632 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2458.
+Total: 4.671400 ms (FindLiveObjects: 0.739600 ms CreateObjectMapping: 0.203100 ms MarkObjects: 3.693400 ms  DeleteObjects: 0.032400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 18.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.579 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2462.
+Total: 41.012700 ms (FindLiveObjects: 1.555400 ms CreateObjectMapping: 0.429800 ms MarkObjects: 38.972600 ms  DeleteObjects: 0.051600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002150 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.128 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1938 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.1 MB.
+System memory in use after: 96.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2466.
+Total: 3.857500 ms (FindLiveObjects: 0.261500 ms CreateObjectMapping: 0.123400 ms MarkObjects: 3.433700 ms  DeleteObjects: 0.033900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
