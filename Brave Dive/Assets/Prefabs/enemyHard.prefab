@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 6417552078244766137}
   - component: {fileID: 6417552078244766138}
   m_Layer: 9
-  m_Name: EnemyHard
+  m_Name: enemyHard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ViewAngle: 360
-  ViewDistance: 10
+  ViewDistance: 15
   EnemyEye: {fileID: 6417552078946806681}
   Target: {fileID: 0}
   Bullet: {fileID: 7552314820388210166, guid: 245fefa3dfc935d489ece2f2a43d57fe, type: 3}

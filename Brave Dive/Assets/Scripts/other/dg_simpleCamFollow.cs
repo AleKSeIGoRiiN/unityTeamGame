@@ -10,7 +10,10 @@ public class dg_simpleCamFollow : MonoBehaviour
     Vector3 whereCameraShouldBe;
     bool warningAlreadyShown = false;
 
+    public GameObject script;
+
     private void Start() {
+        if(script != null) script.SetActive(true);
         if (takeOffsetFromInitialPos && target != null) generalOffset = transform.position - target.position;
     }
 
