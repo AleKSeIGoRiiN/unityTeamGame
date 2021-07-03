@@ -2456,6 +2456,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
       objectReference: {fileID: 0}
+    - target: {fileID: 3068373584844760598, guid: 6e92e60c5d2427748bb03fdafbbf5ff2, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1518938244}
     - target: {fileID: 3774177976489488544, guid: 6e92e60c5d2427748bb03fdafbbf5ff2, type: 3}
       propertyPath: player
       value: 
@@ -16255,6 +16259,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &739050423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4904752599902982916, guid: 6e92e60c5d2427748bb03fdafbbf5ff2, type: 3}
+  m_PrefabInstance: {fileID: 117473642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &739050424
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739050423}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 70fc5579469fdc14b854c70bfafccfb5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &741244079
 GameObject:
   m_ObjectHideFlags: 0
@@ -32604,7 +32632,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503035865}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -210.22, y: 43.61, z: 0}
+  m_LocalPosition: {x: -207.5, y: 44.17, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children:
   - {fileID: 2032252544}
@@ -33281,6 +33309,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1518938244 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1242144698, guid: 347e11ed99cbb674ba545babab1a935b, type: 3}
+  m_PrefabInstance: {fileID: 645233944}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1521516949
 GameObject:
   m_ObjectHideFlags: 0

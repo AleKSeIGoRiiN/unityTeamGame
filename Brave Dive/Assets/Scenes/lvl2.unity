@@ -9732,6 +9732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _slider: {fileID: 831080535}
   _offset: {x: 0, y: 2, z: 0}
+  Boss: {fileID: 0}
 --- !u!224 &698823171
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14397,6 +14398,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1014128138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6875104998638148957, guid: 751d4e281babde5438220ebb3c76a388, type: 3}
+  m_PrefabInstance: {fileID: 368753065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1014128139
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014128138}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 809c5befcd5f0f049857e0dedbd35ce0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1022524969 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8062230051897271122, guid: 2a71f926bc576c246ae6e3225b19d40e, type: 3}
@@ -24243,6 +24268,7 @@ GameObject:
   - component: {fileID: 1905463928}
   - component: {fileID: 1905463927}
   - component: {fileID: 1905463933}
+  - component: {fileID: 1905463934}
   m_Layer: 9
   m_Name: BossTwo
   m_TagString: Untagged
@@ -24390,7 +24416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905463926}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -76.6, y: 68.09, z: 0}
+  m_LocalPosition: {x: -68.7, y: 68.5, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 698823171}
@@ -24415,6 +24441,25 @@ MonoBehaviour:
   SolidLayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!95 &1905463934
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905463926}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c871545bc1b68c148b102e34473153b3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1911587699
 GameObject:
   m_ObjectHideFlags: 0
@@ -26076,7 +26121,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018226671}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3f3278813259b44b8b6340649ae9663, type: 3}
   m_Name: 
@@ -26144,7 +26189,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018226671}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 157925036421c85449f231a5855fc375, type: 3}
   m_Name: 
@@ -27285,6 +27330,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2079098820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7444988256520355884, guid: 4f516d513bd027242a7e8b3a86b70d5d, type: 3}
+  m_PrefabInstance: {fileID: 785225291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2079098821
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079098820}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c17e7587e89381048b1787e9e6ab2248, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2098554701
 GameObject:
   m_ObjectHideFlags: 0
