@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 4257781729151983867}
   - component: {fileID: 7225921395259345902}
   - component: {fileID: 6067986508667037277}
+  - component: {fileID: 7798406477535726469}
   m_Layer: 9
   m_Name: EnemyWithKnifeP(1)
   m_TagString: Untagged
@@ -107,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startTimeBtwAttack: 0.72
   damage: 3
-  animator: {fileID: 0}
+  animator: {fileID: 7798406477535726469}
   attackPoint: {fileID: 4257781729389120311}
   attackRange: 2
   PlayerLayer:
@@ -422,6 +423,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &7798406477535726469
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4257781729151983868}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: da51fa6f1edc7fa4297b994100102204, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &4257781729299842893
 GameObject:
   m_ObjectHideFlags: 0

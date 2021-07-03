@@ -290,6 +290,7 @@ GameObject:
   - component: {fileID: 7444988256520355877}
   - component: {fileID: 4225423642580797236}
   - component: {fileID: 3325449451993505253}
+  - component: {fileID: 524707493347439336}
   m_Layer: 9
   m_Name: EnemyWithKnife 1
   m_TagString: Untagged
@@ -425,7 +426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startTimeBtwAttack: 0.5
   damage: 3
-  animator: {fileID: 0}
+  animator: {fileID: 524707493347439336}
   attackPoint: {fileID: 7444988256300250429}
   attackRange: 2
   PlayerLayer:
@@ -482,6 +483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   startWaitTime: 0
+  Anim: {fileID: 0}
   moveSpots: []
 --- !u!114 &7444988256520355877
 MonoBehaviour:
@@ -692,6 +694,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &524707493347439336
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7444988256520355884}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c17e7587e89381048b1787e9e6ab2248, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7444988257145052935
 GameObject:
   m_ObjectHideFlags: 0
